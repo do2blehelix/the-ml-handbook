@@ -6,7 +6,12 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-#### Thank you to the contributors of Just the Docs!
+# Welcome to The Machine Learning Handbook!
+
+Thank you for reading this. The Machine Learning Handbook was created to provide an overall glimpse of the Machine Learning and Statistical Algorithms. This Handbook connects the complex understanding with simple structures and lucid terminology.
+
+Feel free to reach out to me in case you have and queries or suggestions.
+
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
