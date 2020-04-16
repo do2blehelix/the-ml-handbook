@@ -14,12 +14,9 @@ This is a handy quick one stop guide to refresh your memory or a quck base for g
 
 [Statistics]({{ site.baseurl }}{% link docs/statistics/statistics.md %}){: .btn }
 
-
 [Supervised Learning]({{ site.baseurl }}{% link docs/supervised-learning/supervised-learning.md %}){: .btn .btn-purple }
 
-
 [Unsupervised Learning]({{ site.baseurl }}{% link docs/unsupervised-learning/unsupervised-learning.md %}){: .btn .btn-blue }
-
 
 [Reinforcement Learning]({{ site.baseurl }}{% link docs/reinforcement-learning/reinforcement-learning.md %}){: .btn .btn-green }
 
@@ -28,7 +25,7 @@ This is a handy quick one stop guide to refresh your memory or a quck base for g
 [Regression]({{ site.baseurl }}{% link docs/supervised-learning/regression/regression.md %}){: .btn .btn-outline }
 [Classification]({{ site.baseurl }}{% link docs/supervised-learning/classification/classification.md %}){: .btn .btn-outline }
 [Ensemble]({{ site.baseurl }}{% link docs/supervised-learning/ensemble/ensemble.md %}){: .btn .btn-outline }
-[Model Evaluation]({{ site.baseurl }}{% link docs/supervised-learning/model-evaluation.md %}){: .btn .btn-outline }
+[Model Evaluation]({{ site.baseurl }}{% link docs/supervised-learning/Model Evaluation.md %}){: .btn .btn-outline }
 
 
 Thank you for reading this. The Machine Learning Handbook was created to provide an overall glimpse of the Machine Learning and Statistical Algorithms. This Handbook connects the complex understanding with simple structures and lucid terminology.
