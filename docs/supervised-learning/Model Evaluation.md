@@ -2,7 +2,7 @@
 layout: default
 parent: Supervised Learning
 title: Model Evaluation
-nav_order: 1
+nav_order: 4
 
 ---
 ## Model Evaluation / Selection / Fits / Validation

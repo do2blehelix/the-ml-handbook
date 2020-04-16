@@ -2,7 +2,7 @@
 layout: default
 parent: Supervised Learning
 title: Time Series / Forecasting
-nav_order: 2
+nav_order: 5
 
 ---
 ### Time Series (Forecasting) \[Method = Box-Jenkins (B-J)\]
