@@ -35,7 +35,7 @@ heading_anchors: false
 
 # Aux links for the upper right navigation
 aux_links:
-  "The ML Handbook GitHub":
+  "The ML Handbook on GitHub":
     - "//github.com/do2blehelix/the-ml-handbook"
 
 # Footer content appears at the bottom of every page's main content
