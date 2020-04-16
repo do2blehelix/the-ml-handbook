@@ -26,7 +26,9 @@ This is a handy quick one stop guide to refresh your memory or a quck base for g
 **Or select from the common topics**
 
 [Regression]({{ site.baseurl }}{% link docs/supervised-learning/regression/regression.md %}){: .btn .btn-outline }
-
+[Classification]({{ site.baseurl }}{% link docs/supervised-learning/classification/classification.md %}){: .btn .btn-outline }
+[Ensemble]({{ site.baseurl }}{% link docs/supervised-learning/ensemble/ensemble.md %}){: .btn .btn-outline }
+[Model Evaluation]({{ site.baseurl }}{% link docs/supervised-learning/model-evaluation.md %}){: .btn .btn-outline }
 
 
 Thank you for reading this. The Machine Learning Handbook was created to provide an overall glimpse of the Machine Learning and Statistical Algorithms. This Handbook connects the complex understanding with simple structures and lucid terminology.
