@@ -9,6 +9,7 @@ permalink: /
 # Welcome to The Machine Learning Handbook!
 
 This is a handy quick one stop guide to refresh your memory or a quck base for grasping concepts written in clear, lucid and relatable language.
+**Click on any button below to get started:**
 
 [Statistics]({{ site.baseurl }}{% link docs/statistics/statistics.md %}){: .btn }
 [Supervised Learning]({{ site.baseurl }}{% link docs/supervised-learning/supervised-learning.md %}){: .btn .btn-purple }
