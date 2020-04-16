@@ -10,17 +10,20 @@ permalink: /
 
 This is a handy quick one stop guide to refresh your memory or a quck base for grasping concepts written in clear, lucid and relatable language.
 
+&nbsp;
+
 **Click on any button below to get started:**
 
-[Statistics]({{ site.baseurl }}{% link docs/statistics/statistics.md %}){: .btn }
+[Statistics]({{ site.baseurl }}{% link docs/statistics/statistics.md %}){: .btn .btn-gray }
 
 [Supervised Learning]({{ site.baseurl }}{% link docs/supervised-learning/supervised-learning.md %}){: .btn .btn-purple }
-
 [Unsupervised Learning]({{ site.baseurl }}{% link docs/unsupervised-learning/unsupervised-learning.md %}){: .btn .btn-blue }
-
 [Reinforcement Learning]({{ site.baseurl }}{% link docs/reinforcement-learning/reinforcement-learning.md %}){: .btn .btn-green }
 
-**Or select from the common topics**
+&nbsp;
+&nbsp;
+
+**Or select from the common topics:**
 
 [Regression]({{ site.baseurl }}{% link docs/supervised-learning/regression/regression.md %}){: .btn .btn-outline }
 [Classification]({{ site.baseurl }}{% link docs/supervised-learning/classification/classification.md %}){: .btn .btn-outline }
