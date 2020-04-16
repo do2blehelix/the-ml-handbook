@@ -31,6 +31,10 @@ This is a handy quick one stop guide to refresh your memory or a quck base for g
 [Model Evaluation]({{ site.baseurl }}{% link docs/supervised-learning/Model Evaluation.md %}){: .btn .btn-outline }
 
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 Thank you for reading this. The Machine Learning Handbook was created to provide an overall glimpse of the Machine Learning and Statistical Algorithms. This Handbook connects the complex understanding with simple structures and lucid terminology.
 
 Feel free to reach out to me in case you have and queries or suggestions.
