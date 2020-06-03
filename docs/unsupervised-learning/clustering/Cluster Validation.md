@@ -6,19 +6,17 @@ grand_parent: Unsupervised Learning
 nav_order: 5
 
 ---
-## Cluster Validation
+# Cluster Validation
 
-**Types :**
+***
 
-* External Indices (to find out if the clusters had meaning from already labelled data eg Sales)
-* Internal Indices
-* Relative Indices
+Validation is an important part of clustering and our end goal is to get the measure whether the clusters were efficient or not. Efficient clusters have similar data huddled together and have clear separation from other clusters.
 
-**Compactness** : how close the data are to each other _(within cluster variance)_
+**Compactness** : how close the data are to each other _`(within cluster variance)`_
 
-**Separability** : how far/distinct clusters are from each other _(between cluster variance)_
+**Separability** : how far/distinct clusters are from each other _`(between cluster variance)`_
 
-> Optimum cluster should have **high compactness** and **high separability**.
+> Optimum cluster should have **similar data clustered together** `(high compactness)` and **all clusters as far as possible from each other** `(high separability)`
 
 ***
 
@@ -43,9 +41,9 @@ _b = average distance to samples in the closest neighbouring cluster_
 
 Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
 
-#### External Indices:
+### External Indices:
 
-They require already applied labels to validate against
+They require already applied labels to validate against to find out if the clusters had meaning from already labelled data eg Sales)
 
 * Adjusted Rand Score \[-1 to 1\]
 * Fawlks and Mallows \[0 to 1\]
@@ -61,6 +59,8 @@ _a = no of pairs same in both labelled and predicted cluster_
 _b = no of pairs different in either labelled or predicted cluster_
 
 _n = no of points_
+
+### Relative Indices
 
   
 bouldin and calinksi and silhoutte ???
