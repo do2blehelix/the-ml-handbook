@@ -17,3 +17,5 @@ fields:
 - type: number
   name: nav_order
   label: nav_order
+pages:
+- docs/unsupervised-learning/clustering/1. K-Means.md
