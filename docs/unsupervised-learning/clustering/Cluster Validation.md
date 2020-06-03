@@ -24,20 +24,25 @@ Validation is an important part of clustering and our end goal is to get the mea
 
 Internal Indices measure how good the clusters are in terms of within-cluster-variance and between-cluster-variance. Some of the measures are :
 
-##### Silhouette Index `[-1 to 1]`
+##### ⚪ Silhouette Index `[-1 to 1]`
 
-The silhouette index measures each 
+The silhouette index measures the average distance between the clusters.The silhouette plot displays a measure of how close each point in one cluster is to points in the neighboring clusters.
 
-* 
-* Calinski-Harabasz
-* BIC
-* Dunn Index
+\`\`\`\`
 
 Silhouette Coefficient Si = (b - a) / max(a,b) S = average (S1 , S2 , S3 ……)
 
 _a = average distance to other samples in the same cluster_
 
 _b = average distance to samples in the closest neighbouring cluster_
+
+\`\`\`\`
+
+##### ⚪ Calinski-Harabasz
+
+##### ⚪ BIC
+
+##### ⚪ Dunn Index
 
 Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
 
