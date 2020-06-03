@@ -39,10 +39,10 @@ Is a set of data driven partitioning techniques designed to group a collection o
 The decision of merging two clusters is taken on the basis of closeness of these clusters. There are multiple metrics for deciding the   
 **Closeness of two clusters :**
 
-* Euclidean distance: ||a-b||2 = √(Σ(ai-bi))
-* Squared Euclidean distance: ||a-b||22 = Σ((ai-bi)2)
-* Manhattan distance: ||a-b||1 = Σ|ai-bi|
-* Maximum distance:||a-b||INFINITY = maxi|ai-bi|
+* Euclidean distance: (a-b)2 = √(Σ(ai-bi))
+* Squared Euclidean distance: ((a-b)2)2 = Σ((ai-bi)2)
+* Manhattan distance: (a-b)1 = Σ|ai-bi|
+* Maximum distance: (a-b)INFINITY = maxi|ai-bi|
 * Mahalanobis distance: √((a-b)T S-1 (-b)) {where, s : covariance matrix}
 
 &nbsp;
