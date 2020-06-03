@@ -12,9 +12,9 @@ nav_order: 5
 
 Validation is an important part of clustering and our end goal is to get the measure whether the clusters were efficient or not. Efficient clusters have similar data huddled together and have clear separation from other clusters.
 
-**Compactness** : how close the data are to each other _`(within cluster variance)`_
+**Compactness** : how close the data are to each other **_`(within-cluster-variance)`_**
 
-**Separability** : how far/distinct clusters are from each other _`(between cluster variance)`_
+**Separability** : how far/distinct clusters are from each other **_`(between-cluster-variance)`_**
 
 > Optimum cluster should have **similar data clustered together** `(high compactness)` and **all clusters as far as possible from each other** `(high separability)`
 
@@ -30,11 +30,11 @@ The silhouette index measures the average distance between the clusters.The silh
 
 \`\`\`\`
 
-Silhouette Coefficient Si = (b - a) / max(a,b) S = average (S1 , S2 , S3 ……)
+Silhouette Coefficient Si = (b - a) / max(a,b)   
+S = average (S1 , S2 , S3 ……)
 
-_a = average distance to other samples in the same cluster_
-
-_b = average distance to samples in the closest neighbouring cluster_
+_a = average distance to other samples in the same cluster  
+b = average distance to samples in the closest neighbouring cluster_
 
 \`\`\`\`
 
