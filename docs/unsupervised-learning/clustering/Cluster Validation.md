@@ -18,7 +18,7 @@ nav_order: 5
 
 **Separability** : how far/distinct clusters are from each other _(between cluster variance)_
 
-Optimum cluster should have high compactness and high spearability.
+> Optimum cluster should have **high compactness** and **high separability**.
 
 #### External Indices:
 
