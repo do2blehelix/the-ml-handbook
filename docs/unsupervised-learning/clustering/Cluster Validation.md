@@ -20,6 +20,29 @@ nav_order: 5
 
 > Optimum cluster should have **high compactness** and **high separability**.
 
+***
+
+### Internal Indices:
+
+Internal Indices measure how good the clusters are in terms of within-cluster-variance and between-cluster-variance. Some of the measures are :
+
+##### Silhouette Index `[-1 to 1]`
+
+The silhouette index measures each 
+
+* 
+* Calinski-Harabasz
+* BIC
+* Dunn Index
+
+Silhouette Coefficient Si = (b - a) / max(a,b) S = average (S1 , S2 , S3 ……)
+
+_a = average distance to other samples in the same cluster_
+
+_b = average distance to samples in the closest neighbouring cluster_
+
+Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
+
 #### External Indices:
 
 They require already applied labels to validate against
@@ -38,21 +61,6 @@ _a = no of pairs same in both labelled and predicted cluster_
 _b = no of pairs different in either labelled or predicted cluster_
 
 _n = no of points_
-
-#### Internal Indices:
-
-* Silhouette Index \[-1 to 1\]
-* Calinski-Harabasz
-* BIC
-* Dunn Index
-
-Silhouette Coefficient Si = (b - a) / max(a,b) S = average (S1 , S2 , S3 ……)
-
-_a = average distance to other samples in the same cluster_
-
-_b = average distance to samples in the closest neighbouring cluster_
-
-Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
 
   
 bouldin and calinksi and silhoutte ???
