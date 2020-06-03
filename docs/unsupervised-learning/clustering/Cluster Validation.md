@@ -4,23 +4,52 @@ title: Cluster Validation
 parent: Clustering
 grand_parent: Unsupervised Learning
 nav_order: 5
+
 ---
+## Cluster Validation
 
+**Types :**
 
+* External Indices (to find out if the clusters had meaning from already labelled data eg Sales)
+* Internal Indices
+* Relative Indices
 
-# Cluster Validation
+**Compactness** : how close the data are to each other _(within cluster variance)_
 
+**Separability** : how far/distinct clusters are from each other _(between cluster variance)_
 
-**Types :**External Indices (to find out if the clusters had meaning from already labelled data eg Sales)Internal IndicesRelative Indices
-**Compactness** 	: how close the data are to each other *(within cluster variance)***Separability** 	: how far/distinct clusters are from each other *(between cluster variance)*
 Optimum cluster should have high compactness and high spearability.
 
+#### External Indices:
 
-External Indices:They require already applied labels to validate against
-Adjusted Rand Score [-1 to 1]Fawlks and Mallows [0 to 1]NMI Measure [0 to 1]Jaccard [0 to 1]F-measure [0 to 1]Purity [0 to 1]
+They require already applied labels to validate against
 
-Rand Index (Rand Score) = (a + b) / (n)*a = no of pairs same in both labelled and predicted cluster**b = no of pairs different in either labelled or predicted cluster**n = no of points*
+* Adjusted Rand Score \[-1 to 1\]
+* Fawlks and Mallows \[0 to 1\]
+* NMI Measure \[0 to 1\]
+* Jaccard \[0 to 1\]
+* F-measure \[0 to 1\]
+* Purity \[0 to 1\]
 
-Internal Indices:Silhouette Index [-1 to 1]Calinski-HarabaszBICDunn Index
+Rand Index (Rand Score) = (a + b) / (n)
 
-Silhouette Coefficient  Si = (b - a) / max(a,b)	S = average (S1 , S2 , S3 ……)*a = average distance to other samples in the same cluster**b = average distance to samples in the closest neighbouring cluster*Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
+_a = no of pairs same in both labelled and predicted cluster_
+
+_b = no of pairs different in either labelled or predicted cluster_
+
+_n = no of points_
+
+#### Internal Indices:
+
+* Silhouette Index \[-1 to 1\]
+* Calinski-Harabasz
+* BIC
+* Dunn Index
+
+Silhouette Coefficient Si = (b - a) / max(a,b) S = average (S1 , S2 , S3 ……)
+
+_a = average distance to other samples in the same cluster_
+
+_b = average distance to samples in the closest neighbouring cluster_
+
+Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
