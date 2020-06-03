@@ -55,4 +55,4 @@ Determine no of clusters > Validate the analysis
 
 &nbsp;
 
-**⚠ Data should ALWAYS be continuous and standardized in nature.**
+⚠️ **Data should ALWAYS be continuous and standardized in nature.**
