@@ -1,6 +1,7 @@
 ---
 layout: default
-parent: Unsupervised Learning
+parent: Clustering
+grandparent: Unsupervised Learning
 title: Clustering
 nav_order: 1
 
