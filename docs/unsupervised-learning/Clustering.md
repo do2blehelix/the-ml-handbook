@@ -2,93 +2,230 @@
 layout: default
 parent: Unsupervised Learning
 title: Clustering
-nav_order: 1
+nav_order: "1"
+
 ---
+# Clustering
 
+Is a set of data driven partitioning techniques designed to group a collection of objects into clusters.
 
+**⭐ Clustering is finding borders between groups  
+⭐ Segmentation is using borders to form groups**
 
-## Distributions
+Linkage method
 
+Variance method
 
-![](https://lh5.googleusercontent.com/5YCExoAhnLJzY1eSMR-hlINKnL70QKv0Akt7nTsyw0vUb8U_ZcElyLGa5QGiyXXBmY__IFRQU5SE28fGmOdJ0-mGxmeui7TnaGBetcY8ei3gpk6oQ2jiydIYMIhJPAV87aaSIisU)
+Centroid method
 
-Binomial Distribution  : Discrete distribution used in statistics. Only counts 2 states typically 0 and 1.
+**Applications :**
 
+* Market Segmentation
+* Sales segmentation : what type of customer wants what
+* Credit risk
+* Operations : High performing persons and promotions
+* Insurance : identifying groups with high average claim cost
+* Data reduction : grouping observations to reduce number is obs
 
+The decision of merging two clusters is taken on the basis of closeness of these clusters. There are multiple metrics for deciding the closeness of two clusters :
 
-Normal Distribution (Gaussian Distribution) (Continuous Distribution) : data distributed symmetrically around the centre (skewness = kurtosis = 0).
+* Euclidean distance: ||a-b||2 = √(Σ(ai-bi))
+* Squared Euclidean distance: ||a-b||22 = Σ((ai-bi)2)
+* Manhattan distance: ||a-b||1 = Σ|ai-bi|
+* Maximum distance:||a-b||INFINITY = maxi|ai-bi|
+* Mahalanobis distance: √((a-b)T S-1 (-b)) {where, s : covariance matrix}
 
-Mean = Median = Mode. Also known as the bell curve.
+**How to build clusters :**
 
+Select distance measure > Select clustering algorithm > Define the distance between 2 clusters >
 
+Determine no of clusters > Validate the analysis
 
-Uniform Distribution : Consists of similar values throughout
+**Data should ALWAYS be continuous and standardized in nature.**
 
+### K means \[Non Hierarchical\]
 
+It is based on division of objects into non overlapping subsets. Main objective is to form clusters that are homogeneous in nature and heterogeneous to each other. Only for continuous variables.
 
-Skewed Distribution : data distributed which spikes towards either ends as opposed to the central spike in normal distribution (skewness: lack of symmetry)
+**Advantages:**
 
-![](https://lh5.googleusercontent.com/xSFebQ4fS5oGd-c7NFnD8MeJWI_SmDj1xWIb9W4nA4MT84shpU9azJ2774EmUKOwVHlRF6fFTSDB5uJCku-4JM3MPPANVczNIOP5YRYr2ZIbvz3_ho73uAedH1I8ET_xewbYOjLZ)
+* **Faster, more reliable, works with large data.**
+* Computationally lighter than other methods
 
-Kurtosis : pointiness of the curve
+**Disadvantages:**
 
-Positive kurtosis = leptokurtic || Negative kurtosis = platykurtic
+* Can only identify clusters circular / spherical in nature. _(check crescent dataset)_
+* Distance based
 
+**Process :**
 
+1. Identify value of _‘k’_
+2. Assign random k observations as seeds
+3. Assign each record to one of the k seeds based on proximity
+4. Form clusters
+5. Calculate centroids of clusters
+6. Assign centroids as new seed
+7. Form new clusters
+8. Recalculate clusters
+9. Continue process until stable clusters are formed (boundary ceases to change)
 
+**Elbow Criterion (Scree Plot):**![](https://lh5.googleusercontent.com/VgUz4jopV1BT6doFeT_UOv2Iao0kbY6Ij6ErVBweUUjoQcTSfdA1AbwNcAToMZRo3yZgcEnMtrrDPY6UzniG5Oec_-otvyy7_w7SmeSpKy3AnxH3NHQq4U90uftzY254_OCS5fZr =247x126)
 
-Data dist type
+K means clustering doesn't provide an estimate of the number of clusters required. Hence elbow criterion is used to determine optimal number of clusters.
 
-Measure of Central Tendency
+The method says that you should choose a number of clusters so that adding another cluster does not add any sufficient information. It is plotted by **ratio of within cluster variance to between cluster variance** against number of clusters. The objective is to minimise the within and maximise the between distances.
 
-Measure of spread (variation)
+**Validation :**
 
-Normal
+* R squared : R2 = Between sum of squares / total sum of squares
+* Pseudo f
+* Clc
+* Silhouette
+* pc plot
+* ccc cluster criterion
 
-Mean
+[Visual Example](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 
-Standard Deviation
+### Hierarchical Clustering
 
-Non normal (skewed)
+Set of nested clusters organized as a hierarchical tree. No decision about number of clusters
 
-Median
+It is not used when data is big due to higher processing time.
 
-Range, Percentile & IQR
+**Advantages :**
 
+* Produces an additional ability to visualize
+* Potent esp if the data contains real hierarchical relationships _(eg evolution)_
 
+**Disadvantages :**
 
-To convert any dataset with any mean & std deviation to a dataset with mean = 0 & std dev = 1.
+* Computationally intensive
+* Sensitive to noise and outliers
 
-Can be done using z-scores: z = (x - x̄) ÷ s
+**Types :**
 
+* Agglomerative : Start from _n_ clusters and get to _one_ cluster (Bottom up approach)
+* Divisive : Start from _one_ cluster and get to _n_ clusters (Top down approach)
 
+**Distance Between Clusters** (Agglomerative Clustering)
 
+* Single link : Shortest distance between an element in one cluster and an element in another cluster.
+* Complete link : Largest distance between elements in two clusters. Produces compact clusters.
+* Average link : Average distance of elements between 2 clusters.
+* Centroid : Distance between the centroids of 2 clusters
+* Metroid : Distance between centrally located object in both clusters.
+* Ward’s method : Minimize variance between 2 clusters.
 
-Central Limit Theorem
+  
+  
+![](https://lh5.googleusercontent.com/jC8mI4S66hPh4i3tr-QZgKZDkkZPrhh0sGcczx2x1BVWLgA0lfXTAH5ncDKa1HkHelh5tfwBASLD3puoEnFb_iOA3LxYpm7MlV8Lqsd-F2BElXVDV0HEVMZEB84QjCRjGdpOS2YS =326x205)
 
-The distribution of the sample means tends towards a normal distribution as the number of samples increase
+The results of hierarchical clustering can be shown using dendrogram.
 
+1. At the bottom, we start with n data points (observations), each assigned to separate clusters
+2. Two closest clusters are then merged till we have just one cluster at the top
+3. The height in the dendrogram at which two clusters are merged represents the distance between two clusters in the data space.
 
+The best choice of the no. of clusters is the no. of vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster.
 
--   Take a random population and plot its distribution (assuming distribution ≠ normal distribution)
+### Density Based Spatial Clustering of Applications with Noise _(DBSCAN)_
 
+Clusters densely packed points and labels the other points as noise
 
--   Samples of constant size n are to be taken from the population (n1 = n2 = n3 …)
+**Advantages :**
 
--   Take a random sample of size n1 from the population and calculate its mean x̄1
+* No specification of no of clusters
+* Flexibility in shapes and sizes of clusters
+* Able to deal with noise and outliers
 
--   Take a random sample of size n2 from the population and calculate its mean x̄2
+**Disadvantages :**
 
--   Plot the means x̄1, x̄2, x̄3 …
+* Border points are assigned to whichever clusters find them first
+* Faces difficulties in finding clusters of varying densities. _(variation of DBSCAN, HDBSCAN can be used to rectify)_
 
--   The sampling distribution (plot of x̄1, x̄2, x̄3 …) tends to be a normal distribution as the number of samples increases
+Epsilon (ε) = Search Distance around a point
 
--   The variance of the sampling distribution = The variance of the population / sample size
+Minimum number of points = min no of points to be classified as a cluster
 
+**Types of Points:**
 
-σx̄2 = σ2 / n![](https://lh3.googleusercontent.com/eH7u73SOU6FMMOTbdRfx2JqdESutPfl8ClVYTkk4KLO5_Aq5fP0QvVd4ViWDEZ6rqpIZehKkfa4kAwbN_aM5WnLRPl8N0odC1372kNU5_TokNNaLnHQHOp4pXQbQ1TkjAFpyph8l)![](https://lh3.googleusercontent.com/lIGbfcym_m1t1UMDYmKHJTwxDaBdlKUecB6o0RQ5amQ0lT6VuJAnDjJAoB-SaFQNssE9aPRHJw7_Qt4DgMOsjYfzuhFa3uqiKK5WVLlbcRckudz90njAj4JM0t7E1HY1RSrp8PeN)
+* Noise point : Fails to meet the minimum no of points criteria
+* Core Point : Meets the minimum no of points criteria
+* Border Point : Is in vicinity of core point and contributing to it, but individually fail to meet the criteria min no of pts
 
--   With a higher value of n, the sampling distribution tends to have a lower variance (high kurtosis), and vice-versa
+Use DBCV (Density Based Cluster Validation) to score DBSCAN. Other validation metrics will mess up the score.
 
+[Visualizing DBSCAN](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
-The stand deviation of the sampling means is called Standard Error of the Mean.
+### Gaussian Mixture Model Clustering
+
+Each point belongs to every cluster, but has a different level of membership. It assumes that each cluster has a certain statistical distribution.
+
+Expectation - Maximization Algorithm
+
+**Advantages :**
+
+* Soft Clustering, sample members of multiple clusters.
+* Cluster shape flexibility. _(cluster can contain another cluster inside of it)_
+
+**Disadvantages :**
+
+* Sensitive to initialization values
+* Slow convergence rate
+* Possible to converge to a local optimum
+
+**Process :**
+
+1. Initialize k Gaussian distributions
+2. Soft cluster the data into the gaussian distributions _(Expectation step)_
+3. Re-estimate the gaussian _(Maximization step)_
+4. Evaluate log-likelihood to check for convergence
+5. Repeat from Step.2 until convergence
+
+## Cluster Validation
+
+**Types :**
+
+* External Indices (to find out if the clusters had meaning from already labelled data eg Sales)
+* Internal Indices
+* Relative Indices
+
+**Compactness** : how close the data are to each other _(within cluster variance)_
+
+**Separability** : how far/distinct clusters are from each other _(between cluster variance)_
+
+Optimum cluster should have high compactness and high spearability.
+
+#### External Indices:
+
+They require already applied labels to validate against
+
+* Adjusted Rand Score \[-1 to 1\]
+* Fawlks and Mallows \[0 to 1\]
+* NMI Measure \[0 to 1\]
+* Jaccard \[0 to 1\]
+* F-measure \[0 to 1\]
+* Purity \[0 to 1\]
+
+Rand Index (Rand Score) = (a + b) / (n)
+
+_a = no of pairs same in both labelled and predicted cluster_
+
+_b = no of pairs different in either labelled or predicted cluster_
+
+_n = no of points_
+
+#### Internal Indices:
+
+* Silhouette Index \[-1 to 1\]
+* Calinski-Harabasz
+* BIC
+* Dunn Index
+
+Silhouette Coefficient Si = (b - a) / max(a,b) S = average (S1 , S2 , S3 ……)
+
+_a = average distance to other samples in the same cluster_
+
+_b = average distance to samples in the closest neighbouring cluster_
+
+Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
