@@ -53,3 +53,6 @@ _a = average distance to other samples in the same cluster_
 _b = average distance to samples in the closest neighbouring cluster_
 
 Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
+
+  
+bouldin and calinksi and silhoutte ???
