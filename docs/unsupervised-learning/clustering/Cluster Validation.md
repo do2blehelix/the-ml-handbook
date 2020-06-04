@@ -16,37 +16,39 @@ Validation is an important part of clustering and our end goal is to get the mea
 
 **Separability** : how far/distinct clusters are from each other **_`(between-cluster-variance)`_**
 
-> Optimum cluster should have **similar data clustered together** `(high compactness)` and **all clusters as far as possible from each other** `(high separability)`
+> Optimum clusters should have **similar data clustered together** `(high compactness)` and **all clusters as far as possible from each other** `(high separability)`
 
 ***
 
-### Internal Indices:
+## Internal Indices:
 
 Internal Indices measure how good the clusters are in terms of within-cluster-variance and between-cluster-variance. Some of the measures are :
 
-##### ⚪ Silhouette Index `[-1 to 1]`
+### ⚪ Silhouette Index `[-1 to 1]`
 
-The silhouette index measures the average distance between the clusters.The silhouette plot displays a measure of how close each point in one cluster is to points in the neighboring clusters.
+The silhouette index measures the average distance between the clusters. The silhouette index displays a measure of how close each point in one cluster is to points in the neighboring clusters.
 
-\`\`\`\`
+**Range :  
+**1 = Great Score   
+0 = Equal distance from both clusters (overlapping clusters)  
+\-1 = Misclassified, placed between clusters 
 
-Silhouette Coefficient Si = (b - a) / max(a,b)   
-S = average (S1 , S2 , S3 ……)
+    
+    Silhouette Coefficient Si = (b - a) / max(a,b) 
+    S = average (S1 , S2 , S3 ……)
+    
+    a = average distance to other samples in the same cluster
+    b = average distance to samples in the closest neighbouring cluster
 
-_a = average distance to other samples in the same cluster  
-b = average distance to samples in the closest neighbouring cluster_
+### ⚪ Calinski-Harabasz
 
-\`\`\`\`
+### ⚪ BIC
 
-##### ⚪ Calinski-Harabasz
-
-##### ⚪ BIC
-
-##### ⚪ Dunn Index
+### ⚪ Dunn Index
 
 Don't use on DBSCAN as noise will lower scores. Also doesn't work well with rings/circular types of points. Works well with compact clusters which are far away from each other.
 
-### External Indices:
+## External Indices:
 
 They require already applied labels to validate against to find out if the clusters had meaning from already labelled data eg Sales)
 
@@ -65,7 +67,6 @@ _b = no of pairs different in either labelled or predicted cluster_
 
 _n = no of points_
 
-### Relative Indices
+## Relative Indices
 
-  
 bouldin and calinksi and silhoutte ???
