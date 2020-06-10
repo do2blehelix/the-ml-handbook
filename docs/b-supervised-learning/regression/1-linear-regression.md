@@ -75,10 +75,10 @@ Independent Variable **X = Continuous**
 
 This method is used to convert Categorical variables to Continuous variables. It is very simple:
 
-| Transport |   |   | Car | Bus | Train |  
-| Car |   |   |  1 | 0 | 0 |  
-| Bus |   |   | 0 | 1 | 0 |  
-| Train |   |   | 0  | 0 | 1 |
+| **Transport** |  >  |   | **Car** | **Bus** | **Train** |  
+| Car | >  |   |  1 | 0 | 0 |  
+| Bus | > |   | 0 | 1 | 0 |  
+| Train | >  |   | 0  | 0 | 1 |
 
 > ### Dummy Variable Trap
 >
