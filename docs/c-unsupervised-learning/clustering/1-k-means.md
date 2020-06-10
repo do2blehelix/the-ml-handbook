@@ -8,7 +8,7 @@ nav_order: 1
 ---
 # K means \[Non Hierarchical\]
 
-It is based on division of objects into non overlapping subsets. Main objective is to form clusters that are homogeneous in nature and heterogeneous to each other.   
+It is based on division of objects into non overlapping subsets. Main objective is to form clusters that are homogeneous in nature and heterogeneous to each other.  
 ❕ **Only for continuous variables.**
 
 ### Advantages:
@@ -45,7 +45,7 @@ The method states that you should choose a number of clusters so that adding ano
 * Davies Bouldin Score
 * Calinski Harabasz Score
 
-### Implementaion
+### Implementation:
 
     from sklearn.cluster import KMeans
     
