@@ -4,7 +4,6 @@ title: Ridge and Lasso Regression
 parent: Regression
 grand_parent: Supervised Learning
 nav_order: 2
-published: false
 
 ---
 # Ridge and Lasso Regression
