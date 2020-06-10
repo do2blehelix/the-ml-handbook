@@ -4,6 +4,7 @@ title: Logistic Regression
 parent: Regression
 grand_parent: Supervised Learning
 nav_order: 2
+
 ---
 # Logistic Regression 
 

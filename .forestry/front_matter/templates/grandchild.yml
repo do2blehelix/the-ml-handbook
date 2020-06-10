@@ -21,6 +21,7 @@ fields:
   label: nav_order
 pages:
 - docs/b-supervised-learning/regression/1-linear-regression.md
+- docs/b-supervised-learning/regression/2-logistic-regression.md
 - docs/c-unsupervised-learning/clustering/1-k-means.md
 - docs/c-unsupervised-learning/clustering/2-hierarchical-clustering.md
 - docs/c-unsupervised-learning/clustering/3-dbscan.md
