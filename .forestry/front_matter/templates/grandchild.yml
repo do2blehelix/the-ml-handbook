@@ -26,3 +26,4 @@ pages:
 - docs/c-unsupervised-learning/clustering/4-gaussian-mixture-model.md
 - docs/c-unsupervised-learning/clustering/5-others.md
 - docs/c-unsupervised-learning/clustering/cluster-validation.md
+- docs/c-unsupervised-learning/clustering/spectral-clustering.md
