@@ -71,14 +71,34 @@ Independent Variable **X = Continuous**
 * Corrections:
   * Nonlinear / Log transformation
 
+
+
+### Implementation
+
+```
+from 
+```
+
+
+
+### Outputs and Validation
+
+- R-squared: The most common validation check
+- Adjusted R-squared
+
+
+
 ### One Hot Encoding
 
 This method is used to convert Categorical variables to Continuous variables. It is very simple:
 
-| **Transport** |  >  |   | **Car** | **Bus** | **Train** |  
-| Car | >  |   |  1 | 0 | 0 |  
-| Bus | > |   | 0 | 1 | 0 |  
-| Train | >  |   | 0  | 0 | 1 |
+| Transport | >>>  | Car  | Bus  | Train |
+| :-------: | :--: | :--: | :--: | :---: |
+|    Car    | >>>  |  1   |  0   |   0   |
+|    Bus    | >>>  |  0   |  1   |   0   |
+|   Train   | >>>  |  0   |  0   |   1   |
+
+
 
 > ### Dummy Variable Trap
 >

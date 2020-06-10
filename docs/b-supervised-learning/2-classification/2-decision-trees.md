@@ -3,10 +3,10 @@ layout: default
 title: Decision Trees
 parent: Classification
 grand_parent: Supervised Learning
-nav_order: 1
+nav_order: 2
 
 ---
-### Decision Trees
+# Decision Trees
 
 It's a type of supervised learning algorithm mostly used for classification problems. Works for both categorical and continuous I/P O/P variables.
 
@@ -19,7 +19,7 @@ _Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Q
 * Categorical Variable Decision Tree : Categorical Target Variable
 * Continuous Variable Decision Tree : Continuous Target Variable
 
-**Terminology :**
+### Terminology :
 
 * Root Node : It represents the entire population / sample
 * Parent and Child Node: A node, which is divided into sub-nodes is called parent node whereas sub-nodes are the child of parent node.
@@ -29,7 +29,7 @@ _Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Q
 * Pruning : The process of removing sub-sections of a tree.
 * Grafting : The process of adding a whole section to the tree.
 
-**Advantages :**
+### Advantages :
 
 * Glass-box model. Patterns easy to understand and see.
 * Useful in Data exploration : fastest way to find most significant variables and relation between variables. new variables can also be created with better prediction power.
@@ -37,12 +37,23 @@ _Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Q
 * Data type is not a constraint
 * Non Parametric Method : no assumptions
 
-**Disadvantages :**
+### Disadvantages :
 
 * Over fitting : If no limit is set for a decision tree, it will give 100% accuracy on training set
 * Not fit for continuous variables : tends to lose information when bucketed into categories.
 
-**Hyperparameters (Tuning) :**
+### Implementation
+
+```python
+from sklearn.tree import DecisionTreeClassifier
+
+model = DecisionTreeClassifier()             # Instantiate
+model.fit(X_train, y_train)  	# Fit model
+```
+
+
+
+### Hyperparameter (Tuning) :
 
 * Maximum Depth : The maximum number of levels in the tree
 * Minimum number of samples to split : minimum required samples in node in order for it to further split
@@ -67,13 +78,15 @@ _Tree pruning = post pruning_
   * Then we start at the bottom and start removing leaves which are giving us negative returns when compared from the top.
   * Suppose a split is giving us a gain of say -10 (loss of 10) and then the next split on that gives us a gain of 20. A simple decision tree will stop at step 1 but in pruning, we will see that the overall gain is +10 and keep both leaves.
 
-**Validation :**
+### Validation :
 
-SSE
+- SSE
 
-Classification/confusion matrix
+- Classification/confusion matrix
 
-#### Metrics:
+
+
+### Metrics:
 
 **Gini Index** _\[Categorical\]_
 
@@ -136,7 +149,7 @@ Reduction in variance is an algorithm used for continuous target variables (regr
 
 _X-bar is mean of the values, X is actual and n is number of values._
 
-#### Algorithms
+### Algorithms
 
 ##### CART : Classification And Regression Trees
 

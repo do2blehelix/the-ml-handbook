@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Logistic Regression
-parent: Regression
+parent: Classification
 grand_parent: Supervised Learning
-nav_order: 2
+nav_order: 1
 
 ---
 # Logistic Regression

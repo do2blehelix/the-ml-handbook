@@ -25,9 +25,9 @@ This is a handy quick one stop guide to refresh your memory or a quck base for g
 
 **Or select from the common topics:**
 
-[Regression]({{ site.baseurl }}{% link docs/b-supervised-learning/regression/index.md %}){: .btn .btn-outline }
-[Classification]({{ site.baseurl }}{% link docs/b-supervised-learning/classification/index.md %}){: .btn .btn-outline }
-[Ensemble]({{ site.baseurl }}{% link docs/b-supervised-learning/ensemble/index.md %}){: .btn .btn-outline }
+[Regression]({{ site.baseurl }}{% link docs/b-supervised-learning/1-regression/index.md %}){: .btn .btn-outline }
+[Classification]({{ site.baseurl }}{% link docs/b-supervised-learning/2-classification/index.md %}){: .btn .btn-outline }
+[Ensemble]({{ site.baseurl }}{% link docs/b-supervised-learning/3-ensemble/index.md %}){: .btn .btn-outline }
 [Model Evaluation]({{ site.baseurl }}{% link docs/b-supervised-learning/model-evaluation.md %}){: .btn .btn-outline }
 
 

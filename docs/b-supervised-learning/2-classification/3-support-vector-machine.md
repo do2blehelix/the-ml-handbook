@@ -3,10 +3,12 @@ layout: default
 title: Support Vector Machine
 parent: Classification
 grand_parent: Supervised Learning
-nav_order: 2
+nav_order: 3
 
 ---
-### SVM (Support Vector Machine)![](https://lh5.googleusercontent.com/n0CPoXbAgg0MNx5jxNNmn14h-aWrPgVDUj4uo_6DqnUL4iRX7ZHTjl8GoDwXn1IWbp1743NgaDXva8rDUtac5oKaPdAZMbJ4qaOqNx23JVCZHwEOwyeLdizmFHJG57oHKNidmboV =308x209)
+# SVM (Support Vector Machine)
+
+![](https://lh5.googleusercontent.com/n0CPoXbAgg0MNx5jxNNmn14h-aWrPgVDUj4uo_6DqnUL4iRX7ZHTjl8GoDwXn1IWbp1743NgaDXva8rDUtac5oKaPdAZMbJ4qaOqNx23JVCZHwEOwyeLdizmFHJG57oHKNidmboV =308x209)
 
 In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
 
@@ -17,6 +19,14 @@ In case the data cannot be clearly segregated, the data is transformed to a high
 Classification Error : Split the data into 2, create boundary lines, classify anything between the margin as error, add errors.
 
 Margin Error : Goal is to obtain a larger margin between the 2 boundary lines with lower error.
+
+
+
+**Advantages** : Robust, accurate classification
+
+**Disadvantages** : Computationally expensive
+
+
 
 **Hyperparameters :**
 
@@ -42,6 +52,4 @@ Note: when C is too large for a particular set of data, you might not get conver
 
 * Kernel Methods : Kernels in SVMs allow us the ability to separate data when the boundary between them is nonlinear. Specifically, you saw two types of kernels: polynomial, rbf. By far the most popular kernel is the rbf kernel (which stands for radial basis function). The rbf kernel allows you the opportunity to classify points that seem hard to separate in any space. This is a density based approach that looks at the closeness of points to one another. This introduces another hyper-parameter gamma. When gamma is large, the outcome is similar to having a large value of C, that is your algorithm will attempt to classify every point correctly. Alternatively, small values of gamma will try to cluster in a more general way that will make more mistakes, but may perform better when it sees new data.
 
-**Advantages** : Robust, accurate classification
 
-**Disadvantages** : Computationally expensive

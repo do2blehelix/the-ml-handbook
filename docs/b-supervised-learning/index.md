@@ -7,7 +7,8 @@ nav_order: 2
 ---
 # Supervised Learning
 
-You have labelled data and are trying to predict a label based on known features. **Historical data predicts likely future events**. Applies already learned concepts from a training dataset to a test dataset.
+In Supervised Learning, you have **labelled data** and are trying to predict a label (dependent variable) based on known features (independent variables). **Historical data predicts likely future events**. 
+Supervised Learning applies already learned concepts from a training dataset to a test dataset.
 
 ### Common Types
 
