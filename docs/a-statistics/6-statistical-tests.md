@@ -3,34 +3,30 @@ layout: default
 parent: Statistics
 title: Statistical Tests
 nav_order: 6
+has_children: false
 
 ---
 # Statistical Tests
-___
 
-&nbsp;
+***
 
-**Parametric Test** : used for normally distributed data (`assess group means`)
-
+**Parametric Test** : used for normally distributed data (`assess group means`)  
 **Non-Parametric Test** : used for skewed data (`assess group medians`)
-
-&nbsp;
 
 One Tailed : uni-directional (typing speed increases with more typing) <br>
 Two tailed: bi-directional (typing speed can increase or decrease with more typing)
 
-&nbsp;
-
 **P-value is the probability of the sample means coming up equal to or even further away from the hypothesized population mean.**
 
-&nbsp;
+### **z-Test** (sample size > 30)
 
-## **z-Test** (sample size > 30)
 Statistical calculation used to compare sample mean to population mean. Most useful `when standard deviation and the sample size is known`.
 _The z score tells how far, in standard deviations, a data-point is from the mean._
 
-&nbsp;
-## **t-Test** (all sample size _(also referred as sample size < 30)_)
+ 
+
+### **t-Test** (all sample size _(also referred as sample size < 30)_)
+
 To determine if there is a statistically significant difference between two sample group means. Used **when population standard deviation is unknown.**
 The t-score is a ratio between the difference between the two groups and the difference within the groups
 
@@ -39,8 +35,10 @@ _(A large t-score tells you that the groups are different. A small t-score tells
 **- Paired samples t-Test** is used when there is a before - after ideology (matched) <br>
 **- Independent samples t-Test (Equal Variances/Unequal Variances)** is also known as a regular t-Test
 
-&nbsp;
-## **ANOVA**
+ 
+
+### **ANOVA**
+
 It is basically an extension to t test used when more than 2 samples are to be compared.
 It is used to determine whether there are any statistically significant differences between the means of three or more independent groups.
 ANOVA uses categorical independent variables and a continuous dependent variable
@@ -49,20 +47,23 @@ _H0 : all the means of the groups are NOT statistically different (All samples a
 _HA : at least two group means are statistically different from each other. (At least one sample comes from a different population)_
 _F = (Between Group Variability) ÷ (Within Group Variability)_
 
-&nbsp;
-## **Chi-square**
+ 
+
+### **Chi-square**
+
 To test dependency or independency of categorical variables. Are 2 categorical variables independent
 Anuj says it checks the difference in means + variance
 Observed vs expected
 
-&nbsp;
-## **F test**
+ 
+
+### **F test**
+
 It's a significance of variance test used for model evaluation. It is a one way ANOVA.
 It is basically the ratio of 2 chi square tests.
 
-&nbsp;
-&nbsp;
-
+ 
+ 
 
 | --- | --- | --- | --- |
 |  |  | Unmatched | Matched |
