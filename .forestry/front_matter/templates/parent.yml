@@ -6,12 +6,13 @@ fields:
   name: layout
   label: layout
   default: default
-- type: boolean
-  name: has_children
-  label: has_children
+  hidden: true
 - type: text
   name: title
   label: title
+- type: boolean
+  name: has_children
+  label: has_children
 - type: number
   name: nav_order
   label: nav_order
