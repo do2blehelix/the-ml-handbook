@@ -24,3 +24,4 @@ fields:
   label: nav_order
 pages:
 - docs/c-unsupervised-learning/clustering/index.md
+- docs/c-unsupervised-learning/singular-value-decomposition.md
