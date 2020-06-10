@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Logistic Regression
+title: Ridge and Lasso Regression
 parent: Regression
 grand_parent: Supervised Learning
 nav_order: 2
 published: false
 
 ---
-# Logistic Regression
+# Ridge and Lasso Regression
 
 #### Method = Maximum Likelihood Estimation / Chi-square
 
