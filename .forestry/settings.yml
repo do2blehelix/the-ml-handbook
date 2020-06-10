@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: docs/unsupervised learning
+  path: docs/unsupervised-learning
   label: Unsupervised
   create: all
   match: "**/*"
