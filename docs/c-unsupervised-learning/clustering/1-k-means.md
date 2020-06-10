@@ -3,7 +3,7 @@ layout: default
 title: K-Means
 parent: Clustering
 grand_parent: Unsupervised Learning
-nav_order: "1"
+nav_order: 1
 
 ---
 # K means \[Non Hierarchical\]
