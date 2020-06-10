@@ -19,4 +19,6 @@ fields:
   label: nav_order
 pages:
 - docs/unsupervised-learning/clustering/1. K-Means.md
+- docs/unsupervised-learning/clustering/1. K-Means.md
+- docs/unsupervised-learning/clustering/Cluster Validation.md
 - docs/unsupervised-learning/clustering/Cluster Validation.md
