@@ -21,3 +21,4 @@ fields:
   label: nav_order
 pages:
 - docs/c-unsupervised-learning/clustering/1-k-means.md
+- docs/c-unsupervised-learning/clustering/2-hierarchical-clustering.md
