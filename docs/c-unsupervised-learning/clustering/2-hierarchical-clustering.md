@@ -34,9 +34,14 @@ It is a set of nested clusters organized as a hierarchical tree. No decision abo
 * Metroid : Distance between centrally located object in both clusters. 
 * Ward’s method : Minimize variance between 2 clusters.
 
-The results of hierarchical clustering can be shown using dendrogram.
-At the bottom, we start with n data points (observations), each assigned to separate clusters
-Two closest clusters are then merged till we have just one cluster at the top
-The height in the dendrogram at which two clusters are merged represents the distance between two clusters in the data space.
+### Visualization:
 
-The best choice of the no. of clusters is the no. of vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster.
+![](https://lh5.googleusercontent.com/jC8mI4S66hPh4i3tr-QZgKZDkkZPrhh0sGcczx2x1BVWLgA0lfXTAH5ncDKa1HkHelh5tfwBASLD3puoEnFb_iOA3LxYpm7MlV8Lqsd-F2BElXVDV0HEVMZEB84QjCRjGdpOS2YS =326x205)
+
+The results of hierarchical clustering can be shown using dendrogram. 
+
+1. At the bottom, we start with n data points (observations), each assigned to separate clusters. 
+2. Two closest clusters are then merged till we have just one cluster at the top 
+3. The height in the dendrogram at which two clusters are merged represents the distance between two clusters in the data space.
+
+_The best choice of the no. of clusters is the no. of vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster._
