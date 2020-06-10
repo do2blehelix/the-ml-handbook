@@ -20,5 +20,6 @@ fields:
 pages:
 - docs/unsupervised-learning/clustering/1. K-Means.md
 - docs/unsupervised-learning/clustering/1. K-Means.md
+- docs/unsupervised-learning/clustering/3. DBSCAN.md
 - docs/unsupervised-learning/clustering/Cluster Validation.md
 - docs/unsupervised-learning/clustering/Cluster Validation.md
