@@ -71,7 +71,7 @@ Independent Variable **X = Continuous**
 * Corrections:
   * Nonlinear / Log transformation
 
-> #### Dummy Variable Trap
+> ### Dummy Variable Trap
 >
 > * \[x\] Include one less variable when adding dummy variables to regression.
 > * \[x\] The excluded variable serves as the base variable.
