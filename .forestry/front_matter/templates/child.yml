@@ -5,12 +5,20 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: text
-  name: parent
-  label: parent
+  default: default
+  config:
+    required: false
+  hidden: true
 - type: text
   name: title
   label: title
+- type: text
+  name: parent
+  label: parent
+- name: has_children
+  type: boolean
+  label: has_children
+  default: false
 - type: number
   name: nav_order
   label: nav_order
