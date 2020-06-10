@@ -73,6 +73,6 @@ Independent Variable **X = Continuous**
 
 > ### Dummy Variable Trap
 >
-> * \[x\] Include one less variable when adding dummy variables to regression.
-> * \[x\] The excluded variable serves as the base variable.
-> * \[x\] All the other values are a reference to the base variable.
+> * [x] Include one less variable when adding dummy variables to regression.
+> * [x] The excluded variable serves as the base variable.
+> * [x] All the other values are a reference to the base variable.
