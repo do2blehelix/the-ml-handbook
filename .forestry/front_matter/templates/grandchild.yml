@@ -24,3 +24,4 @@ pages:
 - docs/c-unsupervised-learning/clustering/2-hierarchical-clustering.md
 - docs/c-unsupervised-learning/clustering/3-dbscan.md
 - docs/c-unsupervised-learning/clustering/4-gaussian-mixture-model.md
+- docs/c-unsupervised-learning/clustering/cluster-validation.md
