@@ -16,20 +16,20 @@ Method = Ordinary Least Square{: .label }
 Independent Variable X = Continuous  
 **`i.e the complete data should be numerical in nature`
 
-> Objective is to minimise the sum of squares of the residuals   
+> Objective is to minimize the sum of squares of the residuals   
 > _(residual=difference between observation and the fitted line)_
 
  
 
 ### Assumptions
 
-1. Linear relationship between dependent & independent variables
-2. No presence of outliers
-3. Independent variables are independent of each other (non collinear)
-4. Errors, also called residuals
-   1. Should have constant variance (homoscedasticity)
-   2. Are independent and identically distributed (iid) ie No Autocorrelation
-   3. Are normally distributed with a mean of 0
+1. **Linear relationship** between dependent & independent variables
+2. **No presence of outliers**
+3. **Independent variables are independent** of each other (non colinear)
+4. **Errors,** also called **residuals**
+   1. Should have **constant variance** (homoscedasticity)
+   2. Are independent and identically distributed (iid) ie **No Autocorrelation**
+   3. Are **normally distributed** with a mean of 0
 
 ### Tests for Assumptions:
 
