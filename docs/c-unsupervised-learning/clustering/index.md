@@ -12,20 +12,12 @@ nav_order: 1
 
 Clustering Is a set of data driven partitioning techniques designed to group a collection of objects into clusters.
 
+⚠️ **Data should ALWAYS be continuous and standardized in nature.**
+
 **✴ Clustering is finding borders between groups  
 ✴ Segmentation is using borders to form groups**
 
- 
-
-**Methods**
-
-* Linkage method
-* Variance method
-* Centroid method
-
- 
-
-**Applications :**
+### Applications :
 
 * Market Segmentation
 * Sales segmentation : what type of customer wants what
@@ -36,8 +28,23 @@ Clustering Is a set of data driven partitioning techniques designed to group a c
 
  
 
-The decision of merging two clusters is taken on the basis of closeness of these clusters. There are multiple metrics for deciding the  
-**Closeness of two clusters :**
+### How to build clusters :
+
+1. Select distance measure
+2. Select clustering algorithm
+3. Define the distance between 2 clusters
+4. Determine no of clusters
+5. Validate the analysis
+
+### Methods
+
+* Linkage method
+* Variance method
+* Centroid method
+
+### Closeness of two clusters :
+
+The decision of merging two clusters is taken on the basis of closeness of these clusters. There are multiple metrics for deciding:
 
 * Euclidean distance: (a-b)2 = √(Σ(ai-bi))
 * Squared Euclidean distance: ((a-b)2)2 = Σ((ai-bi)2)
@@ -47,14 +54,4 @@ The decision of merging two clusters is taken on the basis of closeness of these
 
  
 
-**How to build clusters :**
-
-1. Select distance measure
-2. Select clustering algorithm
-3. Define the distance between 2 clusters
-4. Determine no of clusters
-5. Validate the analysis
-
  
-
-⚠️ **Data should ALWAYS be continuous and standardized in nature.**
