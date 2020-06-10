@@ -5,6 +5,7 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: default
 - type: boolean
   name: has_children
   label: has_children
