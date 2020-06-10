@@ -8,14 +8,6 @@ nav_order: 1
 ---
 # Regression
 
-{: .no_toc }
-
-Table of contents
-
-{: .no_toc .text-delta }
-
-1\. TOC
-
 {:toc}
 
 Regression analysis is a statistical process for estimating the relationships among variables.
