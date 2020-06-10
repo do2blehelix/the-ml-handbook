@@ -23,12 +23,18 @@ Regression analysis is a statistical process for estimating the relationships am
 * Time Series : data at multiple points in time with a single variable
 * Longitudinal / Pooled / Panel : cross sectional time series data
 
- 
-
 ### Common Terms
 
 * **Dependent Variable (Y) :** the field which relies on other variables
 * **Independent Variable(s) (X)** **:** the assorted variables which has a direct effect on the dependent variable, whether positive or negative.
+* Linear Equation : Simply the a straight line with a formula 
+
+    y = mx + c
+    y:  
+    m: intercept 
+    x: x co-ordinates
+    c: constant (or error)
+
 * **B-coefficient** : if X increases by 1 unit, then Y increases by B-coeff units.
 * **Intercept** : Value of predicted Y if both X=0 and Y=0  
   Intercept is the value or baseline, (organic growth)
