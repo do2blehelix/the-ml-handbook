@@ -71,8 +71,19 @@ Independent Variable **X = Continuous**
 * Corrections:
   * Nonlinear / Log transformation
 
+### One Hot Encoding
+
+This method is used to convert Categorical variables to Continuous variables. It is very simple:
+
+| Transport |   |   | Car | Bus | Train |  
+| Car |   |   |  1 | 0 | 0 |  
+| Bus |   |   | 0 | 1 | 0 |  
+| Train |   |   | 0  | 0 | 1 |
+
 > ### Dummy Variable Trap
 >
-> * [x] Include one less variable when adding dummy variables to regression.
-> * [x] The excluded variable serves as the base variable.
-> * [x] All the other values are a reference to the base variable.
+> Lookout for this when converting categorical variables to continuous variables by one hot encoding (flag variable)
+>
+> * \[x\] Include one less variable when adding dummy variables to regression.
+> * \[x\] The excluded variable serves as the base variable.
+> * \[x\] All the other values are a reference to the base variable.
