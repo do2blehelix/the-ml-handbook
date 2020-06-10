@@ -37,7 +37,7 @@ It is based on division of objects into non overlapping subsets. Main objective 
 
 K means clustering doesn't provide an estimate of the number of clusters required. Hence elbow criterion is used to determine optimal number of clusters.
 
-The method says that you should choose a number of clusters so that adding another cluster does not add any sufficient information. It is plotted by **ratio of within cluster variance to between cluster variance** against number of clusters. The objective is to minimize the within and maximize the between distances.
+The method states that you should choose a number of clusters so that adding another cluster does not add any sufficient information. It is plotted by **ratio of within cluster variance to between cluster variance** against number of clusters. The objective is to minimize the within and maximize the between distances.
 
 ### Validation:
 
@@ -46,6 +46,11 @@ The method says that you should choose a number of clusters so that adding anoth
 * Calinski Harabasz Score
 
 ### Implementaion
+
+    from sklearn.cluster import KMeans
+    
+    km = Kmeans(n_clusters=2, max_iter=100)
+    km.fit(X_std)
 
 * R squared : R2 = Between sum of squares / total sum of squares
 * Pseudo f
