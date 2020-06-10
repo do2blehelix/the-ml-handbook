@@ -8,14 +8,22 @@ nav_order: 1
 ---
 # Regression
 
+{: .no_toc }
+
+Table of contents
+
+{: .no_toc .text-delta }
+
+1\. TOC
+
+{:toc}
+
 Regression analysis is a statistical process for estimating the relationships among variables.
 
-**Correlation** only measures the strength of a linear relationship, it doesn’t tell anything regarding the relationship.   
+**Correlation** only measures the strength of a linear relationship, it doesn’t tell anything regarding the relationship.  
 **Regression** is used to figure out the relationship itself.
 
 > _Eg: if correlation between Y and X is 0.7 then it says if X increases, 70% of the time Y increases. But regression tells if X increases by 1 unit, by how many units does Y increase._
-
- 
 
 **Types of Data**
 
@@ -27,14 +35,13 @@ Regression analysis is a statistical process for estimating the relationships am
 
 * **Dependent Variable (Y) :** the field which relies on other variables
 * **Independent Variable(s) (X)** **:** the assorted variables which has a direct effect on the dependent variable, whether positive or negative.
-* Linear Equation : Simply the a straight line with a formula 
+* Linear Equation : Simply the a straight line with a formula
 
-    y = mx + c
-    y:  
-    m: intercept 
-    x: x co-ordinates
-    c: constant (or error)
-
+  y = mx + c
+  y:  
+  m: intercept
+  x: x co-ordinates
+  c: constant (or error)
 * **B-coefficient** : if X increases by 1 unit, then Y increases by B-coeff units.
 * **Intercept** : Value of predicted Y if both X=0 and Y=0  
   Intercept is the value or baseline, (organic growth)
