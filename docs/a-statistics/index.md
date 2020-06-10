@@ -7,25 +7,16 @@ nav_order: "1"
 ---
 # Statistics
 
- 
- 
-
 **Descriptive Statistics** :  Provides statistical information about whole sets of data or populations.
 
 **Inferential Statistics** :  Provides statistical information about a dataset represented by a sample. It does so through a sample of the same population.
-
- 
- 
 
 ### Collected Data types
 
 * Time Series : Data collected over a period of time. (eg: same guy at different age)
 * Cross Sectional : Data collected at one point in time. (eg: different guys at one point in time)
 * Pooled : Combination of cross sectional and Time series data. (eg: different guys at different age)
-* Longitudinal / Panel : Same as pooled
-
- 
- 
+* Longitudinal / Panel : Same as pooled  
 
 ### Data Scale
 
@@ -35,9 +26,6 @@ nav_order: "1"
 * **Categorical**
   * Ordinal scale : Natural order exists (eg. high, medium, low)
   * Nominal scale : No natural order (eg. Names)
-
- 
- 
 
 ### Sampling
 
