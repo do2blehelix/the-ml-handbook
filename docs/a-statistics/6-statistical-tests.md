@@ -23,8 +23,6 @@ Two tailed: bi-directional (typing speed can increase or decrease with more typi
 Statistical calculation used to compare sample mean to population mean. Most useful `when standard deviation and the sample size is known`.
 _The z score tells how far, in standard deviations, a data-point is from the mean._
 
- 
-
 ### **t-Test** (all sample size _(also referred as sample size < 30)_)
 
 To determine if there is a statistically significant difference between two sample group means. Used **when population standard deviation is unknown.**
@@ -34,8 +32,6 @@ _(A large t-score tells you that the groups are different. A small t-score tells
 
 **- Paired samples t-Test** is used when there is a before - after ideology (matched) <br>
 **- Independent samples t-Test (Equal Variances/Unequal Variances)** is also known as a regular t-Test
-
- 
 
 ### **ANOVA**
 
@@ -47,23 +43,16 @@ _H0 : all the means of the groups are NOT statistically different (All samples a
 _HA : at least two group means are statistically different from each other. (At least one sample comes from a different population)_
 _F = (Between Group Variability) ÷ (Within Group Variability)_
 
- 
-
 ### **Chi-square**
 
 To test dependency or independency of categorical variables. Are 2 categorical variables independent
 Anuj says it checks the difference in means + variance
 Observed vs expected
 
- 
-
 ### **F test**
 
 It's a significance of variance test used for model evaluation. It is a one way ANOVA.
 It is basically the ratio of 2 chi square tests.
-
- 
- 
 
 | --- | --- | --- | --- |
 |  |  | Unmatched | Matched |
