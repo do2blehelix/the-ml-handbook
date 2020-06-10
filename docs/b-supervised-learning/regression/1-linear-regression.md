@@ -12,14 +12,12 @@ Method = Ordinary Least Square{: .label }
 
 ***
 
-**Dependent Variable Y  = Continuous  
-Independent Variable X = Continuous  
-**`i.e the complete data should be numerical in nature`
+Dependent Variable **Y  = Continuous**  
+Independent Variable **X = Continuous**  
+`i.e the complete data should be numerical in nature`
 
-> Objective is to minimize the sum of squares of the residuals   
+> Objective is to minimize the sum of squares of the residuals  
 > _(residual=difference between observation and the fitted line)_
-
- 
 
 ### Assumptions
 
