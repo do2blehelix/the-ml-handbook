@@ -10,6 +10,11 @@ nav_order: 2
 
 It is a set of nested clusters organized as a hierarchical tree. No decision about number of clusters It is not used when data is big due to higher processing time.
 
+**Types:**
+
+* Agglomerative : Start from n clusters and get to one cluster  _`Bottom up approach`_
+* Divisive : Start from one cluster and get to n clusters  _`Top down approach`_
+
 ### Advantages:
 
 * Produces an additional ability to visualize 
@@ -19,11 +24,6 @@ It is a set of nested clusters organized as a hierarchical tree. No decision abo
 
 * Computationally intensive 
 * Sensitive to noise and outliers
-
-### Types :
-
-* Agglomerative : Start from n clusters and get to one cluster  _`Bottom up approach`_
-* Divisive : Start from one cluster and get to n clusters  _`Top down approach`_
 
 ### Distance Between Clusters (Agglomerative Clustering)
 
