@@ -8,7 +8,7 @@ nav_order: 1
 ---
 # Linear Regression
 
-Method = Ordinary Least Square{: .label }
+#### Method = Ordinary Least Square{: .label }
 
 ***
 
