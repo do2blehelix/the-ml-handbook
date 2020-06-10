@@ -16,7 +16,7 @@ nav_order: 1
 * Time Series : Data collected over a period of time. (eg: same guy at different age)
 * Cross Sectional : Data collected at one point in time. (eg: different guys at one point in time)
 * Pooled : Combination of cross sectional and Time series data. (eg: different guys at different age)
-* Longitudinal / Panel : Same as pooled  
+* Longitudinal / Panel : Same as pooled
 
 ### Data Scale
 
