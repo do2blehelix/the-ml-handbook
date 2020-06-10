@@ -3,7 +3,7 @@ layout: default
 title: Linear Regression
 parent: Regression
 grand_parent: Supervised Learning
-nav_order: "1"
+nav_order: 1
 
 ---
 # Linear Regression
