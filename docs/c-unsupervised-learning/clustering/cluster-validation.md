@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cluster Validation
+title: "⬜ Cluster Validation"
 parent: Clustering
 grand_parent: Unsupervised Learning
 nav_order: 5
