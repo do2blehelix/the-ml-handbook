@@ -87,4 +87,4 @@ _However ln(0.9/0.1) = 2.217 and conversely, ln(0.1/0.9) = -2.217 relates in a m
 * With the logistic curve there is no mathematical solution that will produce the least squares estimates of the parameters. It's more of an optimization problem
 * For many of these models, the loss function chosen is called maximum likelihood
 
-A likelihood is a conditional probability (eg P(Y/|X), the probability of Y given X).
+A likelihood is a conditional probability (eg P(Y\|X), the probability of Y given X).
