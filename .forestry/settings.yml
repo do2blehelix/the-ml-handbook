@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: docs/b-supervised-learning
+  label: Supervised
+  create: all
+  match: "**/*"
+- type: directory
   path: docs/c-unsupervised-learning
   label: Unsupervised
   create: all
