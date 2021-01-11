@@ -2,15 +2,35 @@
 layout: default
 title: NLP
 nav_order: "6"
-published: false
 
 ---
-# The Important Stuff Everyone Misses!
+# Text Mining and NLP
 
-- **Multivariate Analysis** is nothing but regression
+**Applications**
 
-- Logistic regression IS a binomial regression (with logit link), a special case of the Generalized Linear Model. It doesn't classify anything *unless a threshold for the probability is set*. Classification is just its application.
-- Stepwise regression is by no means a regression. It's a (flawed) method of variable selection.
-- OLS is a method of estimation (among others: GLS, TLS, (RE)ML, PQL, etc.), NOT a regression.
-  Ridge, LASSO - it's a method of regularization, NOT a regression.
-- There are tens of models for the regression analysis. You mention mainly linear and logistic - it's just the GLM! Learn the others too (link in a comment). STOP with the "17 types of regression every DS should know".BTW, there're 270+ statistical tests. Not just t, chi2 & Wilcoxon
+* Sentiment Analysis
+* Speech Recognition
+* Chatbot
+* Machine Translation (Google Translate)
+* Spell Checking
+* Keyword Search
+* Information Extraction
+* Advertisement Matching
+
+NLP
+
+##### NLU - Natural Language Understanding
+
+* Mapping input to useful representations
+* Analyzing different aspects of the language
+
+##### NLG - Natural Language Generation
+
+* Text planning
+* Sentence planning
+* Text realization
+
+#### Ambiguities
+
+* Referential Ambiguity
+* 
