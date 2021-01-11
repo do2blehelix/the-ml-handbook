@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NLP
-nav_order: "6"
+nav_order: "7"
 
 ---
 # Text Mining and NLP
@@ -34,6 +34,6 @@ NLP
 
 * Lexical Ambiguity - Two or more possible meanings in a word.
   * She is looking for a **_match_** (matchstick vs partner)
-  * The fishermen went to the **_bank_** (riverbank vs bank)
+  * The fisherman went to the **_bank_** (riverbank vs bank)
 * Syntactic Ambiguity
 * Referential Ambiguity
