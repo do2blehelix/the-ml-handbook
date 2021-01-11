@@ -57,6 +57,14 @@ Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written togethe
 
 Normalize words into its base or root form by cutting prefixes or suffixes
 
-Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive)
+Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive) ; Snowball Stemmer (requires language input)
 
 #### Lemmatization
+
+Considers the morphological analysis of the word. Needs a detailed dictionary to link the word back to its lemma.
+
+* Groups together different inflected forms of the word, called Lemma.
+* Somehow similar to stemming as it maps several words to a common root.
+* Output is a proper word
+
+Eg **gone** **going** and **went** all maps to **go**
