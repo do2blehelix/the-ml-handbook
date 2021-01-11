@@ -38,4 +38,25 @@ NLP
   * The fisherman went to the **_bank_** (riverbank vs bank)
 * Syntactic Ambiguity (aka structural/grammatical ambiguity) - Two or more possible meanings in a sentence or a sequence of words.
   * The chicken is ready to ear
-* Referential Ambiguity
+* Referential Ambiguity - Referring to something using pronouns
+  * The boy told his father about the theft. **_He_** was very upset.
+
+### Processing text Terminologies
+
+#### Tokenization
+
+1st step is the process. Breaking the string into tokens, which are small structures.
+
+1. Break a complex sentence into words
+2. Understand the importance of each word
+3. Produce a structural description on an input sentence.
+
+Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written together
+
+#### Stemming
+
+Normalize words into its base or root form by cutting prefixes or suffixes
+
+Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive)
+
+#### Lemmatization
