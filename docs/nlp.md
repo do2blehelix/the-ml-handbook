@@ -36,5 +36,6 @@ NLP
 * Lexical Ambiguity - Two or more possible meanings in a word.
   * She is looking for a **_match_** (matchstick vs partner)
   * The fisherman went to the **_bank_** (riverbank vs bank)
-* Syntactic Ambiguity
+* Syntactic Ambiguity (aka structural/grammatical ambiguity) - Two or more possible meanings in a sentence or a sequence of words.
+  * The chicken is ready to ear
 * Referential Ambiguity
