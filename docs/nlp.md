@@ -53,6 +53,18 @@ has_children: false
 
 Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written together
 
+    from nltk.tokenize import word_tokenize
+    <> = word_tokenize(<>)
+    # check distribution
+    for word in <>
+    	fdist=[word.lower()]+=1
+    fdist
+    
+    from nltk.util import bigrams, trigrams, ngrams
+    singles = nltk.word_tokenize(<string>)
+    doubles = list(nltk.bigrams(<string>))
+    quads = list(nltk.ngrams(<string> , 4))
+
 #### Step2: Stemming
 
 **Normalize words into its base or root form by cutting prefixes or suffixes**. _Eg affects, affected, affecting, affection_ are stems of _affect_. 
