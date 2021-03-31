@@ -67,7 +67,7 @@ Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written togethe
 
 ## Step2: Stemming
 
-**Normalize words into its base or root form by cutting prefixes or suffixes**. _Eg affects, affected, affecting, affection_ are stems of _affect_. 
+**Normalize words into its base or root form by cutting prefixes or suffixes**. _Eg affects, affected, affecting, affection_ are stems of _affect_.
 
 Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive) ; Snowball Stemmer (requires language input)
 
@@ -92,9 +92,17 @@ Eg **gone** **going** and **went** all maps to **go**
     
     WordNetLemmatizer.lemmatize('<word>')
 
-### Stop Words
+#### Stop Words
 
-Sentence forming words not required for language processing. eg: _I, me, we, our, he, him_ 
+Sentence forming words not required for language processing. (eg: I, me, we, our, he, him_)_
+
+#### Parts of Speech
+
+Breaking the sentence into different parts of speech (eg, Noun, verb, adverb, adjective, etc.)
+
+#### Named Entity Recognition
+
+Connects the word to a named entity (eg: Movie, Organization, Person, Location, etc.)
 
 ## Running NLP
 
