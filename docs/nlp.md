@@ -1,9 +1,9 @@
 ---
 layout: default
 title: NLP
-nav_order: 7
----
+nav_order: "7"
 
+---
 # Text Mining and NLP
 
 **Applications**
@@ -36,7 +36,7 @@ NLP
   * She is looking for a **_match_** (matchstick vs partner)
   * The fisherman went to the **_bank_** (riverbank vs bank)
 * Syntactic Ambiguity (aka structural/grammatical ambiguity) - Two or more possible meanings in a sentence or a sequence of words.
-  * The chicken is ready to ear
+  * The chicken is ready to eat
 * Referential Ambiguity - Referring to something using pronouns
   * The boy told his father about the theft. **_He_** was very upset.
 
