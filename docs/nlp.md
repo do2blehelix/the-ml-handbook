@@ -2,8 +2,6 @@
 layout: default
 title: NLP
 nav_order: "7"
-published: true
-
 ---
 # Text Mining and NLP
 
