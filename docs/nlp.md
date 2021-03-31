@@ -87,6 +87,11 @@ Considers the morphological analysis of the word. Needs a detailed dictionary to
 
 Eg **gone** **going** and **went** all maps to **go**
 
+    from nltk.stem import wordnet
+    from nltk.stem import WordNetLemmatizer
+    
+    WordNetLemmatizer.lemmatize('<word>')
+
 ## Running NLP
 
     Install NLTK library, In NLTK Downloader, select all
