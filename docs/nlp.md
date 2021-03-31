@@ -18,8 +18,6 @@ has_children: false
 * Information Extraction
 * Advertisement Matching
 
-NLP
-
 ##### NLU - Natural Language Understanding
 
 * Mapping input to useful representations
@@ -68,3 +66,7 @@ Considers the morphological analysis of the word. Needs a detailed dictionary to
 * Output is a proper word
 
 Eg **gone** **going** and **went** all maps to **go**
+
+## Running NLP
+
+    Install NLTK library, In NLTK Downloader, select all
