@@ -9,7 +9,12 @@ has_children: false
 
 NLP can be divided in supervised and unsupervised techniques
 
-* Supervised: Text Classification (Spam Recognition, labeling, etc)
+* Supervised: 
+  * Text Classification (Spam Recognition, labeling, etc) 
+  * Spam Detection
+  * Sentiment Analysis
+  * Intent Classification
+  * Multi-Label, Multi-Class Text Classification
 * Unsupervised: Topic Modeling 
 
 **Applications**
@@ -129,5 +134,10 @@ Disadvantages: Since unsupervised, lesser accuracy.
 #### Topic Classification:
 
 Topic modeling used with classification (supervised learning). Tags are needed to be created to predefine classes.
+
+Methods:
+
+* Latent Semantic Analysis (LSA)
+* Latent Dirichlet Allocation (LDA)
 
 ## Sentiment Analysis
