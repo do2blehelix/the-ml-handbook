@@ -55,7 +55,9 @@ Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written togethe
 
 #### Stemming
 
-Normalize words into its base or root form by cutting prefixes or suffixes
+Once Tokenization is complete, we need to stem word.
+
+Normalize words into its base or root form by cutting prefixes or suffixes. _Eg affects, affected, affecting, affection_ are stems of _affect_. 
 
 Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive) ; Snowball Stemmer (requires language input)
 
