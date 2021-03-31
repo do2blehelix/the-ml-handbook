@@ -96,13 +96,25 @@ Eg **gone** **going** and **went** all maps to **go**
 
 Sentence forming words not required for language processing. (eg: I, me, we, our, he, him_)_
 
-#### Parts of Speech
+#### Parts of Speech (POS)
 
 Breaking the sentence into different parts of speech (eg, Noun, verb, adverb, adjective, etc.)
 
-#### Named Entity Recognition
+#### Named Entity Recognition (NER)
 
-Connects the word to a named entity (eg: Movie, Organization, Person, Location, etc.)
+Connects the word to a named entity (eg: Movie, Organization, Person, Location, etc.). Knowledge Graphs are used to
+
+#### Syntax
+
+Set of rules, principle and process that govern sentence formation
+
+Syntax Tree: representation of syntactic structure of sentences or strings
+
+#### Chunking
+
+Picking up Individual pieces of information and grouping them into bigger pieces.
+
+  
 
 ## Running NLP
 
