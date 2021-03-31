@@ -94,7 +94,7 @@ Eg **gone** **going** and **went** all maps to **go**
 
 ### Stop Words
 
-Sentence forming words: _eg I, me, we, our, he, him_ 
+Sentence forming words. eg: _I, me, we, our, he, him_ 
 
 ## Running NLP
 
