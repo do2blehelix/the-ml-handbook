@@ -43,9 +43,9 @@ has_children: false
 
 ### (Processing) Terminologies
 
-#### Tokenization
+#### Step1: Tokenization
 
-1st step is the process. Process of breaking the string into tokens, which are small structures eg words and special characters.
+**Process of breaking the string into tokens, which are small structures eg words and special characters**.
 
 1. Break a complex sentence into words
 2. Understand the importance of each word
@@ -53,11 +53,9 @@ has_children: false
 
 Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written together
 
-#### Stemming
+#### Step2: Stemming
 
-Once Tokenization is complete, we need to stem word.
-
-Normalize words into its base or root form by cutting prefixes or suffixes. _Eg affects, affected, affecting, affection_ are stems of _affect_. 
+**Normalize words into its base or root form by cutting prefixes or suffixes**. _Eg affects, affected, affecting, affection_ are stems of _affect_. 
 
 Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive) ; Snowball Stemmer (requires language input)
 
