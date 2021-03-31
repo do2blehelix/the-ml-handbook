@@ -92,6 +92,10 @@ Eg **gone** **going** and **went** all maps to **go**
     
     WordNetLemmatizer.lemmatize('<word>')
 
+### Stop Words
+
+Sentence forming words: eg I, me, we, our, he, him 
+
 ## Running NLP
 
     Install NLTK library, In NLTK Downloader, select all
