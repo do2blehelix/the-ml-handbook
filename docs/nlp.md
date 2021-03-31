@@ -39,11 +39,11 @@ has_children: false
 * Referential Ambiguity - Referring to something using pronouns
   * The boy told his father about the theft. **_He_** was very upset.
 
-### Processing text Terminologies
+### (Processing) Terminologies
 
 #### Tokenization
 
-1st step is the process. Breaking the string into tokens, which are small structures.
+1st step is the process. Process of breaking the string into tokens, which are small structures.
 
 1. Break a complex sentence into words
 2. Understand the importance of each word
