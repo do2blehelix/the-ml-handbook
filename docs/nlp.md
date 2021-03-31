@@ -41,9 +41,9 @@ has_children: false
 
 ***
 
-### (Processing) Terminologies
+## (Processing) Terminologies
 
-#### Step1: Tokenization
+## Step1: Tokenization
 
 **Process of breaking the string into tokens, which are small structures eg words and special characters**.
 
@@ -65,7 +65,7 @@ Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written togethe
     doubles = list(nltk.bigrams(<string>))
     quads = list(nltk.ngrams(<string> , 4))
 
-#### Step2: Stemming
+## Step2: Stemming
 
 **Normalize words into its base or root form by cutting prefixes or suffixes**. _Eg affects, affected, affecting, affection_ are stems of _affect_. 
 
@@ -77,7 +77,7 @@ Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive) ; Sno
     PorterStemmer.stem(<word>)
     LancasterStemmer.stem(<word>) #aggressive stemmer
 
-#### Lemmatization
+## Lemmatization
 
 Considers the morphological analysis of the word. Needs a detailed dictionary to link the word back to its lemma.
 
