@@ -3,6 +3,7 @@ layout: default
 title: NLP
 nav_order: "7"
 ---
+
 # Text Mining and NLP
 
 **Applications**
