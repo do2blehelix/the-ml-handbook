@@ -5,7 +5,12 @@ nav_order: 7
 has_children: false
 
 ---
-# Text Mining and NLP
+# Natural Language Processing
+
+NLP can be divided in supervised and unsupervised techniques
+
+* Supervised: Text Classification (Spam Recognition, labeling, etc)
+* Unsupervised: Topic Modeling 
 
 **Applications**
 
@@ -112,10 +117,17 @@ Syntax Tree: representation of syntactic structure of sentences or strings
 
 #### Chunking
 
-Picking up Individual pieces of information and grouping them into bigger pieces.
+Picking up Individual pieces of information (words, tokens) and grouping them into bigger pieces.
 
-  
+## Topic Modeling  
 
-## Running NLP
+Topic modeling is a machine learning technique that automatically analyzes text data to determine cluster words for a set of documents. It is an unsupervised ML technique where the model is not trained from before.
 
-    Install NLTK library, In NLTK Downloader, select all
+Advantages: Quick, easy start  
+Disadvantages: Since unsupervised, lesser accuracy.
+
+#### Topic Classification:
+
+Topic modeling used with classification (supervised learning). Tags are needed to be created to predefine classes.
+
+## Sentiment Analysis
