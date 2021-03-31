@@ -71,6 +71,9 @@ Bigrams, Trigrams, and Ngram - Token of 2,3 or n number of words written togethe
 
 Common Stemmers: Porter Stemmer (lenient) ; Lancaster Stemmer (aggressive) ; Snowball Stemmer (requires language input)
 
+    from nltk.stem import PorterStemmer
+    PorterStemmer.stem(<word>)
+
 #### Lemmatization
 
 Considers the morphological analysis of the word. Needs a detailed dictionary to link the word back to its lemma.
