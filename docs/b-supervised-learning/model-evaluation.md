@@ -2,17 +2,25 @@
 layout: default
 parent: Supervised Learning
 title: Model Evaluation
-nav_order: 4
+nav_order: "4"
 
 ---
-## Model Evaluation / Selection / Fits / Validation
+# Model Evaluation / Selection / Fits / Validation
+
+## Train Test Split
+
+* Before running the model, the data is split into `Training` and `Testing` sets.
+* The training to test split ratio is generally 70:30 and can vary.
+* The model is trained on the `Training` dataset hence the name
+* Once the model is fit on the data, we use the `Testing` dataset to check how the model performs.
+
+The model is best served with a k-fold cross validation set where the data is randomly split multiple `k` times and each time the model fit is checked.
 
 **Bias - Variance Tradeoff**
 
 Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
 
 Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
-
 
 ![](https://lh5.googleusercontent.com/QNFSL6we1fCDjTMHUUqz-WnKg_JuldfEulTu2qvDX7ZoDgoSxFAVhejDThCMLTRzfDqRs7Xll9ECL6NU7x6joEWnY0KXJsEePFabL5cH9pq0k6ya3Lxfyt9iguICnf7PfdXxlX2F =286x170)
 
@@ -28,8 +36,6 @@ High Bias, Low Variance models tend to underfit data, as they are not flexible. 
 
 High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
 
-
-
 ![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
 
 Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
@@ -41,26 +47,20 @@ Model Complexity Graph : Plots the training and testing error and helps find the
 R2= SSEIndependent VarSSEIndependent Var + SSEErrors
 
 * **Adjusted R Square : It penalizes for adding impurity (insignificant variables) to the model**
-
 * **MSE (Mean Squared Error) :**
-
 * **RMSE (Root Mean Square Error)** : It measures standard deviation of the residuals.
 
 Model with the least RMSE is the best model
 
 _= sqrt (Sum of Squared Errors) / no of obs = sqrt (mean ( (Actual - Predicted)2 ))_
 
-
 ![](https://lh3.googleusercontent.com/BMkjNWVQCJSEuhhwB7OcrweuDf43cblmp2yL2uqnKb3PeS0U927ylIohcxuWbq9CcIN_6th0vNw38KW8hpQV1nirzTuvho95ri6DFqBfrdDe1WPEXdidt38UEuuvPBfG9Km0Lcz_ =213x59)
 
 **Mean Square** : Sum of squares / df
 
 * **MAE (Mean Absolute Error) :** sum( |Error| ) / n _Error = Actual - Predicted |Error|=Absolute Error_
-
 * **MAPE (Mean Absolute Percentage Error) :** _{ absolute (average \[ (Actual - Predicted) / Actual \])}_ should not exceed \~ 8% - 10%
-
 * AIC
-
 * BIC
 
 Loss Functions: objective is to minimise these
@@ -97,8 +97,6 @@ Both sensitivity and specificity should be high for a good model.
 
 _Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
 
-
-
 ![](https://lh4.googleusercontent.com/FkafGOErm0s0Xoe-A6Jz4sPwzuhkiJG5R78igy7yyF75B3dGphFuDXuCV49deEHcmBsXys33YWMcEXvaS3yt2MdGQI8K87-TMtjSUWLIJrjl0WNJgveMCP_bYtQBwk0kxKpVA1SC =234x58)
 
 * **Precision** _(aka PPV) _: **TP ÷ (TP + FP)**
@@ -108,7 +106,6 @@ _Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; l
 | --- | --- |
 | TP | FN |
 | FP | TN |
-
 
 ![](https://lh6.googleusercontent.com/-88NYrtKtm6jDoSaPQOuolCDT-TUMZ9JAJ2In_J5oe8qPpNl5vVH59fCvQrj2YCIqDSbXzi-Us04VI7m9gCNml_ArzF4biKv5fnRjWmutvTY2nxWcgjBdo0ILlDSQIWnmEeNaCaB =209x68)
 
