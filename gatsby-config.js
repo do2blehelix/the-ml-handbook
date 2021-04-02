@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Document by Code Bushi`,
     name: `Code Bushi`,
-    siteUrl: `https://gatsby-theme-document.netlify.com`,
+    siteUrl: `https://do2blehelix.github.io`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     social: [
       {
@@ -19,5 +19,6 @@ module.exports = {
       ignoreIndex: true
     }
   },
-  plugins: [{ resolve: `gatsby-theme-document` }]
+  plugins: [{ resolve: `gatsby-theme-document` }],
+  pathPrefix: "/the-ml-handbook"
 };
