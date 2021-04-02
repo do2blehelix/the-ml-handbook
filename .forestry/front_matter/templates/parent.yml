@@ -20,5 +20,6 @@ pages:
 - docs/a-statistics/index.md
 - docs/a-statistics/index.md
 - docs/b-supervised-learning/index.md
+- docs/c-unsupervised-learning/index.md
 - docs/need-to-know.md
 - docs/nlp.md
