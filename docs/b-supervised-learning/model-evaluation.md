@@ -52,7 +52,7 @@ Loss Functions: objective is to minimise these
 
 ## Classification Metrics :
 
-* **Precision** _(aka PPV) _: **TP ÷ (TP + FP)**
+* **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
 * **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
 * **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
