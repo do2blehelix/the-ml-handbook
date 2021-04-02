@@ -24,6 +24,7 @@ fields:
   label: nav_order
 pages:
 - docs/a-statistics/6-statistical-tests.md
+- docs/b-supervised-learning/model-evaluation.md
 - docs/c-unsupervised-learning/clustering/index.md
 - docs/c-unsupervised-learning/knn-(k-nearest-neighbors).md
 - docs/c-unsupervised-learning/singular-value-decomposition.md

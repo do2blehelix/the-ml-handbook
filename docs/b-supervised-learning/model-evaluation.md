@@ -1,66 +1,47 @@
 ---
 layout: default
 parent: Supervised Learning
-title: Model Evaluation
+title: "☑️ Model Evaluation"
 nav_order: 4
+has_children: false
 
 ---
-## Model Evaluation / Selection / Fits / Validation
+# Model Evaluation / Selection / Fits / Validation
 
-**Bias - Variance Tradeoff**
+## Train Test Split
 
-Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
+* Before running the model, the data is split into `Training` and `Testing` sets.
+* The training to test split ratio is generally 70:30 and can vary.
+* The model is trained on the `Training` dataset hence the name
+* Once the model is fit on the data, we use the `Testing` dataset to check how the model performs.
 
-Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
+The model is best served with a k-fold cross validation set where the data is randomly split multiple `k` times and each time the model fit is checked.
 
+***
 
-![](https://lh5.googleusercontent.com/QNFSL6we1fCDjTMHUUqz-WnKg_JuldfEulTu2qvDX7ZoDgoSxFAVhejDThCMLTRzfDqRs7Xll9ECL6NU7x6joEWnY0KXJsEePFabL5cH9pq0k6ya3Lxfyt9iguICnf7PfdXxlX2F =286x170)
+## Regression Metrics:
 
-high bias = high (pred - act) = high error = underfit model
+* **R Square:** % of variance in `Y` that is explained by `X`. It is defined as the square of correlation between Predicted and Actual values.
 
-high variance = high sensitivity in changes in data = overfit model
-
-**When a model has high bias, this means that it doesn't do a good job of bending to the data**
-
-**When a model has high variance, this means that it changes drastically to meet the needs of every point in our dataset**
-
-High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
-
-High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
-
-
-
-![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
-
-Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
-
-### Regression Metrics :
-
-* **R Square : % of variance in Y that is explained by X. It is defined as the square of correlation between Predicted and Actual values.![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
+**![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
 
 R2= SSEIndependent VarSSEIndependent Var + SSEErrors
 
-* **Adjusted R Square : It penalizes for adding impurity (insignificant variables) to the model**
-
+* **Adjusted R Square:** Similar to R2. It penalizes for adding impurity (insignificant variables) to the model
 * **MSE (Mean Squared Error) :**
-
 * **RMSE (Root Mean Square Error)** : It measures standard deviation of the residuals.
 
 Model with the least RMSE is the best model
 
 _= sqrt (Sum of Squared Errors) / no of obs = sqrt (mean ( (Actual - Predicted)2 ))_
 
-
 ![](https://lh3.googleusercontent.com/BMkjNWVQCJSEuhhwB7OcrweuDf43cblmp2yL2uqnKb3PeS0U927ylIohcxuWbq9CcIN_6th0vNw38KW8hpQV1nirzTuvho95ri6DFqBfrdDe1WPEXdidt38UEuuvPBfG9Km0Lcz_ =213x59)
 
 **Mean Square** : Sum of squares / df
 
 * **MAE (Mean Absolute Error) :** sum( |Error| ) / n _Error = Actual - Predicted |Error|=Absolute Error_
-
 * **MAPE (Mean Absolute Percentage Error) :** _{ absolute (average \[ (Actual - Predicted) / Actual \])}_ should not exceed \~ 8% - 10%
-
 * AIC
-
 * BIC
 
 Loss Functions: objective is to minimise these
@@ -69,46 +50,44 @@ Loss Functions: objective is to minimise these
 * MSE : Mean Squared Error _(mean of the squared errors)_
 * RMSE : Root Mean Squared Error _(square root of the mean of squared errors)_
 
-### Classification Metrics :![](https://lh6.googleusercontent.com/V1bR60sTazQxuSSGuoaafLFL2gG53aT3Xe-b37gtsjadm_gIlgoXGGMX5zDGBpVNBOoc9jpDwpbzpVwTwiYe8R5FZZoDc9JZ3BMfgQyB_rpTb3yV0W6Y50-gE7RhqUEUQe2zAbyx =292x219)
+## Classification Metrics :
 
-#### Confusion Matrix
-
-A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
-
-**Sensitivity :** (True Positive Rate or Recall)
-
-% of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
-
-**Specificity :**
-
-% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
-
-Positive Predicted Value = _TP ÷ (TP + FP)_
-
-Negative Predicted Value = _TN ÷ (TN + FN)_
-
-Accuracy = (_TP + FP) ÷ (TP + FP + TN + FN)_
-
-Misclassification Rate = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
-
-Both sensitivity and specificity should be high for a good model.
-
-**_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place_
-
-_Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
-
-
-
-![](https://lh4.googleusercontent.com/FkafGOErm0s0Xoe-A6Jz4sPwzuhkiJG5R78igy7yyF75B3dGphFuDXuCV49deEHcmBsXys33YWMcEXvaS3yt2MdGQI8K87-TMtjSUWLIJrjl0WNJgveMCP_bYtQBwk0kxKpVA1SC =234x58)
-
-* **Precision** _(aka PPV) _: **TP ÷ (TP + FP)**
+* **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
 * **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
 * **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
-| --- | --- |
-| TP | FN |
-| FP | TN |
+#### Confusion Matrix
 
+## ![](https://lh6.googleusercontent.com/V1bR60sTazQxuSSGuoaafLFL2gG53aT3Xe-b37gtsjadm_gIlgoXGGMX5zDGBpVNBOoc9jpDwpbzpVwTwiYe8R5FZZoDc9JZ3BMfgQyB_rpTb3yV0W6Y50-gE7RhqUEUQe2zAbyx =292x219)
+
+|               | Actual (+) | Actual (-) |  
+| Predicted (+) | TP         | TP         |  
+| Predicted (-) | FN         | TN         |
+
+A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
+
+**Sensitivity :** (True Positive Rate or Recall)  
+% of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
+
+\**Specificity :  
+\**% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
+
+**Positive Predicted Value** = _TP ÷ (TP + FP)_
+
+**Negative Predicted Value** = _TN ÷ (TN + FN)_
+
+**Accuracy** = (_TP + FP) ÷ (TP + FP + TN + FN)_
+
+**Misclassification Rate** = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
+
+Both sensitivity and specificity should be high for a good model.
+
+> **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
+> Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
+
+![](https://lh4.googleusercontent.com/FkafGOErm0s0Xoe-A6Jz4sPwzuhkiJG5R78igy7yyF75B3dGphFuDXuCV49deEHcmBsXys33YWMcEXvaS3yt2MdGQI8K87-TMtjSUWLIJrjl0WNJgveMCP_bYtQBwk0kxKpVA1SC =234x58)
+
+| --- | --- | | TP | FN | | FP | TN |
 
 ![](https://lh6.googleusercontent.com/-88NYrtKtm6jDoSaPQOuolCDT-TUMZ9JAJ2In_J5oe8qPpNl5vVH59fCvQrj2YCIqDSbXzi-Us04VI7m9gCNml_ArzF4biKv5fnRjWmutvTY2nxWcgjBdo0ILlDSQIWnmEeNaCaB =209x68)
 
@@ -225,6 +204,32 @@ _= (Concordant pairs - Discordant pairs ) / Total Pairs_
 #### Gamma
 
 Similar to Somers’ D but does not penalize for tied pairs.
+
+**Bias - Variance Tradeoff**
+
+Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
+
+Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
+
+![](https://lh5.googleusercontent.com/QNFSL6we1fCDjTMHUUqz-WnKg_JuldfEulTu2qvDX7ZoDgoSxFAVhejDThCMLTRzfDqRs7Xll9ECL6NU7x6joEWnY0KXJsEePFabL5cH9pq0k6ya3Lxfyt9iguICnf7PfdXxlX2F =286x170)
+
+high bias = high (pred - act) = high error = underfit model
+
+high variance = high sensitivity in changes in data = overfit model
+
+**When a model has high bias, this means that it doesn't do a good job of bending to the data**
+
+**When a model has high variance, this means that it changes drastically to meet the needs of every point in our dataset**
+
+High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
+
+High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
+
+![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
+
+Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
+
+* 
 
 ### Validation :
 

@@ -16,9 +16,15 @@ fields:
 - type: number
   name: nav_order
   label: nav_order
+  config:
+    min: 2
+    max: 10
+    step: 1
 pages:
 - docs/a-statistics/index.md
 - docs/a-statistics/index.md
 - docs/b-supervised-learning/index.md
+- docs/c-unsupervised-learning/index.md
+- docs/d-reinforcement-learning/index.md
 - docs/need-to-know.md
 - docs/nlp.md
