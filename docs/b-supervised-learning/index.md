@@ -2,7 +2,7 @@
 layout: default
 has_children: true
 title: Supervised Learning
-nav_order: 2
+nav_order: 3
 
 ---
 # Supervised Learning
