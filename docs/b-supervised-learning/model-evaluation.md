@@ -2,7 +2,8 @@
 layout: default
 parent: Supervised Learning
 title: "☑️ Model Evaluation"
-nav_order: "4"
+nav_order: 4
+has_children: false
 
 ---
 # Model Evaluation / Selection / Fits / Validation
