@@ -71,27 +71,24 @@ Recall
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
 
-**Sensitivity :** (True Positive Rate or Recall)
-
+**Sensitivity :** (True Positive Rate or Recall)  
 % of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
 
-**Specificity :**
+**Specificity :  
+**% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
 
-% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
+**Positive Predicted Value** = _TP ÷ (TP + FP)_
 
-Positive Predicted Value = _TP ÷ (TP + FP)_
+**Negative Predicted Value** = _TN ÷ (TN + FN)_
 
-Negative Predicted Value = _TN ÷ (TN + FN)_
+**Accuracy** = (_TP + FP) ÷ (TP + FP + TN + FN)_
 
-Accuracy = (_TP + FP) ÷ (TP + FP + TN + FN)_
-
-Misclassification Rate = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
+**Misclassification Rate** = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
 
 Both sensitivity and specificity should be high for a good model.
 
-**_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place_
-
-_Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
+> **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
+> Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
 
 ![](https://lh4.googleusercontent.com/FkafGOErm0s0Xoe-A6Jz4sPwzuhkiJG5R78igy7yyF75B3dGphFuDXuCV49deEHcmBsXys33YWMcEXvaS3yt2MdGQI8K87-TMtjSUWLIJrjl0WNJgveMCP_bYtQBwk0kxKpVA1SC =234x58)
 
