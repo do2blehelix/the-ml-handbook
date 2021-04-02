@@ -16,6 +16,10 @@ fields:
 - type: number
   name: nav_order
   label: nav_order
+  config:
+    min: 2
+    max: 10
+    step: 1
 pages:
 - docs/a-statistics/index.md
 - docs/a-statistics/index.md
