@@ -21,13 +21,13 @@ The model is best served with a k-fold cross validation set where the data is ra
 
 ## Regression Metrics:
 
-* R Square : % of variance in Y that is explained by X. It is defined as the square of correlation between Predicted and Actual values.
+* **R Square:** % of variance in `Y` that is explained by `X`. It is defined as the square of correlation between Predicted and Actual values.
 
 **![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
 
 R2= SSEIndependent VarSSEIndependent Var + SSEErrors
 
-* **Adjusted R Square : It penalizes for adding impurity (insignificant variables) to the model**
+* **Adjusted R Square:** Similar to R2. It penalizes for adding impurity (insignificant variables) to the model
 * **MSE (Mean Squared Error) :**
 * **RMSE (Root Mean Square Error)** : It measures standard deviation of the residuals.
 
