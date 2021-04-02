@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Supervised Learning
-title: Model Evaluation
+title: "☑️ Model Evaluation"
 nav_order: "4"
 
 ---
@@ -16,33 +16,13 @@ nav_order: "4"
 
 The model is best served with a k-fold cross validation set where the data is randomly split multiple `k` times and each time the model fit is checked.
 
-**Bias - Variance Tradeoff**
+***
 
-Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
+## Regression Metrics:
 
-Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
+* R Square : % of variance in Y that is explained by X. It is defined as the square of correlation between Predicted and Actual values.
 
-![](https://lh5.googleusercontent.com/QNFSL6we1fCDjTMHUUqz-WnKg_JuldfEulTu2qvDX7ZoDgoSxFAVhejDThCMLTRzfDqRs7Xll9ECL6NU7x6joEWnY0KXJsEePFabL5cH9pq0k6ya3Lxfyt9iguICnf7PfdXxlX2F =286x170)
-
-high bias = high (pred - act) = high error = underfit model
-
-high variance = high sensitivity in changes in data = overfit model
-
-**When a model has high bias, this means that it doesn't do a good job of bending to the data**
-
-**When a model has high variance, this means that it changes drastically to meet the needs of every point in our dataset**
-
-High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
-
-High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
-
-![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
-
-Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
-
-### Regression Metrics :
-
-* **R Square : % of variance in Y that is explained by X. It is defined as the square of correlation between Predicted and Actual values.![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
+**![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
 
 R2= SSEIndependent VarSSEIndependent Var + SSEErrors
 
@@ -68,6 +48,32 @@ Loss Functions: objective is to minimise these
 * MAE : Mean Absolute Error _(mean of the absolute errors)_
 * MSE : Mean Squared Error _(mean of the squared errors)_
 * RMSE : Root Mean Squared Error _(square root of the mean of squared errors)_
+
+**Bias - Variance Tradeoff**
+
+Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
+
+Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
+
+![](https://lh5.googleusercontent.com/QNFSL6we1fCDjTMHUUqz-WnKg_JuldfEulTu2qvDX7ZoDgoSxFAVhejDThCMLTRzfDqRs7Xll9ECL6NU7x6joEWnY0KXJsEePFabL5cH9pq0k6ya3Lxfyt9iguICnf7PfdXxlX2F =286x170)
+
+high bias = high (pred - act) = high error = underfit model
+
+high variance = high sensitivity in changes in data = overfit model
+
+**When a model has high bias, this means that it doesn't do a good job of bending to the data**
+
+**When a model has high variance, this means that it changes drastically to meet the needs of every point in our dataset**
+
+High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
+
+High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
+
+![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
+
+Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
+
+* 
 
 ### Classification Metrics :![](https://lh6.googleusercontent.com/V1bR60sTazQxuSSGuoaafLFL2gG53aT3Xe-b37gtsjadm_gIlgoXGGMX5zDGBpVNBOoc9jpDwpbzpVwTwiYe8R5FZZoDc9JZ3BMfgQyB_rpTb3yV0W6Y50-gE7RhqUEUQe2zAbyx =292x219)
 
