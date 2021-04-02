@@ -52,11 +52,9 @@ Loss Functions: objective is to minimise these
 
 ## Classification Metrics :
 
-Accuracy
-
-Precision
-
-Recall
+* **Precision** _(aka PPV) _: **TP ÷ (TP + FP)**
+* **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
+* **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
 #### Confusion Matrix
 
@@ -91,10 +89,6 @@ Both sensitivity and specificity should be high for a good model.
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
 
 ![](https://lh4.googleusercontent.com/FkafGOErm0s0Xoe-A6Jz4sPwzuhkiJG5R78igy7yyF75B3dGphFuDXuCV49deEHcmBsXys33YWMcEXvaS3yt2MdGQI8K87-TMtjSUWLIJrjl0WNJgveMCP_bYtQBwk0kxKpVA1SC =234x58)
-
-* **Precision** _(aka PPV) _: **TP ÷ (TP + FP)**
-* **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
-* **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
 | --- | --- | | TP | FN | | FP | TN |
 
