@@ -60,15 +60,21 @@ Loss Functions: objective is to minimise these
 
 ## ![](https://lh6.googleusercontent.com/V1bR60sTazQxuSSGuoaafLFL2gG53aT3Xe-b37gtsjadm_gIlgoXGGMX5zDGBpVNBOoc9jpDwpbzpVwTwiYe8R5FZZoDc9JZ3BMfgQyB_rpTb3yV0W6Y50-gE7RhqUEUQe2zAbyx =292x219)
 
-#### 
+|               | Actual (+) | Actual (-) |
+
+|---------------|------------|------------|
+
+| Predicted (+) | TP         | TP         |
+
+| Predicted (-) | FN         | TN         |
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
 
 **Sensitivity :** (True Positive Rate or Recall)  
 % of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
 
-**Specificity :  
-**% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
+\**Specificity :  
+\**% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
 
 **Positive Predicted Value** = _TP ÷ (TP + FP)_
 
