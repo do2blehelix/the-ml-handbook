@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - develop
     tags:
       - '*'
   pull_request:
@@ -44,7 +43,7 @@ jobs:
         uses: jakepartusch/wait-for-netlify-action@v1
         id: waitFor300
         with:
-          site_name: "boogi"
+          site_name: "the-ml-handbook"
           max_timeout: 300
       - name: Netlify deploy logs
         uses: bdougie/loglify@master  
@@ -65,9 +64,9 @@ jobs:
     - name: Build Docker image
       uses: docker/build-push-action@v1.1.0
       with:
-        username: filipowm
+        username: do2blehelix
         password: ${{ secrets.DOCKER_REGISTRY_PASS }}
-        repository: filipowm/boogi
+        repository: do2blehelix/the-ml-handbook
         tags: latest
         tag_with_ref: true
         tag_with_sha: false 
