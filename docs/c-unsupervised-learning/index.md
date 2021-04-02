@@ -2,10 +2,9 @@
 layout: default
 has_children: true
 title: Unsupervised Learning
-nav_order: 3
+nav_order: "4"
 
 ---
-
 # Unsupervised Learning
 
 In Unsupervised Learning, you have **non labelled data** and are trying to group together similar data points based off of features. No concept of Dependent and Independent Variables
