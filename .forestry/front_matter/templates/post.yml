@@ -17,8 +17,5 @@ fields:
 - type: boolean
   name: enableToc
   label: enableToc
-- type: list
-  name: tocLevels
-  label: tocLevels
 pages:
 - content/handbook/statistics/1-central-tendency.md
