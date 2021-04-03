@@ -4,6 +4,9 @@ title: Support Vector Machine
 parent: Classification
 grand_parent: Supervised Learning
 nav_order: 3
+description: Support Vector Machine
+date: 2021-04-03 18:30:00 +0000
+weight: 3
 
 ---
 # SVM (Support Vector Machine)
@@ -51,5 +54,3 @@ Kernel :
 Note: when C is too large for a particular set of data, you might not get convergence at all because your data cannot be separated with the small number of errors allotted with such a large value of C.
 
 * Kernel Methods : Kernels in SVMs allow us the ability to separate data when the boundary between them is nonlinear. Specifically, you saw two types of kernels: polynomial, rbf. By far the most popular kernel is the rbf kernel (which stands for radial basis function). The rbf kernel allows you the opportunity to classify points that seem hard to separate in any space. This is a density based approach that looks at the closeness of points to one another. This introduces another hyper-parameter gamma. When gamma is large, the outcome is similar to having a large value of C, that is your algorithm will attempt to classify every point correctly. Alternatively, small values of gamma will try to cluster in a more general way that will make more mistakes, but may perform better when it sees new data.
-
-
