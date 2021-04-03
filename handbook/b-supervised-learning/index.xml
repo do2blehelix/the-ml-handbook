@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supervised Learning on ZDoc</title>
+    <link>http://example.org/handbook/b-supervised-learning/</link>
+    <description>Recent content in Supervised Learning on ZDoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="http://example.org/handbook/b-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Classification</title>
+        <link>http://example.org/handbook/b-supervised-learning/2-classification/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/handbook/b-supervised-learning/2-classification/</guid>
+        <description>﻿# Classification</description>
+      </item>
+      
+      <item>
+        <title>Ensemble Learning</title>
+        <link>http://example.org/handbook/b-supervised-learning/3-ensemble/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/handbook/b-supervised-learning/3-ensemble/</guid>
+        <description>﻿# Ensemble Learning
+Ensemble model combines multiple ‘individual’ (diverse) models together and delivers superior prediction power. A good model should maintain a balance between bias-variance. This is known as the trade-off management of bias-variance errors. Ensemble learning is one way to execute this trade off analysis.
+**Bagging :**Bagging is an approach where you take random samples of data, build learning algorithms and take simple means to find bagging probabilities.Objective is to average noisy and unbiased models to create a model with low variance</description>
+      </item>
+      
+      <item>
+        <title>Regression</title>
+        <link>http://example.org/handbook/b-supervised-learning/1-regression/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/handbook/b-supervised-learning/1-regression/</guid>
+        <description>Regression {:toc}
+Regression analysis is a statistical process for estimating the relationships among variables.
+Correlation only measures the strength of a linear relationship, it doesn’t tell anything regarding the relationship.
+Regression is used to figure out the relationship itself.
+ Eg: if correlation between Y and X is 0.7 then it says if X increases, 70% of the time Y increases. But regression tells if X increases by 1 unit, by how many units does Y increase.</description>
+      </item>
+      
+      <item>
+        <title>Time Series / Forecasting</title>
+        <link>http://example.org/handbook/b-supervised-learning/time-series-forecasting/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/handbook/b-supervised-learning/time-series-forecasting/</guid>
+        <description>Time Series (Forecasting) [Method = Box-Jenkins (B-J)] Components Trend : A long term (relatively smooth) pattern that usually persists for more than one year
+Eg : increasing no of flight passengers
+Seasonal : Pattern that occurs at regular intervals. [multiple times in a year (least is once a year)]
+Eg December sale
+Cyclical : Pattern that occurs over a long time, generally continues over a year
+Eg : Recession
+Random : The component obtained after the above patterns have been extracted.</description>
+      </item>
+      
+      <item>
+        <title>☑️ Model Evaluation</title>
+        <link>http://example.org/handbook/b-supervised-learning/model-evaluation/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://example.org/handbook/b-supervised-learning/model-evaluation/</guid>
+        <description>Model Evaluation / Selection / Fits / Validation Train Test Split  Before running the model, the data is split into Training and Testing sets. The training to test split ratio is generally 70:30 and can vary. The model is trained on the Training dataset hence the name Once the model is fit on the data, we use the Testing dataset to check how the model performs.  The model is best served with a k-fold cross validation set where the data is randomly split multiple k times and each time the model fit is checked.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

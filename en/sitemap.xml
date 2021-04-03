@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/updates/2019_may/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/updates/2019_april/</loc>
+    <lastmod>2020-01-28T00:10:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/updates/2019_march/</loc>
+    <lastmod>2020-01-28T00:10:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/updates/2019_february/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/updates/2019_january/</loc>
+    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/</loc>
+    <lastmod>2020-10-21T06:14:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/</loc>
+    <lastmod>2020-10-21T06:14:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-02-28T10:08:56+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/1-central-tendency/</loc>
+    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/2-dispersion-spread/</loc>
+    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/updates/</loc>
+    <lastmod>2020-01-28T00:08:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/b-supervised-learning/2-classification/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/c-unsupervised-learning/clustering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/4-covariance-correlation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/3-distributions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/b-supervised-learning/3-ensemble/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/5-hypothesis-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/c-unsupervised-learning/knn-k-nearest-neighbors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/need-to-know/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/nlp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/b-supervised-learning/1-regression/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/d-reinforcement-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/a-statistics/6-statistical-tests/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/b-supervised-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/c-unsupervised-learning/singular-value-decomposition/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/b-supervised-learning/time-series-forecasting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/c-unsupervised-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/handbook/b-supervised-learning/model-evaluation/</loc>
+  </url>
+  
+</urlset>
