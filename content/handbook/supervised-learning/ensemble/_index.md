@@ -4,9 +4,12 @@ has_children: true
 title: Ensemble Learning
 parent: Supervised Learning
 nav_order: 3
+description: Ensemble Learning
+date: 2021-04-03 18:30:00 +0000
+weight: 3
+collapsible: true
 
 ---
-
 ﻿# Ensemble Learning
 
 Ensemble model combines multiple ‘individual’ (diverse) models together and delivers superior prediction power. A good model should maintain a balance between bias-variance. This is known as the trade-off management of bias-variance errors. Ensemble learning is one way to execute this trade off analysis.
