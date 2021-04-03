@@ -1,52 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Unsupervised Learning on ZDoc</title>
-    <link>http://example.org/handbook/c-unsupervised-learning/</link>
-    <description>Recent content in Unsupervised Learning on ZDoc</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    
-        <atom:link href="http://example.org/handbook/c-unsupervised-learning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Clustering</title>
-        <link>http://example.org/handbook/c-unsupervised-learning/clustering/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://example.org/handbook/c-unsupervised-learning/clustering/</guid>
-        <description>Clustering Clustering Is a set of data driven partitioning techniques designed to group a collection of objects into clusters.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unsupervised Learning on ZDoc</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/</link><description>Recent content in Unsupervised Learning on ZDoc</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Clustering</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/clustering/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/clustering/</guid><description>Clustering Clustering Is a set of data driven partitioning techniques designed to group a collection of objects into clusters.
 ⚠️ Data should ALWAYS be continuous and standardized in nature.
 ✴ Clustering is finding borders between groups
 ✴ Segmentation is using borders to form groups
-Applications :  Market Segmentation Sales segmentation : what type of customer wants what Credit risk Operations : High performing persons and promotions Insurance : identifying groups with high average claim cost Data reduction : grouping observations to reduce number is obs   How to build clusters :  Select distance measure Select clustering algorithm Define the distance between 2 clusters Determine no of clusters Validate the analysis  Methods  Linkage method Variance method Centroid method  Closeness of two clusters : The decision of merging two clusters is taken on the basis of closeness of these clusters.</description>
-      </item>
-      
-      <item>
-        <title>KNN</title>
-        <link>http://example.org/handbook/c-unsupervised-learning/knn-k-nearest-neighbors/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://example.org/handbook/c-unsupervised-learning/knn-k-nearest-neighbors/</guid>
-        <description>KNN (K- Nearest Neighbors) It is a simple algorithm which classifies cases based on its votes by its nearest neighbors whose class is already known. The “K” is KNN algorithm is the number of nearest neighbors we wish to take vote from. The class to be chosen depends on a distance function.
+Applications : Market Segmentation Sales segmentation : what type of customer wants what Credit risk Operations : High performing persons and promotions Insurance : identifying groups with high average claim cost Data reduction : grouping observations to reduce number is obs  How to build clusters : Select distance measure Select clustering algorithm Define the distance between 2 clusters Determine no of clusters Validate the analysis Methods Linkage method Variance method Centroid method Closeness of two clusters : The decision of merging two clusters is taken on the basis of closeness of these clusters.</description></item><item><title>KNN</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/knn-k-nearest-neighbors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/knn-k-nearest-neighbors/</guid><description>KNN (K- Nearest Neighbors) It is a simple algorithm which classifies cases based on its votes by its nearest neighbors whose class is already known. The “K” is KNN algorithm is the number of nearest neighbors we wish to take vote from. The class to be chosen depends on a distance function.
 Categorical : Euclidean, Manhattan, Minkowski
 Continuous : Hamming
-Advantages:  Attributes with multiple missing values can be easily treated Can predict both qualitative &amp;amp; quantitative (by taking average) attributes Easy interpretation.</description>
-      </item>
-      
-      <item>
-        <title>SVD</title>
-        <link>http://example.org/handbook/c-unsupervised-learning/singular-value-decomposition/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://example.org/handbook/c-unsupervised-learning/singular-value-decomposition/</guid>
-        <description>Singular Value Decomposition </description>
-      </item>
-      
-    
-  </channel>
-</rss>
+Advantages: Attributes with multiple missing values can be easily treated Can predict both qualitative &amp;amp; quantitative (by taking average) attributes Easy interpretation.</description></item><item><title>SVD</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/singular-value-decomposition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/c-unsupervised-learning/singular-value-decomposition/</guid><description>Singular Value Decomposition</description></item></channel></rss>
