@@ -1,4 +1,4 @@
-baseURL = "http://example.org"
+baseURL = "https://do2blehelix.github.io/the-ml-handbook/"
 title = "The Machine Learning Handbook"
 
 defaultContentLanguage = "en"
