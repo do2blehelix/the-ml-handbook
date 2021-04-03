@@ -4,10 +4,11 @@ title: Naive Bayes
 parent: Classification
 grand_parent: Supervised Learning
 nav_order: 3
+description: Naive Bayes
+date: 2021-04-03 18:30:00 +0000
+weight: 4
+
 ---
-
-
-
 # Naïve Bayes
 
 It is a classification technique based on Bayes’ theorem with an assumption of independence between predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.![img](https://lh6.googleusercontent.com/0LRN5o2He3qiZDOFP6BAZLoeLU-R9-HXyKDhQrARPoLeCaL-y7XX74EydH3PGUB5khvv-7aseVOtqUTYTdQsoKxXiIfano8y5cWEDnDvhr7J8LR_biiwWq6BvFoaJZd1bU-dqo1v)
