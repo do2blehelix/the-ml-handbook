@@ -1,9 +1,9 @@
 ---
-layout: default
 title: Logistic Regression
-parent: Classification
-grand_parent: Supervised Learning
-nav_order: 1
+description: Logistic Regression
+date: 2020-10-21T06:14:22+09:00
+weight: 1
+collapsible: false
 
 ---
 # Logistic Regression

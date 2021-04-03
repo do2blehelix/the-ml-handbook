@@ -1,9 +1,9 @@
 ---
-layout: default
+
 title: Types of Regression
-parent: Regression
-grand_parent: Supervised Learning
-nav_order: 2
+date: 2020-01-30T00:38:25.000+09:00
+description: Types of Regression
+weight: 2
 
 ---
 # Types of Regression
