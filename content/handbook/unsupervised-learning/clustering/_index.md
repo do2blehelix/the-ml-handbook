@@ -4,6 +4,8 @@ has_children: true
 title: Clustering
 parent: Unsupervised Learning
 nav_order: 1
+collapsible: true
+weight: 1
 
 ---
 # Clustering
