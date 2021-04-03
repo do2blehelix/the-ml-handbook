@@ -1,5 +1,5 @@
 ---
-label: Section
+label: All
 hide_body: false
 fields:
 - type: text
@@ -17,6 +17,3 @@ fields:
 - type: boolean
   name: collapsible
   label: collapsible
-- type: text
-  name: editBaseURL
-  label: editBaseURL
