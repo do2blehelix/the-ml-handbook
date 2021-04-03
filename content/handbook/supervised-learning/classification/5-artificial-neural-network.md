@@ -4,8 +4,11 @@ title: Artificial Neural Network
 parent: Classification
 grand_parent: Supervised Learning
 nav_order: 4
----
+description: Artificial Neural Network
+date: 2021-04-03 18:30:00 +0000
+weight: 5
 
+---
 # Artificial Neural Network (ANN)
 
 Artificial neural networks (ANNs) are types of computer architecture inspired by biological neural networks (Nervous systems of the brain) and are used to approximate functions that can depend on a large number of inputs and are generally unknown. Artificial neural networks are presented as systems of interconnected “neurons” which can compute values from inputs and are capable of machine learning as well as pattern recognition due their adaptive natureAn artificial neural network operates by creating connections between many different processing elements each corresponding to a single neuron in a biological brain.Implemented on a single computer, an artificial neural network is normally slower than more traditional solutions of algorithms. The ANN’s parallel nature allows it to be built using multiple processors giving it a great speed advantage at very little development cost.
