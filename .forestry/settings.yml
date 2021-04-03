@@ -9,6 +9,9 @@ sections:
   label: Handbook
   create: all
   match: "**/*"
+  templates:
+  - section
+  - post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
