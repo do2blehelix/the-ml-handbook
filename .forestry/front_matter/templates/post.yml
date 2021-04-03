@@ -14,8 +14,5 @@ fields:
 - type: number
   name: weight
   label: weight
-- type: boolean
-  name: enableToc
-  label: enableToc
 pages:
 - content/handbook/statistics/1-central-tendency.md
