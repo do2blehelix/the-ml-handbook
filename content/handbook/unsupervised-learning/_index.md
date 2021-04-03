@@ -3,6 +3,8 @@ has_children: true
 title: Unsupervised Learning
 nav_order: 4
 layout: ''
+collapsible: true
+weight: 3
 
 ---
 # Unsupervised Learning
