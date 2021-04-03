@@ -4,6 +4,9 @@ title: Decision Trees
 parent: Classification
 grand_parent: Supervised Learning
 nav_order: 2
+description: Decision Trees
+date: 2021-04-03 18:30:00 +0000
+weight: 2
 
 ---
 # Decision Trees
