@@ -4,10 +4,11 @@ title: Random Forest
 parent: Ensemble Learning
 grand_parent: Supervised Learning
 nav_order: 1
+weight: 1
+description: Random Forest
+date: 2021-04-03 18:30:00 +0000
+
 ---
-
-
-
 # Random Forest
 
 Random Forest works as a large collection of decorrelated decision trees and is based on bagging (boosted aggregating). 
