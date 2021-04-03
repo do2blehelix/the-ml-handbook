@@ -2,7 +2,6 @@
 title: "The Important Stuff Everyone Misses"
 description: "The Important Stuff Everyone Misses"
 date: 2020-01-28T00:10:48+09:00
-draft: false
 weight: 1
 ---
 
