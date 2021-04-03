@@ -1,68 +1,67 @@
 ---
-title: "Central Tendency"
-date: 2020-01-30T00:38:25+09:00
+title: Central Tendency
+date: 2020-01-30T00:38:25.000+09:00
 description: Central Tendency
 weight: 1
 enableToc: true
-tocLevels: ["h2", "h3", "h4"]
----
+tocLevels:
+- h2
+- h3
+- h4
 
+---
 # Measures of Central Tendency
----
 
+***
 
 ## Mean
 
-The sum total of units divided by the number of units. `Average`   
-*μ  (population) \| x̄  (sample) \| 1/ni=1nxi*
+The sum total of units divided by the number of units. `Average`  
+_μ  (population) | x̄  (sample) | 1/ni=1nxi_
 
 ## Median
 
 The middle / midpoint value in a sorted sequence. `Middle`  
-*It divides the data 50(more):50(less).*
+_It divides the data 50(more):50(less)._
 
 ## Mode
 
-The most commonly occurring value `Frequent`   
-*Two modes = Bimodal ; Multiple modes = Multimodal*
+The most commonly occurring value `Frequent`  
+_Two modes = Bimodal ; Multiple modes = Multimodal_
 
-&nbsp;
+ 
 
-```
-Q) Why do we use mean most times ?
-A) It takes all values into consideration. Mode/median ignores.
+> Q) Why do we use mean most times ?   
+> A) It takes all values into consideration. Mode/median ignores
 
-Q) When do we use median ?
-A) It is less prone to outliers as it doesn’t get affected by them.
-```
+> Q) When do we use median ?   
+> A) It is less prone to outliers as it doesn’t get affected by them.
 
-&nbsp;
+ 
 
 **Nomenclature**
 
 | Population | Sample |
-|--|--|
-|**X** = set of population elements | **x** = set of sample elements |
-|**N** = population size | **n** = sample size  |
-|**μ** = population mean | **x̄** = sample mean  |
-|**σ** = population std dev | **s** = sample std dev |
+| --- | --- |
+| X = set of population elements | x = set of sample elements |
+| N = population size | n = sample size |
+| μ = population mean | x̄ = sample mean |
+| σ = population std dev | s = sample std dev |
 
-
-&nbsp;
+ 
 
 **Normal Distribution Data**
 
-
 | Percentage | μ ± s.d. |
-|--|--|
+| --- | --- |
 | 68.3 % | μ ± 1σ |
 | 95.5 % | μ ± 2σ |
 | 99.7 % | μ ± 3σ |
 
-  &nbsp;
-  &nbsp;
+ 
+ 
 
 **_Population_** - our entire group of interest  
-***Parameter*** - numeric summary about a population  
+**_Parameter_** - numeric summary about a population  
 **_Sample_** - subset of the population  
 **_Statistic_** - numeric summary about a sample
