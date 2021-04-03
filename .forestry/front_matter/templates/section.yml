@@ -1,0 +1,22 @@
+---
+label: Section
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: weight
+  label: weight
+- type: boolean
+  name: collapsible
+  label: collapsible
+- type: text
+  name: editBaseURL
+  label: editBaseURL
