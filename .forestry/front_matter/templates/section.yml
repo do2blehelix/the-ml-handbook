@@ -17,6 +17,3 @@ fields:
 - type: boolean
   name: collapsible
   label: collapsible
-- type: text
-  name: editBaseURL
-  label: editBaseURL
