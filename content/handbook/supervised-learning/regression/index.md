@@ -1,9 +1,10 @@
 ---
-layout: default
-has_children: true
-title: Regression
-parent: Supervised Learning
-nav_order: 1
+title: "Regression"
+description: "Regression"
+date: 2020-10-21T06:14:22+09:00
+weight: 2
+collapsible: true
+editBaseURL: https://github.com/zzossig/zzoDocs/blob/master/content/en
 
 ---
 # Regression

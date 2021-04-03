@@ -1,9 +1,8 @@
 ---
-layout: default
 title: Linear Regression
-parent: Regression
-grand_parent: Supervised Learning
-nav_order: 1
+date: 2020-01-30T00:38:25.000+09:00
+description: Linear Regression
+weight: 1
 
 ---
 # Linear Regression

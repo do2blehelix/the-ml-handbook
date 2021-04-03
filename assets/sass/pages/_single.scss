@@ -59,6 +59,9 @@
 
     & > p {
       margin: 0 0 1rem 0;
+      @include themify($themes) {
+        color: themed("content-color");
+      }
     }
 
     margin: 1rem 0;
@@ -174,8 +177,8 @@
 
     blockquote {
       margin: 0 1.75rem 1.75rem 1.5rem;
-      padding: 0 0 0 1.42188rem;
-      font-size: 1.05rem;
+      padding: 0 0 0 0rem;
+      font-size: 14px;
       font-style: italic;
       line-height: 1.75;
       color: inherit;
@@ -314,7 +317,7 @@
         max-width: 100%;
         margin: 10px 0;
         border-spacing: 0;
-        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.125);
+        box-shadow: 0 1px 2px #0000001f, 0 3px 10px #00000014;
         
         @include themify($codeblock) {
           thead {

@@ -1,7 +1,7 @@
 $light: (
   link: $light-link-color,
   link-hover: $light-link-hover-color,
-  body-color: #242729,
+  body-color: gray,
   hr-color: #bdbdbd,
   title-color: white,
   subtitle-color: darken(#424242, 5%),
@@ -40,7 +40,7 @@ $light: (
   pagination-number-color: #757575,
   breadcrumb-background-color: #fff,
   single-hr-background-color: #bdbdbd,
-  single-blockquote-border-color: #bdbdbd,
+  single-blockquote-border-color:#007bff,
   single-header-title-background-color: #007bff,
   single-contents-title-color: lighten(blue, 15%),
   single-contents-subtitle-color: lighten(#007bff, 10%),
@@ -50,6 +50,6 @@ $light: (
   tag-text-background-color: #eee,
   content-box-border-color: #aaa,
   content-box-background-color: #eeeeee,
-  content-code-color: gray,
+  content-color: #5f5f5f,
 
 );

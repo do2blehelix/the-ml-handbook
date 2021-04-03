@@ -3,11 +3,6 @@ title: Central Tendency
 date: 2020-01-30T00:38:25.000+09:00
 description: Central Tendency
 weight: 1
-enableToc: true
-tocLevels:
-- h2
-- h3
-- h4
 
 ---
 # Measures of Central Tendency

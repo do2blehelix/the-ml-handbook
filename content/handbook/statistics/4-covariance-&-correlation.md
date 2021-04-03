@@ -1,19 +1,18 @@
 ---
-layout: default
-parent: Statistics
-title: Covariance & Correlation
-nav_order: 4
+title: "Covariance & Correlation"
+date: 2020-01-30T00:38:25+09:00
+description: Covariance & Correlation
+weight: 4
 
 ---
 # Covariance & Correlation
-___
 
 Correlation is a statistical technique that can show whether and how strongly pairs of variables are related. For example, height and weight are related; taller people tend to be heavier than shorter people.
 
 
 ⚠️ Correlation doesn't imply causation
 
-&nbsp;
+
 
 ## Covariance :
 **Covariance is nothing but a measure of correlation. On the contrary, correlation refers to the scaled form of covariance.**
@@ -22,8 +21,6 @@ Correlation is a statistical technique that can show whether and how strongly pa
 `Returns a value between -∞ & +∞`  
 Sum \[(X-u1) (Y-u2)\] / (n-1)
 
-___
-&nbsp;
 
 
 ## Correlation :
@@ -35,8 +32,6 @@ ___
 **Multicollinearity** : describes a linear relationship between two or more variables   
 **Autocorrelation** : describes correlation of a variable with itself in a time lag
 
-&nbsp;
-&nbsp;
 
 ### Pearson Correlation _(Karl Pearson)_
 

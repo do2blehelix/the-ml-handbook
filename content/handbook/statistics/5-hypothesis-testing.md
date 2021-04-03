@@ -1,15 +1,15 @@
 ---
-layout: default
-parent: Statistics
 title: Hypothesis Testing
-nav_order: 5
+date: 2020-01-30T00:38:25+09:00
+description: Hypothesis Testing
+weight: 5
+
 
 ---
 # Hypothesis Testing
----
+It the the action of declaring a hypothesis (a fundamental logical component) and proving its occurrence of proving its non-existence.
 
-&nbsp;
-&nbsp;
+## Types of Hypothesis
 
 ### Null Hypothesis
 >**H<sub>0</sub> : μ1 = μ2x <br>**

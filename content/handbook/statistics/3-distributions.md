@@ -1,8 +1,9 @@
 ---
-layout: default
-parent: Statistics
-title: Distributions
-nav_order: 3
+title: "Distributions"
+date: 2020-01-30T00:38:25+09:00
+description: Distributions
+weight: 3
+
 ---
 
 
@@ -32,7 +33,7 @@ Data distributed which spikes towards either ends as opposed to the central spik
 **Kurtosis : pointiness of the curve**
 Positive kurtosis = leptokurtic | Negative kurtosis = platykurtic
 
-&nbsp;
+
 
 
 Data dist type | Measure of Central Tendency | Measure of spread (variation)
@@ -40,14 +41,13 @@ Data dist type | Measure of Central Tendency | Measure of spread (variation)
 Normal | Mean | Standard Deviation
 Non normal (skewed) | Median | Range, Percentile & IQR
 
-&nbsp;
 
-```
-To convert any dataset with any mean & std deviation to a dataset with mean = 0 & std dev = 1.  
+
+
+> To convert any dataset with any mean & std deviation to a dataset with mean = 0 & std dev = 1.  
 Can be done using z-scores: z = (x - x̄) ÷ s
-```
 
-&nbsp;
+
 
 ### Central Limit Theorem
 
