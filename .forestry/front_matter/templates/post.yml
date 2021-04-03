@@ -1,0 +1,22 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: number
+  name: weight
+  label: weight
+- type: boolean
+  name: enableToc
+  label: enableToc
+- type: list
+  name: tocLevels
+  label: tocLevels
