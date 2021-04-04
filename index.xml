@@ -10,8 +10,9 @@ It divides the data 50(more):50(less).
 Mode The most commonly occurring value Frequent
 Two modes = Bimodal ; Multiple modes = Multimodal
   Q) Why do we use mean most times ?
-A) It takes all values into consideration.</description></item><item><title>Linear Regression</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/regression/1-linear-regression/</link><pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/regression/1-linear-regression/</guid><description>Linear Regression Method = Ordinary Least Square{: .label } Dependent Variable Y = Continuous
-Independent Variable X = Continuous
+A) It takes all values into consideration.</description></item><item><title>Linear Regression</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/regression/1-linear-regression/</link><pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/regression/1-linear-regression/</guid><description>Linear Regression Method = Ordinary Least Square
+Dependent Variable (the one you need to predict) Y = Continuous
+Independent Variable (the others with which you will predict) X = Continuous
 i.e the complete data should be numerical in nature
 Objective is to minimize the sum of squares of the residuals
 (residual=difference between observation and the fitted line)
