@@ -4,6 +4,8 @@ parent: Supervised Learning
 title: "☑️ Model Evaluation"
 nav_order: 4
 has_children: false
+description: Model Evaluation / Selection / Fits / Validation
+date: 2021-04-03 18:30:00 +0000
 
 ---
 # Model Evaluation / Selection / Fits / Validation
