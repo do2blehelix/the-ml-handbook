@@ -15,23 +15,31 @@ Data Gathering and dictionary creation. Data understanding plays a key role to u
 
 EDA is divided into 2 phases
 
-### Correlation
+### Univariate Analysis
 
-Generate a correlation heatmap to figure out the highly correlated variables.
+Analyze and understand the ranges and categories of variables and check their distributions.
 
 ### Bivariate Analysis
 
-Plot the variables of interest against the dependent variable
+Plot the variables of interest against the dependent variable.
+
+### Correlation
+
+Generate a correlation heatmap to figure out the highly correlated independent variables.
 
 ## 3. Data Wrangling
 
-### Cleaning Missing Variables
+### Clean/Impute Missing Variables
 
-Data with a lot of missing variables generate noise within the model. It is advised to clean the data 
+Data with a lot of missing variables generate noise within the model. It is advised to clean the data by either removing the variable if a high proportion of missing values exist.
 
 ### Outlier Treatment
 
 Take a call whether to keep the outliers or cap them at a certain level.
+
+### Feature Engineering
+
+Generate new features based on existing variables.
 
 ### Standardizing
 
