@@ -21,28 +21,20 @@ The model is best served with a k-fold cross validation set where the data is ra
 
 ## Regression Metrics:
 
-* **R Square:** % of variance in `Y` that is explained by `X`. It is defined as the square of correlation between Predicted and Actual values.
-
-**![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
-
-R2= SSEIndependent VarSSEIndependent Var + SSEErrors
-
+* **R Square:** % of variance in `Y` that is explained by `X`. It is defined as the square of correlation between Predicted and Actual values.  
+  `R2= SSEIndependent VarSSEIndependent Var + SSEErrors`
 * **Adjusted R Square:** Similar to R2. It penalizes for adding impurity (insignificant variables) to the model
-* **MSE (Mean Squared Error) :**
+* **MSE (Mean Squared Error) :** Sum of squares / df
 * **RMSE (Root Mean Square Error)** : It measures standard deviation of the residuals.
 
-Model with the least RMSE is the best model
-
-_= sqrt (Sum of Squared Errors) / no of obs = sqrt (mean ( (Actual - Predicted)2 ))_
-
-![](https://lh3.googleusercontent.com/BMkjNWVQCJSEuhhwB7OcrweuDf43cblmp2yL2uqnKb3PeS0U927ylIohcxuWbq9CcIN_6th0vNw38KW8hpQV1nirzTuvho95ri6DFqBfrdDe1WPEXdidt38UEuuvPBfG9Km0Lcz_ =213x59)
-
-**Mean Square** : Sum of squares / df
-
-* **MAE (Mean Absolute Error) :** sum( |Error| ) / n _Error = Actual - Predicted |Error|=Absolute Error_
-* **MAPE (Mean Absolute Percentage Error) :** _{ absolute (average \[ (Actual - Predicted) / Actual \])}_ should not exceed \~ 8% - 10%
+  `Model with the least RMSE is the best model`  
+  `RMSE =`  _`sqrt (Sum of Squared Errors) / no of obs = sqrt (mean ( (Actual - Predicted)2 ))`_
+* **MAE (Mean Absolute Error) :** `sum( |Error| ) / n `_`Error = Actual - Predicted |Error|=Absolute Error`_
+* **MAPE (Mean Absolute Percentage Error) :** _`{ absolute (average [ (Actual - Predicted) / Actual ])}`_ should not exceed \~ 8% - 10%
 * AIC
 * BIC
+
+![](https://lh3.googleusercontent.com/BMkjNWVQCJSEuhhwB7OcrweuDf43cblmp2yL2uqnKb3PeS0U927ylIohcxuWbq9CcIN_6th0vNw38KW8hpQV1nirzTuvho95ri6DFqBfrdDe1WPEXdidt38UEuuvPBfG9Km0Lcz_ =213x59)**![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
 
 Loss Functions: objective is to minimise these
 
@@ -69,8 +61,8 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 **Sensitivity :** (True Positive Rate or Recall)  
 % of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
 
-\**Specificity :  
-\**% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
+\*_Specificity :  
+\*_% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
 
 **Positive Predicted Value** = _TP ÷ (TP + FP)_
 
