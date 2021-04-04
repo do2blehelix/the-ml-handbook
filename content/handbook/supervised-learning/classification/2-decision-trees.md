@@ -64,13 +64,13 @@ model.fit(X_train, y_train)  		# Fit model
 
 Overfitting is one of the key challenges faced while modeling decision trees. If there is no limit set of a decision tree, it will give you 100% accuracy on the training set because in the worst case it will end up making 1 leaf for each observation. Thus, preventing overfitting is pivotal while modeling a decision tree and it can be done in 2 ways:
 
-* Setting constraints  `pre pruning`
+* **Setting constraints**  `pre pruning`
   * Minimum samples required for a node split
   * Minimum samples at a terminal node (leaf)
   * Maximum depth of tree (vertical depth)
   * Maximum number of terminal nodes
   * Maximum features to consider for split
-* Tree Pruning `post pruning`
+* **Tree Pruning** `post pruning`
   * We first make the decision tree to a large depth.
   * Then we start at the bottom and start removing leaves which are giving us negative returns when compared from the top.
   * Suppose a split is giving us a gain of say -10 (loss of 10) and then the next split on that gives us a gain of 20. A simple decision tree will stop at step 1 but in pruning, we will see that the overall gain is +10 and keep both leaves.
