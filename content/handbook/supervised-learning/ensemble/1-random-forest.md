@@ -9,7 +9,11 @@ description: Random Forest
 date: 2021-04-03T18:30:00.000+00:00
 
 ---
-# Random Forest
+# Bagging Algorithms
+
+    from sklearn.ensemble import BaggingClassifier
+
+## Random Forest
 
     from sklearn.ensemble import RandomForestClassifier
 
