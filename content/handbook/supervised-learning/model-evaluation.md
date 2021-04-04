@@ -36,11 +36,13 @@ The model is best served with a k-fold cross validation set where the data is ra
 
 ![](https://lh3.googleusercontent.com/BMkjNWVQCJSEuhhwB7OcrweuDf43cblmp2yL2uqnKb3PeS0U927ylIohcxuWbq9CcIN_6th0vNw38KW8hpQV1nirzTuvho95ri6DFqBfrdDe1WPEXdidt38UEuuvPBfG9Km0Lcz_ =213x59)**![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
 
-Loss Functions: objective is to minimise these
+**Loss Functions:** objective is to minimize these
 
 * MAE : Mean Absolute Error _(mean of the absolute errors)_
 * MSE : Mean Squared Error _(mean of the squared errors)_
 * RMSE : Root Mean Squared Error _(square root of the mean of squared errors)_
+
+***
 
 ## Classification Metrics :
 
