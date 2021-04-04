@@ -15,13 +15,12 @@ weight: 3
 
 In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
 
-The aim is to determine the location of decision boundaries also known as hyperplane that produce the optimal separation of classes. Multiple frontiers are produced to suit the data. The best frontier is the one which is farthest away from the nearest support vector.
+The aim is to determine the location of decision boundaries also known as **hyperplane** that produce the **optimal separation of classes**. Multiple frontiers are produced to suit the data. The best frontier is the one which is farthest away from the nearest support vector.
 
 In case the data cannot be clearly segregated, the data is transformed to a higher dimensional plane where it can be segregated easily.
 
-Classification Error : Split the data into 2, create boundary lines, classify anything between the margin as error, add errors.
-
-Margin Error : Goal is to obtain a larger margin between the 2 boundary lines with lower error.
+* Classification Error : Split the data into 2, create boundary lines, classify anything between the margin as error, add errors.
+* Margin Error : Goal is to obtain a larger margin between the 2 boundary lines with lower error.
 
 ### Advantages
 
