@@ -1,14 +1,16 @@
 ---
 title: Logistic Regression
 description: Logistic Regression
-date: 2020-10-21T06:14:22+09:00
+date: 2020-10-21T06:14:22.000+09:00
 weight: 1
 collapsible: false
 
 ---
 # Logistic Regression
 
-#### Method = Maximum Likelihood Estimation / Chi-square
+Although Logistic Regression is termed a Regression, it is in fact a method of Classification. The underlying methodology utilized concepts to linear regression and hence the name sayed. 
+
+`Method = Maximum Likelihood Estimation / Chi-square`
 
 ***
 
@@ -25,7 +27,7 @@ Since the dependent variable is binary, errors will be non-normally distributed.
 * Ordered - Dependent Variable has ordered levels eg High, Medium, & Low
 * Multinomial - Dependent Variable is nominal with more than two levels
 
-### Assumptions:
+### Assumptions
 
 1. Binary logistic regression requires the dependent variable to be binary coded
 2. Model should have little or no multicollinearity
@@ -34,7 +36,7 @@ Since the dependent variable is binary, errors will be non-normally distributed.
 5. Requires comparatively larger data sample (min 30 observations)
 6. There should be no outliers. Assessed by converting predictors to standardized or z scores and remove values below or greater than -3.29 or 3.29
 
-### Technique:
+### Technique
 
 It is similar to linear regression, except the Y variable is not regressed directly, instead the log odds ratio of Y is regressed.
 ![](https://lh3.googleusercontent.com/2VsVZ8NP0E0CZ9-UYxZhiP4a0ukNuHBONgCDMRs4kgZ-yD1N5L97PlSPjsmy5i-bk8pwGrpDBOq86pc5fm9vohzO35D-Zkn_A5hLgG0zjmo8uISm0JQSVOnqgfdzleVsfTdJvqo4)
