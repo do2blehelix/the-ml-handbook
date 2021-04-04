@@ -87,11 +87,11 @@ Linear Regression is the most basic type of regression that there is. It takes a
 
 This method is used to convert Categorical variables to Continuous variables. It is very simple:
 
-| Transport | >>> | Car | Bus | Train |
+| Transport | >> | Car | Bus | Train |
 | :---: | :---: | :---: | :---: | :---: |
-| Car | >>> | 1 | 0 | 0 |
-| Bus | >>> | 0 | 1 | 0 |
-| Train | >>> | 0 | 0 | 1 |
+| Car | >> | 1 | 0 | 0 |
+| Bus | >> | 0 | 1 | 0 |
+| Train | >> | 0 | 0 | 1 |
 
 ### Dummy Variable Trap
 
