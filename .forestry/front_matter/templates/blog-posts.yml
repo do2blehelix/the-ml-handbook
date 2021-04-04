@@ -1,5 +1,5 @@
 ---
-label: Blog Posts
+label: Blog Post
 hide_body: false
 fields:
 - type: text
