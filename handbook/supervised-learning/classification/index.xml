@@ -2,7 +2,7 @@
 Method = Maximum Likelihood Estimation / Chi-square
 Logistic Regression is used to model the probability of an outcome. It is based on concept of Generalized Linear Model (GLM).
 Dependent Variable Y = Binary (eg 0 or 1)
-Independent Variable X = Continuous or Categorical</description></item><item><title>Decision Trees</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/classification/2-decision-trees/</link><pubDate>Sat, 03 Apr 2021 18:30:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/classification/2-decision-trees/</guid><description>Decision Trees It&amp;rsquo;s a type of supervised learning algorithm mostly used for classification problems. Works for both categorical and continuous I/P O/P variables.
+Independent Variable X = Continuous or Categorical</description></item><item><title>Decision Trees</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/classification/2-decision-trees/</link><pubDate>Sat, 03 Apr 2021 18:30:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/supervised-learning/classification/2-decision-trees/</guid><description>Decision Trees It&amp;rsquo;s a type of supervised learning algorithm mostly used for classification problems. Works for both categorical and continuous variables.
 The population is split into two or more homogeneous sets based on the splitting criterion.
 Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Questions)
 Types :
