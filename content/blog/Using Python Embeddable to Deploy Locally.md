@@ -1,6 +1,6 @@
 ---
-title: ''
-date: 
+title: Shareable Python Environments
+date: 2021-04-03 18:30:00 +0000
 weight: 
 enableToc: false
 enableBlogBreadcrumb: false
