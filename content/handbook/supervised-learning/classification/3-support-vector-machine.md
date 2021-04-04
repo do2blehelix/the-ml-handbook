@@ -11,7 +11,7 @@ weight: 3
 ---
 # SVM (Support Vector Machine)
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/svm/svm_main.png)
+![](https://do2blehelix.github.io/the-ml-handbook/images/classifiers/svm_main.png)
 
 In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
 
@@ -43,8 +43,6 @@ _Small c = large margin and some classification errors. Large c = classify well 
 **Kernels**
 
 * Linear
-
-
 * Polynomial Kernel :
   * Degree
 * RBF (Radial Basis Functions) Kernel :
