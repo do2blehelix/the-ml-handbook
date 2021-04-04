@@ -3,7 +3,10 @@ A random sample is taken from the population with random variables (feature sele
 Method = Maximum Likelihood Estimation / Chi-square
 Logistic Regression is used to model the probability of an outcome. It is based on concept of Generalized Linear Model (GLM).
 Dependent Variable Y = Binary (eg 0 or 1)
-Independent Variable X = Continuous or Categorical</description></item><item><title>Central Tendency</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/statistics/1-central-tendency/</link><pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/statistics/1-central-tendency/</guid><description>Measures of Central Tendency Mean The sum total of units divided by the number of units. Average
+Independent Variable X = Continuous or Categorical</description></item><item><title>My First Post</title><link>https://do2blehelix.github.io/the-ml-handbook/blog/emoji-support/</link><pubDate>Tue, 20 Oct 2020 15:12:15 +0900</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/blog/emoji-support/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de&lt;br />
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br />
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br />
+caluere tempus&lt;/p></description></item><item><title>Central Tendency</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/statistics/1-central-tendency/</link><pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/statistics/1-central-tendency/</guid><description>Measures of Central Tendency Mean The sum total of units divided by the number of units. Average
 μ (population) | x̄ (sample) | 1/ni=1nxi
 Median The middle / midpoint value in a sorted sequence. Middle
 It divides the data 50(more):50(less).
@@ -41,9 +44,6 @@ caluere tempus&lt;/p></description></item><item><title>Rich Content</title><link
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br />
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br />
 caluere tempus&lt;/p></description></item><item><title>Placeholder Text</title><link>https://do2blehelix.github.io/the-ml-handbook/blog/placeholder-text/</link><pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/blog/placeholder-text/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de&lt;br />
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br />
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br />
-caluere tempus&lt;/p></description></item><item><title>Emoji Support</title><link>https://do2blehelix.github.io/the-ml-handbook/blog/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/blog/emoji-support/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de&lt;br />
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br />
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br />
 caluere tempus&lt;/p></description></item><item><title>DBSCAN</title><link>https://do2blehelix.github.io/the-ml-handbook/handbook/unsupervised-learning/clustering/dbscan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://do2blehelix.github.io/the-ml-handbook/handbook/unsupervised-learning/clustering/dbscan/</guid><description>Density Based Spatial Clustering of Applications with Noise (DBSCAN) DBSCAN clusters densely packed points and labels the other points as noise.
