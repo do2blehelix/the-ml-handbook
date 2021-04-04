@@ -1,0 +1,50 @@
+---
+label: Blog Post
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: blogHeaderType
+  label: blogHeaderType
+- type: field_group_list
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: number
+    name: height
+    label: height
+  - type: number
+    name: paddingX
+    label: paddingX
+  - type: text
+    name: align
+    label: align
+  - type: list
+    name: title
+    label: title
+  - type: list
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: titleColor
+    label: titleColor
+  - type: number
+    name: titleFontSize
+    label: titleFontSize
+  - type: text
+    name: subtitleColor
+    label: subtitleColor
+  - type: number
+    name: subtitleFontSize
+    label: subtitleFontSize
+  - type: number
+    name: spaceBetweenTitleSubtitle
+    label: spaceBetweenTitleSubtitle
