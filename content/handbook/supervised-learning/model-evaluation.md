@@ -6,6 +6,7 @@ nav_order: 4
 has_children: false
 description: Model Evaluation / Selection / Fits / Validation
 date: 2021-04-03 18:30:00 +0000
+weight: 5
 
 ---
 # Model Evaluation / Selection / Fits / Validation
