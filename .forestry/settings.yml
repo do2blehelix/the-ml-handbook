@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - section
+  - blog-posts
 - type: directory
   path: content/handbook
   label: Handbook
