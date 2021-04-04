@@ -22,16 +22,6 @@ The population is split into two or more homogeneous sets based on the splitting
 * Categorical Variable Decision Tree : Categorical Target Variable
 * Continuous Variable Decision Tree : Continuous Target Variable
 
-### Terminology :
-
-* Root Node : It represents the entire population / sample
-* Parent and Child Node: A node, which is divided into sub-nodes is called parent node whereas sub-nodes are the child of parent node.
-* Leaf / Terminal Node : Nodes that do not spit any further.
-* Branch / Sub-tree : Sub section of the entire tree.
-* Splitting : Process of dividing a node into two or more sub-nodes.
-* Pruning : The process of removing sub-sections of a tree.
-* Grafting : The process of adding a whole section to the tree.
-
 ### Advantages :
 
 * Glass-box model. Patterns easy to understand and see.
@@ -53,6 +43,16 @@ from sklearn.tree import DecisionTreeClassifier
 model = DecisionTreeClassifier()    # Instantiate
 model.fit(X_train, y_train)  		# Fit model
 ```
+
+### Terminology :
+
+* Root Node : It represents the entire population / sample
+* Parent and Child Node: A node, which is divided into sub-nodes is called parent node whereas sub-nodes are the child of parent node.
+* Leaf / Terminal Node : Nodes that do not spit any further.
+* Branch / Sub-tree : Sub section of the entire tree.
+* Splitting : Process of dividing a node into two or more sub-nodes.
+* Pruning : The process of removing sub-sections of a tree.
+* Grafting : The process of adding a whole section to the tree.
 
 ### Hyperparameter (Tuning) :
 
@@ -86,7 +86,7 @@ _Tree pruning = post pruning_
 
 ### Metrics:
 
-**Gini Index** _\[Categorical\]_
+#### **Gini Index** _\[Categorical\]_
 
 The gini measure gives the probability that 2 items chosen from the same population at random are in the same class. For a pure population this probability is 1.
 
@@ -105,7 +105,7 @@ _T = t**1** + t**2** = total 1 + total 2_
 
 Final gini score = \[ g**1** **x** (t**1**/T) \] + \[ g**2** **x** (t**2**/T) \]
 
-**Chi-Square** _\[Categorical\]_
+#### **Chi-Square** _\[Categorical\]_
 
 It is used to find the statistical significance of the differences between sub nodes and parent node. Measured by the sum of squares of standardized differences between observed and expected frequencies of target variable.
 
@@ -118,7 +118,7 @@ Chi-Square of each node is calculated using formula,
 
 Chi-square = ((Actual – Expected)^2 / Expected)^1/2
 
-**Information Gain** _\[Categorical\]_
+#### **Information Gain** _\[Categorical\]_
 
 Information theory is a measure to define this degree of disorganization in a system known as Entropy. If the sample is completely homogeneous, then the entropy is zero and if the sample is an equally divided (50% – 50%), it has entropy of one. Based on the concept that impure nodes require more information to describe it and vice versa.
 
@@ -136,7 +136,7 @@ Information Gain = 1 - Entropy
 
 ![](https://lh4.googleusercontent.com/jRsSIsIBpkX8XQZfggQ0GbXnfHScx2rSyRUx70T_qQPtyNAPWOQIQ_jNLTLUIXN-Uq0f1I-7937R45RBum224v8S2RnhTh1eeiO3sGfPcq_-mUu5ubmVRHOjREXZzoJmKLXg_sm0 =720x60)
 
-**Reduction in Variance** _\[Continuous\]_
+#### **Reduction in Variance** _\[Continuous\]_
 
 ![](https://lh6.googleusercontent.com/Ud0tg7MutTJjtjmZRhtsHy52aF6z78mNlhwvMUL95-dAFZEexKbnbLKXoXatkCtr8oH44wHTve7vPo9t102DdlV9zsM5ucWyWl8KuYA9XaLsB1dhKa_tdDwRgPe_cdFVNLy6FzZb =176x53)
 
@@ -146,7 +146,7 @@ _X-bar is mean of the values, X is actual and n is number of values._
 
 ### Algorithms
 
-##### CART : Classification And Regression Trees
+#### CART : Classification And Regression Trees
 
 Decides on split based on the amount of homogeneity within class that is achieved by the split.
 
@@ -159,14 +159,14 @@ _Regression y is continuous_
 
 Gini algorithm
 
-##### ID3 > C4.5 > C5.0 :
+#### ID3 > C4.5 > C5.0 :
 
 Splitting criterion is the normalized information gain (difference in information entropy). The attribute with the highest normalized information gain is chosen to make the decision. It is the successor of ID3.
 
 * C4.5/5.0 first grows the full tree using training set and then uses single dataset to arrive at final tree.
 * **Allows multiple split.**
 
-##### CHAID : Chi-square Automatic Interaction Detector
+#### CHAID : Chi-square Automatic Interaction Detector
 
 Tests a hypothesis regarding dependence between the split variable and the categorical response (using chi-square test for independence)
 
