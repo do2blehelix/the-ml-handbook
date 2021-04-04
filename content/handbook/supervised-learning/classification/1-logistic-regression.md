@@ -21,7 +21,7 @@ Independent Variable **X = Continuous or Categorical**
 
 Since the dependent variable is binary, errors will be non-normally distributed. Also, Errors are heteroskedastic
 
-### Types:
+### Types
 
 * Binary / Dichotomous - Dependent Variable is binary in nature (eg. 0/1)
 * Ordered - Dependent Variable has ordered levels eg High, Medium, & Low
