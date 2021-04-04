@@ -91,15 +91,11 @@ The gini measure gives the probability that 2 items chosen from the same populat
 * Higher the value of Gini, higher the homogeneity.
 * CART (Classification and Regression Tree) uses Gini method to create binary splits.
 
-Gini Score :
-
-S**1** : \[ (a ÷ t**1** )2 + (b ÷ t**1** )2 \] = g**1**
-
-S**2** : \[ (a ÷ t**2** )2 + (b ÷ t**2** )2 \] = g**2**
-
-_T = t**1** + t**2** = total 1 + total 2_
-
-Final gini score = \[ g**1** **x** (t**1**/T) \] + \[ g**2** **x** (t**2**/T) \]
+**Gini Score:**  
+S**1** : \[ (a ÷ t**1** )2 + (b ÷ t**1** )2 \] = g**1  
+**S**2** : \[ (a ÷ t**2** )2 + (b ÷ t**2** )2 \] = g**2  
+**_T = t**1** + t**2** = total 1 + total 2  
+_**Final Gini score** = \[ g**1** **x** (t**1**/T) \] + \[ g**2** **x** (t**2**/T) \]
 
 #### Chi-Square `Categorical`
 
@@ -110,9 +106,8 @@ It is used to find the statistical significance of the differences between sub n
 * Higher the value of Chi-Square, higher the statistical significance of differences between sub-node and Parent node or better the split.
 * It generates tree called CHAID (Chi-square Automatic Interaction Detector)![](https://lh3.googleusercontent.com/9Q1JXlB5IUqr33_g3XflcYXaTtyddWv9aV3xMGqEFZ_9-XgULoeyHmdiPchP5DzBrkeuRRzAZpz9Qf8zLoJXweU-rqKEGnguFnFWlb2rUwNF13Ec15JpUQq7BKH56DUqWG-HrG2o =217x79)
 
-Chi-Square of each node is calculated using formula,
-
-Chi-square = ((Actual – Expected)^2 / Expected)^1/2
+Chi-Square of each node is calculated using formula:  
+`Chi-square = ((Actual – Expected)^2 / Expected)^1/2`
 
 #### Information Gain `Categorical`
 
@@ -146,16 +141,15 @@ _X-bar is mean of the values, X is actual and n is number of values._
 
 Decides on split based on the amount of homogeneity within class that is achieved by the split.
 
-_Classification y is categorical_
-
-_Regression y is continuous_
+_Classification y is categorical  
+Regression y is continuous_
 
 * CART first grows the full tree using training set and then prunes it back using holdout set.
 * **Allows only binary splits.**
 
 Gini algorithm
 
-#### ID3 > C4.5 > C5.0 :
+#### ID3 > C4.5 > C5.0
 
 Splitting criterion is the normalized information gain (difference in information entropy). The attribute with the highest normalized information gain is chosen to make the decision. It is the successor of ID3.
 
