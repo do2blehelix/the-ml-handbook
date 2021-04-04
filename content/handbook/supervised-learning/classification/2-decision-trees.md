@@ -11,7 +11,7 @@ weight: 2
 ---
 # Decision Trees
 
-It's a type of supervised learning algorithm mostly used for classification problems. Works for both categorical and continuous variables.
+It's a type of supervised learning algorithm mostly used for classification problems. Works for **both categorical and continuous** variables.
 
 The population is split into two or more homogeneous sets based on the splitting criterion.
 
@@ -22,7 +22,7 @@ The population is split into two or more homogeneous sets based on the splitting
 * Categorical Variable Decision Tree : Categorical Target Variable
 * Continuous Variable Decision Tree : Continuous Target Variable
 
-### Advantages :
+### Advantages
 
 * Glass-box model. Patterns easy to understand and see.
 * Useful in Data exploration : fastest way to find most significant variables and relation between variables. new variables can also be created with better prediction power.
@@ -30,7 +30,7 @@ The population is split into two or more homogeneous sets based on the splitting
 * Data type is not a constraint
 * Non Parametric Method : no assumptions
 
-### Disadvantages :
+### Disadvantages
 
 * Over fitting : If no limit is set for a decision tree, it will give 100% accuracy on training set
 * Not fit for continuous variables : tends to lose information when bucketed into categories.
@@ -44,7 +44,7 @@ model = DecisionTreeClassifier()    # Instantiate
 model.fit(X_train, y_train)  		# Fit model
 ```
 
-### Terminology :
+### Terminology
 
 * Root Node : It represents the entire population / sample
 * Parent and Child Node: A node, which is divided into sub-nodes is called parent node whereas sub-nodes are the child of parent node.
@@ -54,7 +54,7 @@ model.fit(X_train, y_train)  		# Fit model
 * Pruning : The process of removing sub-sections of a tree.
 * Grafting : The process of adding a whole section to the tree.
 
-### Hyperparameter (Tuning) :
+### Hyperparameter (Tuning)
 
 * Maximum Depth : The maximum number of levels in the tree
 * Minimum number of samples to split : minimum required samples in node in order for it to further split
@@ -64,22 +64,18 @@ model.fit(X_train, y_train)  		# Fit model
 
 Overfitting is one of the key challenges faced while modeling decision trees. If there is no limit set of a decision tree, it will give you 100% accuracy on the training set because in the worst case it will end up making 1 leaf for each observation. Thus, preventing overfitting is pivotal while modeling a decision tree and it can be done in 2 ways:
 
-_Setting constraints = pre pruning_
-
-_Tree pruning = post pruning_
-
-* Setting constraints
+* Setting constraints  `pre pruning`
   * Minimum samples required for a node split
   * Minimum samples at a terminal node (leaf)
   * Maximum depth of tree (vertical depth)
   * Maximum number of terminal nodes
   * Maximum features to consider for split
-* Tree Pruning
+* Tree Pruning `post pruning`
   * We first make the decision tree to a large depth.
   * Then we start at the bottom and start removing leaves which are giving us negative returns when compared from the top.
   * Suppose a split is giving us a gain of say -10 (loss of 10) and then the next split on that gives us a gain of 20. A simple decision tree will stop at step 1 but in pruning, we will see that the overall gain is +10 and keep both leaves.
 
-### Validation :
+### Validation
 
 * SSE
 * Classification/confusion matrix
