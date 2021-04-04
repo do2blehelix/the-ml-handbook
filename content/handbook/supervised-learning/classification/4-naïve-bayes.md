@@ -11,6 +11,8 @@ weight: 4
 ---
 # Naïve Bayes
 
+    from sklearn.naive_bayes import GaussianNB
+
 It is a classification technique based on Bayes’ theorem with an assumption of independence between predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
 
 ![](https://do2blehelix.github.io/the-ml-handbook/images/classifiers/naivebayes.png)
