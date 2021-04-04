@@ -5,17 +5,17 @@ parent: Classification
 grand_parent: Supervised Learning
 nav_order: 2
 description: Decision Trees
-date: 2021-04-03 18:30:00 +0000
+date: 2021-04-03T18:30:00.000+00:00
 weight: 2
 
 ---
 # Decision Trees
 
-It's a type of supervised learning algorithm mostly used for classification problems. Works for both categorical and continuous I/P O/P variables.
+It's a type of supervised learning algorithm mostly used for classification problems. Works for both categorical and continuous variables.
 
 The population is split into two or more homogeneous sets based on the splitting criterion.
 
-_Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Questions)_
+> _Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Questions)_
 
 **Types :**
 
@@ -50,11 +50,9 @@ _Analogy : They ask a bunch of questions to arrive at a particular answer. (20 Q
 ```python
 from sklearn.tree import DecisionTreeClassifier
 
-model = DecisionTreeClassifier()             # Instantiate
-model.fit(X_train, y_train)  	# Fit model
+model = DecisionTreeClassifier()    # Instantiate
+model.fit(X_train, y_train)  		# Fit model
 ```
-
-
 
 ### Hyperparameter (Tuning) :
 
@@ -83,11 +81,8 @@ _Tree pruning = post pruning_
 
 ### Validation :
 
-- SSE
-
-- Classification/confusion matrix
-
-
+* SSE
+* Classification/confusion matrix
 
 ### Metrics:
 
@@ -127,13 +122,11 @@ Chi-square = ((Actual – Expected)^2 / Expected)^1/2
 
 Information theory is a measure to define this degree of disorganization in a system known as Entropy. If the sample is completely homogeneous, then the entropy is zero and if the sample is an equally divided (50% – 50%), it has entropy of one. Based on the concept that impure nodes require more information to describe it and vice versa.
 
-
 ![](https://lh4.googleusercontent.com/rcMfiGKMgvSZzjPnQX33elyNQdYUwaxpTvsWdwPx8iCWLLLtNiSDjd6lxwV8IYPcjnklyeW2cKr-g7l0Ljv-4yTdZv3bSiVnuZc23Usjh9nqk4RwmBTU9sEwCQ488T4rQs5lPYYo =218x30)
 
 _Here p and q is the probability of success and failure respectively in that node._ The lesser the entropy, the better it is.
 
 Information Gain = 1 - Entropy
-
 
 ![](https://lh4.googleusercontent.com/zybRY0XxMY_eYoZsmIEtr-uvOt7958kk9xRpU-kQGYAsriJ6wWiGbNlfzjFyJ3ORsw0aB_fLtH2VnS331upispJ9wq6XkIgZP5RbZ_q1i9XBx1Ggm1MkneH6sjj5ct4aP0gF3TAK =131x57)![](https://lh3.googleusercontent.com/wBBoA_r9sduFgt_mtm7xSfnhT0i2G1_RyHZjVl-fvgjj2dMBbd_yS7SG5wuECHk4wBz87nXkesKrLI-TiivQUCum-0C0sIg2II9moYb71Aq5TI06O8L6g5HXi36e88GeKKaKiFV5 =133x65)
 
@@ -144,7 +137,6 @@ Information Gain = 1 - Entropy
 ![](https://lh4.googleusercontent.com/jRsSIsIBpkX8XQZfggQ0GbXnfHScx2rSyRUx70T_qQPtyNAPWOQIQ_jNLTLUIXN-Uq0f1I-7937R45RBum224v8S2RnhTh1eeiO3sGfPcq_-mUu5ubmVRHOjREXZzoJmKLXg_sm0 =720x60)
 
 **Reduction in Variance** _\[Continuous\]_
-
 
 ![](https://lh6.googleusercontent.com/Ud0tg7MutTJjtjmZRhtsHy52aF6z78mNlhwvMUL95-dAFZEexKbnbLKXoXatkCtr8oH44wHTve7vPo9t102DdlV9zsM5ucWyWl8KuYA9XaLsB1dhKa_tdDwRgPe_cdFVNLy6FzZb =176x53)
 
@@ -184,7 +176,5 @@ Tests a hypothesis regarding dependence between the split variable and the categ
 * It assesses the category groupings or interval breaks to pick the most significant combination of variables
 * The variable having the strongest association with the target variable becomes the first branch in a tree with lead for each category that is significantly different relative to target variable.
 * The process is repeated to find the predictor variable on each leaf most significantly related to the target variable, until no significant predictors remain.
-
-
 * Chaid uses statistical stopping rule that discontinues tree growth. It uses training dataset
 * **Allows multiple split.**
