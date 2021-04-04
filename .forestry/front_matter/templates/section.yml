@@ -17,3 +17,5 @@ fields:
 - type: boolean
   name: collapsible
   label: collapsible
+pages:
+- content/information/article-resources.md
