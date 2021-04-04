@@ -1,13 +1,15 @@
-+++
-author = "Hugo Authors"
-title = "Emoji Support"
-date = "2019-03-05"
-# description = "Guide to emoji usage in Hugo"
-tags = [
-    "emoji",
-]
-image = "images/mountains.jpg"
-+++
+---
+title: "My First Post"
+date: 2020-10-20T15:12:15+09:00
+draft: false
+weight: 1
+enableToc: true
+enableBlogBreadcrumb: false
+tocLevels: ["h2", "h3", "h4"]
+tags:
+- web
+- hugo
+---
 
 Lorem est tota propiore conpellat pectoribus de
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
