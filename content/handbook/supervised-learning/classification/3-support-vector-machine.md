@@ -11,6 +11,8 @@ weight: 3
 ---
 # SVM (Support Vector Machine)
 
+    from sklearn.svm import SVC
+
 ![](https://do2blehelix.github.io/the-ml-handbook/images/classifiers/svm_main.png)
 
 In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
@@ -30,10 +32,6 @@ In case the data cannot be clearly segregated, the data is transformed to a high
 ### Disadvantages
 
 * Computationally expensive
-
-### Implementation
-
-    from sklearn.svm import SVC
 
 ### Hyperparameters
 
