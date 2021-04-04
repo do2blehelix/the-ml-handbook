@@ -84,7 +84,7 @@ _Tree pruning = post pruning_
 * SSE
 * Classification/confusion matrix
 
-### Metrics:
+### Metrics
 
 #### **Gini Index** _\[Categorical\]_
 
