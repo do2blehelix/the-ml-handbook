@@ -11,14 +11,16 @@ Linear Regression is the most basic type of regression that there is. It takes a
 
 `Method = Ordinary Least Square`
 
+⚠️ Linear Regression requires the **complete data should be numerical** in nature.
+
 ***
 
-Dependent Variable (the one you need to predict) **Y  = Continuous**  
-Independent Variable (the others with which you will predict) **X = Continuous**  
-`i.e the complete data should be numerical in nature`
+* **Dependent Variable `Y`:** the one you need to predict
+* **Independent Variable `X`:** the others with which you will predict
+* **Residual**: difference between observation and the fitted line
+* **Error**: Residual
 
-> The objective is to minimize the sum of squares of the residuals  
-> _(residual=difference between observation and the fitted line)_
+> The objective is to minimize the sum of squares of the residuals _(difference between observation and the fitted line)_
 
 ### Assumptions
 
