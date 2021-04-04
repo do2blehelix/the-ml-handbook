@@ -82,7 +82,7 @@ Overfitting is one of the key challenges faced while modeling decision trees. If
 
 ### Metrics
 
-#### **Gini Index** _\[Categorical\]_
+#### Gini Index `Categorical`
 
 The gini measure gives the probability that 2 items chosen from the same population at random are in the same class. For a pure population this probability is 1.
 
@@ -101,7 +101,7 @@ _T = t**1** + t**2** = total 1 + total 2_
 
 Final gini score = \[ g**1** **x** (t**1**/T) \] + \[ g**2** **x** (t**2**/T) \]
 
-#### **Chi-Square** _\[Categorical\]_
+#### Chi-Square `Categorical`
 
 It is used to find the statistical significance of the differences between sub nodes and parent node. Measured by the sum of squares of standardized differences between observed and expected frequencies of target variable.
 
@@ -114,7 +114,7 @@ Chi-Square of each node is calculated using formula,
 
 Chi-square = ((Actual – Expected)^2 / Expected)^1/2
 
-#### **Information Gain** _\[Categorical\]_
+#### Information Gain `Categorical`
 
 Information theory is a measure to define this degree of disorganization in a system known as Entropy. If the sample is completely homogeneous, then the entropy is zero and if the sample is an equally divided (50% – 50%), it has entropy of one. Based on the concept that impure nodes require more information to describe it and vice versa.
 
@@ -132,7 +132,7 @@ Information Gain = 1 - Entropy
 
 ![](https://lh4.googleusercontent.com/jRsSIsIBpkX8XQZfggQ0GbXnfHScx2rSyRUx70T_qQPtyNAPWOQIQ_jNLTLUIXN-Uq0f1I-7937R45RBum224v8S2RnhTh1eeiO3sGfPcq_-mUu5ubmVRHOjREXZzoJmKLXg_sm0 =720x60)
 
-#### **Reduction in Variance** _\[Continuous\]_
+#### Reduction in Variance `Continuous`
 
 ![](https://lh6.googleusercontent.com/Ud0tg7MutTJjtjmZRhtsHy52aF6z78mNlhwvMUL95-dAFZEexKbnbLKXoXatkCtr8oH44wHTve7vPo9t102DdlV9zsM5ucWyWl8KuYA9XaLsB1dhKa_tdDwRgPe_cdFVNLy6FzZb =176x53)
 
