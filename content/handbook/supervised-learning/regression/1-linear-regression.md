@@ -7,12 +7,12 @@ weight: 1
 ---
 # Linear Regression
 
-#### Method = Ordinary Least Square{: .label }
+Method = Ordinary Least Square
 
 ***
 
-Dependent Variable **Y  = Continuous**  
-Independent Variable **X = Continuous**  
+Dependent Variable (the one you need to predict) **Y  = Continuous**  
+Independent Variable (the others with which you will predict) **X = Continuous**  
 `i.e the complete data should be numerical in nature`
 
 > Objective is to minimize the sum of squares of the residuals  
@@ -70,34 +70,24 @@ Independent Variable **X = Continuous**
 * Corrections:
   * Nonlinear / Log transformation
 
-
-
 ### Implementation
 
-```
-from 
-```
-
-
+    from 
 
 ### Outputs and Validation
 
-- R-squared: The most common validation check
-- Adjusted R-squared
-
-
+* R-squared: The most common validation check
+* Adjusted R-squared
 
 ### One Hot Encoding
 
 This method is used to convert Categorical variables to Continuous variables. It is very simple:
 
-| Transport | >>>  | Car  | Bus  | Train |
-| :-------: | :--: | :--: | :--: | :---: |
-|    Car    | >>>  |  1   |  0   |   0   |
-|    Bus    | >>>  |  0   |  1   |   0   |
-|   Train   | >>>  |  0   |  0   |   1   |
-
-
+| Transport | >>> | Car | Bus | Train |
+| :---: | :---: | :---: | :---: | :---: |
+| Car | >>> | 1 | 0 | 0 |
+| Bus | >>> | 0 | 1 | 0 |
+| Train | >>> | 0 | 0 | 1 |
 
 > ### Dummy Variable Trap
 >
