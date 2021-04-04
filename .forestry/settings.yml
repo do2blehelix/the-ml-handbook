@@ -12,7 +12,7 @@ sections:
   templates:
   - section
 upload_dir: images
-public_path: "/images"
+public_path: "/static/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
