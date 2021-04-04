@@ -15,4 +15,8 @@ tags:
 ---
 # Python
 
-By default the python stores its 
+Check Python version
+
+    python --version
+
+By default the python stores its packages in libraries 
