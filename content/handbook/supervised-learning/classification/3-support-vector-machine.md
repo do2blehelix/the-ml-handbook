@@ -11,7 +11,7 @@ weight: 3
 ---
 # SVM (Support Vector Machine)
 
-![](https://lh5.googleusercontent.com/n0CPoXbAgg0MNx5jxNNmn14h-aWrPgVDUj4uo_6DqnUL4iRX7ZHTjl8GoDwXn1IWbp1743NgaDXva8rDUtac5oKaPdAZMbJ4qaOqNx23JVCZHwEOwyeLdizmFHJG57oHKNidmboV =308x209)
+![](https://do2blehelix.github.io/the-ml-handbook/images/svm/svm_main.png)
 
 In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
 
@@ -30,7 +30,7 @@ Margin Error : Goal is to obtain a larger margin between the 2 boundary lines wi
 
 ### Disadvantages
 
-Computationally expensive
+* Computationally expensive
 
 ### Implementation
 
@@ -38,7 +38,7 @@ Computationally expensive
 
 ### Hyperparameters
 
-C-parameter : It's just a constant that attaches itself to the classification error.  
+`C-parameter` : It's just a constant that attaches itself to the classification error.  
 _Small c = large margin and some classification errors. Large c = classify well but small margin._
 
 **Kernels**
