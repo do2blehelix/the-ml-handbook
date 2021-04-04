@@ -7,7 +7,9 @@ weight: 1
 ---
 # Linear Regression
 
-Method = Ordinary Least Square
+Linear Regression is the most basic type of regression that there is. It takes a variable and states that on the basis of other variables, it will predict the concerned variable. It does this by simply drawing a line through the points and generating an equation.
+
+`Method = Ordinary Least Square`
 
 ***
 
@@ -15,7 +17,7 @@ Dependent Variable (the one you need to predict) **Y  = Continuous**
 Independent Variable (the others with which you will predict) **X = Continuous**  
 `i.e the complete data should be numerical in nature`
 
-> Objective is to minimize the sum of squares of the residuals  
+> The objective is to minimize the sum of squares of the residuals  
 > _(residual=difference between observation and the fitted line)_
 
 ### Assumptions
@@ -89,9 +91,9 @@ This method is used to convert Categorical variables to Continuous variables. It
 | Bus | >>> | 0 | 1 | 0 |
 | Train | >>> | 0 | 0 | 1 |
 
- ### Dummy Variable Trap
+### Dummy Variable Trap
 
- Lookout for this when converting categorical variables to continuous variables by one hot encoding (flag variable)
+Lookout for this when converting categorical variables to continuous variables by one hot encoding (flag variable)
 
 * \[x\] Include one less variable when adding dummy variables to regression.
 * \[x\] The excluded variable serves as the base variable.
