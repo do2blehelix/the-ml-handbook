@@ -64,3 +64,5 @@ Using grid search run a combination of hyperparameter tuning and check for best 
 Based on the initial modeling, drop/keep variables of interest/importance and run the final model. 
 
 ## Generate Insights
+
+Present the generated insights as a flowing story that connects the business requirement and the data modeling.
