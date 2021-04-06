@@ -4,6 +4,8 @@ title: Other Types
 parent: Clustering
 grand_parent: Unsupervised Learning
 nav_order: 5
+weight: 5
+description: Other types of clustering
 
 ---
 # Spectral Clustering
