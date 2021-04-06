@@ -38,6 +38,8 @@ Objective is to average noisy and unbiased models to create a model with low var
 
 Random Forest works as a large collection of decorrelated decision trees and is **based on bagging (boosted aggregating)**.
 
+> The fundamental difference between Bagging and Random Forest is that in Random forests, only a subset of features are selected at random out of the total and the best split feature from the subset is used to split each node in a tree, unlike in bagging where all features are considered for splitting a node.
+
 ### Algorithm
 
 1. A random sample is taken from the population with random variables (feature selection)
