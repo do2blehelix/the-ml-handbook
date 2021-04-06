@@ -11,6 +11,8 @@ weight: 2
 ---
 # Decision Trees
 
+    from sklearn.tree import DecisionTreeClassifier
+
 It's a type of supervised learning algorithm mostly used for classification problems. Works for **both categorical and continuous** variables.
 
 The population is split into two or more homogeneous sets based on the splitting criterion.
@@ -34,15 +36,6 @@ The population is split into two or more homogeneous sets based on the splitting
 
 * Over fitting : If no limit is set for a decision tree, it will give 100% accuracy on training set
 * Not fit for continuous variables : tends to lose information when bucketed into categories.
-
-### Implementation
-
-```python
-from sklearn.tree import DecisionTreeClassifier
-
-model = DecisionTreeClassifier()    # Instantiate
-model.fit(X_train, y_train)  		# Fit model
-```
 
 ### Terminology
 
@@ -93,8 +86,8 @@ The gini measure gives the probability that 2 items chosen from the same populat
 
 **Gini Score:**  
 S**1** : \[ (a ÷ t**1** )2 + (b ÷ t**1** )2 \] = g**1  
-**S**2** : \[ (a ÷ t**2** )2 + (b ÷ t**2** )2 \] = g**2  
-**_T = t**1** + t**2** = total 1 + total 2  
+S**2 : \[ (a ÷ t**2** )2 + (b ÷ t**2** )2 \] = g**2  
+_T = t**1 + t**2** = total 1 + total 2  
 _**Final Gini score** = \[ g**1** **x** (t**1**/T) \] + \[ g**2** **x** (t**2**/T) \]
 
 #### Chi-Square `Categorical`
