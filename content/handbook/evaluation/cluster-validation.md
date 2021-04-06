@@ -1,12 +1,13 @@
 ---
 layout: default
-title: "☑️ Cluster Validation"
+title: "☑️ Cluster Validation Metrics"
 parent: Clustering
 grand_parent: Unsupervised Learning
 nav_order: 5
+weight: 3
 
 ---
-# Cluster Validation
+# Cluster Validation Metrics
 
 ***
 
@@ -28,12 +29,11 @@ Internal Indices measure how good the clusters are in terms of within-cluster-va
 
 The silhouette index measures the average distance between the clusters. The silhouette index displays a measure of how close each point in one cluster is to points in the neighboring clusters.
 
-**Range :  
-**1 = Great Score   
+\**Range :  
+\**1 = Great Score  
 0 = Equal distance from both clusters (overlapping clusters)  
-\-1 = Misclassified, placed between clusters 
+\-1 = Misclassified, placed between clusters
 
-    
     Silhouette Coefficient Si = (b - a) / max(a,b) 
     S = average (S1 , S2 , S3 ……)
     
