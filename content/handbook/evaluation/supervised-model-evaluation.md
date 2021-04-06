@@ -9,26 +9,13 @@ date: 2021-04-03T18:30:00.000+00:00
 weight: 2
 
 ---
-# Model Evaluation / Selection / Fits / Validation
-
-## Train Test Split
-
-* Before running the model, the data is split into `Training` and `Testing` sets.
-* The training to test split ratio is generally 70:30 and can vary.
-* The model is trained on the `Training` dataset hence the name
-* Once the model is fit on the data, we use the `Testing` dataset to check how the model performs.
-
-The model is best served with a k-fold cross validation set where the data is randomly split multiple `k` times and each time the model fit is checked.
-
-***
-
-## Classification Metrics :
+# Classification Metrics :
 
 * **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
 * **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
 * **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
-#### Confusion Matrix
+## Confusion Matrix
 
 ![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
 
@@ -79,7 +66,7 @@ _For the notifications model, since it's free to send them, we won't get harmed 
 
 _For the Promotional Material model, since it costs us to send the material, we really don't want to send it to many people that won't be interested. Thus, this is a high precision model. Thus, beta = 0.5 will work here._
 
-#### ROC (Receiver Operating Characteristics) Curve![](https://lh6.googleusercontent.com/R_1QXnZi0zNM6jWBEZNXpxStbyq-3GVzOCmODRvJSHYNXfPDmEGUgEUsUWFenRl3lELiF4-VZ55Q924V9p0G9dvJzmmw9TbQ8iVJBAxp3IwuhYSbEh8Dr5ZUdrg7q-Wf1QkBvPj3 =302x189)
+## ROC (Receiver Operating Characteristics) Curve![](https://lh6.googleusercontent.com/R_1QXnZi0zNM6jWBEZNXpxStbyq-3GVzOCmODRvJSHYNXfPDmEGUgEUsUWFenRl3lELiF4-VZ55Q924V9p0G9dvJzmmw9TbQ8iVJBAxp3IwuhYSbEh8Dr5ZUdrg7q-Wf1QkBvPj3 =302x189)
 
 The ROC chart is plotted with :
 
@@ -94,6 +81,10 @@ The diagonal line represents a random chance model whereas the line curved towar
 c = (%concordant - %discordant + %tied) _÷_ no of pairs
 
 _(random chance)_ **0.5 < c-stat < 1** _(perfect model)_
+
+***
+
+## Other Techniques
 
 #### K-S Chart![](https://lh5.googleusercontent.com/tvo-uQPoquKBLLN-vNNiApTart8yLaDVtNskblYlqjZcE1dc2qIAEEWSbPuQ9RFnAVKAJRrdW96ENQe9vdybKCnXneAm0TNYar9bzs4QGApe-wjqK6sD79J63vdlE8eBSdvJXCgZ =297x174)
 
@@ -177,6 +168,8 @@ _= (Concordant pairs - Discordant pairs ) / Total Pairs_
 
 Similar to Somers’ D but does not penalize for tied pairs.
 
+***
+
 **Bias - Variance Tradeoff**
 
 Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
@@ -200,42 +193,3 @@ High Variance, Low Bias models tend to overfit data, as they are too flexible. D
 ![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
 
 Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
-
-* 
-
-### Validation :
-
-#### K-fold cross Validation
-
-* Sample is partitioned into k equal sized subsamples.
-* A single subsample is used as the validation dataset for testing the model.
-* Remaining k-1 subsamples are used as training data.
-* The cross validation process is repeated k times.
-
-**Advantages**
-
-All observations are used for both training and validation.
-
-Each of the k subsamples used exactly once as the validation data.
-
-#### Learning Curves
-
-![](https://lh5.googleusercontent.com/zHfafLEPe9jlrCSeRDQFivuKWDhpNAMsltF8Ulh0-bRd0ANAXuWsrsSn5lyUJI30q2l7Q_sx3-1Qae7Xgr3MmSf53yi7tAPxnCW4oRmrXvxWRgG_F3yooM3f19eYF4DzT1u0SUqZ =427x181)
-
-#### Grid Search
-
-Technique used to list down all the possibilities of the hyperparameters and pick the best one.
-
-**MODEL MONITORING**
-
-Population Stability Index (PSI)
-
-1. Sort scoring variable on descending order in scoring sample
-2. Split the data into 10 or 20 groups (deciling)
-3. Calculate % of records in each group based on scoring sample
-4. Calculate % of records in each group based on training sample
-5. Calculate difference between Step 3 and Step 4
-6. Take Natural Log of (Step3 / Step4)
-7. Multiply Step5 and Step6
-
-continue model < 0.1 < slight change < 0.2 < significant change
