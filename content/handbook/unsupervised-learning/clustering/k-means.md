@@ -6,22 +6,24 @@ grand_parent: Unsupervised Learning
 nav_order: 1
 
 ---
-# K means \[Non Hierarchical\]
+# K means (Non Hierarchical)
+
+    from sklearn.cluster import KMeans
 
 It is based on division of objects into non overlapping subsets. Main objective is to form clusters that are homogeneous in nature and heterogeneous to each other.  
 ❕ **Only for continuous variables.**
 
-### Advantages:
+### Advantages
 
 * Faster, more reliable, works with large data.
 * Computationally lighter than other methods
 
-### Disadvantages:
+### Disadvantages
 
 * Can only identify clusters circular / spherical in nature. _(check crescent dataset)_
 * Distance based
 
-### Process:
+### Process
 
 1. Identify **value of _‘k’_**
 2. Assign **random k observations** as seeds
@@ -46,9 +48,7 @@ The method states that you should choose a number of clusters so that adding ano
 * Calinski Harabasz Score
 * Pseudo F
 
-### Implementation:
+### Parameter Tuning
 
-    from sklearn.cluster import KMeans
-    
     km = Kmeans(n_clusters=2, max_iter=100)
     km.fit(X_std)
