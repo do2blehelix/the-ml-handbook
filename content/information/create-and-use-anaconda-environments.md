@@ -18,16 +18,42 @@ Anaconda Environments provide a way of working with python packages. You can hav
 
 ###### Python
 
-    python -m venv
+    python -m venv <<myenv>>
 
 #### Check if environment was created
 
+###### Anaconda
+
     conda env list
+
+###### Python
 
 #### Activate the environment
 
+###### Anaconda
+
     conda activate <<myenv>>
+
+###### Python
+
+    .\env\Scripts\activate
 
 #### That's it install packages the way you do
 
+###### Anaconda
+
     conda install pandas
+
+###### Python
+
+    pip install pandas
+
+#### Deactivate
+
+###### Anaconda
+
+    conda deactivate
+
+###### Python
+
+    deactivate
