@@ -1,17 +1,17 @@
 [[main]]
-  identifier = "docs"
+  identifier = "The ML Handbook"
   name = "The ML Handbook"
   url = "handbook"
   weight = 1
 
 [[main]]
-  identifier = "information"
-  name = "Information"
+  identifier = "How To"
+  name = "How To"
   url = "information"
   weight = 2
 
 [[main]]
-  identifier = "blog"
+  identifier = "Blog"
   name = "Blog Posts"
   url = "blog"
   weight = 3
