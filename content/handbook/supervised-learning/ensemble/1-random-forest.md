@@ -9,7 +9,7 @@ description: Random Forest
 date: 2021-04-03T18:30:00.000+00:00
 
 ---
-# Bootsted Aggregating
+# Boosted Aggregating
 
 ## Bagging
 
