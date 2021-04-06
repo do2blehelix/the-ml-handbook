@@ -15,7 +15,7 @@ weight: 4
 
 It is a classification technique based on Bayes’ theorem with an assumption of independence between predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/classifiers/naivebayes.png)
+![](https://do2blehelix.github.io/the-ml-handbook/images/supervised/naivebayes.png)
 
 * _P(c|x) is the posterior probability of class (target) given predictor (attribute)._
 * _P(c) is the prior probability of class._
