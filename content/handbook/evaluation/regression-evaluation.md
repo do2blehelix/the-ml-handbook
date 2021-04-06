@@ -1,13 +1,12 @@
 ---
 layout: default
 parent: Supervised Learning
-title: "☑️ regression-evaluation"
+title: "☑️ Regression Metrics"
 nav_order: 4
 has_children: false
 description: Regression Evaluation
 date: 2021-04-03T18:30:00.000+00:00
 weight: 1
-published: false
 
 ---
 ## Regression Metrics:
