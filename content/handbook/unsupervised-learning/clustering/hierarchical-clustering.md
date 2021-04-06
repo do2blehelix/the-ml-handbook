@@ -16,8 +16,8 @@ It is a set of nested clusters organized as a hierarchical tree. No decision abo
 
 ### Types
 
-* **Agglomerative** : Start from n clusters and get to one cluster  _`Bottom up approach`_
-* **Divisive** : Start from one cluster and get to n clusters  _`Top down approach`_
+* **Agglomerative** : Start from n clusters and get to one cluster  `Bottom up approach`
+* **Divisive** : Start from one cluster and get to n clusters  `Top down approach`
 
 ### Advantages
 
