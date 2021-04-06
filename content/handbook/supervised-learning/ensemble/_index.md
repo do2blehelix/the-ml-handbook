@@ -14,6 +14,8 @@ collapsible: true
 
 Ensemble model combines multiple ‘individual’ (diverse) models together and delivers superior prediction power.
 
+![](https://do2blehelix.github.io/the-ml-handbook/images/supervised/ensemble.jpeg)
+
 ### Bagging
 
 Bagging is an approach where you take random samples of data, build learning algorithms and take simple means to find bagging probabilities.
