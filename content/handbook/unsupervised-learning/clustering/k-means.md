@@ -35,7 +35,7 @@ It is based on division of objects into non overlapping subsets. Main objective 
 8. **Recalculate** clusters
 9. Continue process until **stable clusters** are formed (boundary ceases to change)
 
-#### Elbow Criterion (Scree Plot):![](https://lh5.googleusercontent.com/VgUz4jopV1BT6doFeT_UOv2Iao0kbY6Ij6ErVBweUUjoQcTSfdA1AbwNcAToMZRo3yZgcEnMtrrDPY6UzniG5Oec_-otvyy7_w7SmeSpKy3AnxH3NHQq4U90uftzY254_OCS5fZr =247x126)
+#### Elbow Criterion (Scree ![](https://lh5.googleusercontent.com/VgUz4jopV1BT6doFeT_UOv2Iao0kbY6Ij6ErVBweUUjoQcTSfdA1AbwNcAToMZRo3yZgcEnMtrrDPY6UzniG5Oec_-otvyy7_w7SmeSpKy3AnxH3NHQq4U90uftzY254_OCS5fZr =247x126)Plot):
 
 K means clustering doesn't provide an estimate of the number of clusters required. Hence elbow criterion is used to determine optimal number of clusters.
 
