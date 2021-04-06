@@ -6,7 +6,7 @@ weight: 4
 collapsible: false
 
 ---
-# ASD
+# Anaconda Environments
 
 #### Create the environment
 
