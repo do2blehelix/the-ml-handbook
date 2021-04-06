@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/handbook
+  label: Handbook
+  create: all
+  match: "**/*"
+  templates:
+  - section
+- type: directory
   path: content/information
   label: Information
   create: all
@@ -16,13 +23,6 @@ sections:
   match: "**/*"
   templates:
   - blog-posts
-- type: directory
-  path: content/handbook
-  label: Handbook
-  create: all
-  match: "**/*"
-  templates:
-  - section
 upload_dir: static/images
 public_path: https://do2blehelix.github.io/the-ml-handbook/images
 front_matter_path: ''
