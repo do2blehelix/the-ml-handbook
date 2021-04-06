@@ -19,3 +19,4 @@ fields:
   label: collapsible
 pages:
 - content/information/article-resources.md
+- content/information/create-and-use-anaconda-environments.md
