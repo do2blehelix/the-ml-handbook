@@ -6,7 +6,7 @@ grand_parent: Unsupervised Learning
 nav_order: 2
 description: Introduction and Implementation of Unsupervised learning algorithm Hierarchical
   Clustering
-date: 2021-04-05 18:30:00 +0000
+date: 2021-04-05T18:30:00.000+00:00
 weight: 2
 
 ---
@@ -40,9 +40,7 @@ It is a set of nested clusters organized as a hierarchical tree. No decision abo
 
 ### Visualization
 
-![](https://lh5.googleusercontent.com/jC8mI4S66hPh4i3tr-QZgKZDkkZPrhh0sGcczx2x1BVWLgA0lfXTAH5ncDKa1HkHelh5tfwBASLD3puoEnFb_iOA3LxYpm7MlV8Lqsd-F2BElXVDV0HEVMZEB84QjCRjGdpOS2YS =326x205)
-
-The results of hierarchical clustering can be shown using dendrogram.
+![](https://do2blehelix.github.io/the-ml-handbook/images/unsupervised/hierarchical_dendogram.png)The results of hierarchical clustering can be shown using **dendrogram**.
 
 1. At the bottom, we start with n data points (observations), each assigned to separate clusters.
 2. Two closest clusters are then merged till we have just one cluster at the top
