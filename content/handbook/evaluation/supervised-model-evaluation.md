@@ -5,7 +5,7 @@ title: "☑️ Model Evaluation"
 nav_order: 4
 has_children: false
 description: Model Evaluation / Selection / Fits / Validation
-date: 2021-04-03 18:30:00 +0000
+date: 2021-04-03T18:30:00.000+00:00
 weight: 5
 
 ---
@@ -32,7 +32,7 @@ The model is best served with a k-fold cross validation set where the data is ra
 
   `Model with the least RMSE is the best model`  
   `RMSE =`  _`sqrt (Sum of Squared Errors) / no of obs = sqrt (mean ( (Actual - Predicted)2 ))`_
-* **MAE (Mean Absolute Error) :** `sum( |Error| ) / n `_`Error = Actual - Predicted |Error|=Absolute Error`_
+* **MAE (Mean Absolute Error) :** `sum( |Error| ) / n`_`Error = Actual - Predicted |Error|=Absolute Error`_
 * **MAPE (Mean Absolute Percentage Error) :** _`{ absolute (average [ (Actual - Predicted) / Actual ])}`_ should not exceed \~ 8% - 10%
 * AIC
 * BIC
@@ -55,7 +55,7 @@ The model is best served with a k-fold cross validation set where the data is ra
 
 #### Confusion Matrix
 
-## ![](https://lh6.googleusercontent.com/V1bR60sTazQxuSSGuoaafLFL2gG53aT3Xe-b37gtsjadm_gIlgoXGGMX5zDGBpVNBOoc9jpDwpbzpVwTwiYe8R5FZZoDc9JZ3BMfgQyB_rpTb3yV0W6Y50-gE7RhqUEUQe2zAbyx =292x219)
+![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
 
 |               | Actual (+) | Actual (-) |  
 | Predicted (+) | TP         | TP         |  
