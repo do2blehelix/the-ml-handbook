@@ -4,6 +4,9 @@ title: K-Means
 parent: Clustering
 grand_parent: Unsupervised Learning
 nav_order: 1
+weight: 1
+date: 2021-04-05 18:30:00 +0000
+description: Introduction to K-means Unsupervised Algorithm and application
 
 ---
 # K means (Non Hierarchical)
