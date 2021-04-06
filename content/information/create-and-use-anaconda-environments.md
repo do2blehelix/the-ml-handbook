@@ -1,5 +1,5 @@
 ---
-title: Create And Use Anaconda Environments
+title: Anaconda Environments
 description: Create And Use Anaconda Environments
 date: 2021-04-05 18:30:00 +0000
 weight: 4
