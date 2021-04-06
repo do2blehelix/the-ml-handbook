@@ -10,7 +10,7 @@ collapsible: false
 
 Anaconda Environments provide a way of working with python packages. You can have any version of any package installed in a specific environment without changing you original set of packages. It is especially helpful for installing version compatible packages together. 
 
-#### Create the environment
+### Create the environment
 
 ###### Anaconda
 
@@ -20,7 +20,7 @@ Anaconda Environments provide a way of working with python packages. You can hav
 
     python -m venv <<myenv>>
 
-#### Check if environment was created
+### Check if environment was created
 
 ###### Anaconda
 
@@ -28,7 +28,7 @@ Anaconda Environments provide a way of working with python packages. You can hav
 
 ###### Python
 
-#### Activate the environment
+### Activate the environment
 
 ###### Anaconda
 
@@ -38,7 +38,7 @@ Anaconda Environments provide a way of working with python packages. You can hav
 
     .\env\Scripts\activate
 
-#### That's it install packages the way you do
+### That's it install packages the way you do
 
 ###### Anaconda
 
@@ -48,7 +48,7 @@ Anaconda Environments provide a way of working with python packages. You can hav
 
     pip install pandas
 
-#### Deactivate
+### Deactivate
 
 ###### Anaconda
 
