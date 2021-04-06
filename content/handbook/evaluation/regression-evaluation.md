@@ -4,9 +4,9 @@ parent: Supervised Learning
 title: "☑️ regression-evaluation"
 nav_order: 4
 has_children: false
-description: Model Evaluation / Selection / Fits / Validation
+description: Regression Evaluation
 date: 2021-04-03T18:30:00.000+00:00
-weight: 5
+weight: 1
 published: false
 
 ---
