@@ -8,7 +8,9 @@ collapsible: false
 ---
 # Logistic Regression
 
-Although Logistic Regression is termed a Regression, it is in fact a method of Classification. The underlying methodology utilized concepts to linear regression and hence the name sayed. 
+    from sklearn.linear_model import LogisticRegression
+
+Although Logistic Regression is termed a Regression, it is in fact a method of Classification. The underlying methodology utilized concepts to linear regression and hence the name sayed.
 
 `Method = Maximum Likelihood Estimation / Chi-square`
 
@@ -57,12 +59,7 @@ _However ln(0.9/0.1) = 2.217 and conversely, ln(0.1/0.9) = -2.217 relates in a m
 
 **Interpretation:** Logistic regression coefficients give the change in the log odds of the outcome for a one unit increase in the predictor variable
 
-### Implementation
-
-    from sklearn.linear_model import LogisticRegression
-    
-    model = LogisticRegression(solver='lbfgs', max_iter=500)    # Instantiate
-    model.fit(X_train, y_train)		# Fit model
+### Hyperparameters
 
 ### Output
 
