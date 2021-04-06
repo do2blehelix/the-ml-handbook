@@ -8,6 +8,8 @@ collapsible: false
 ---
 # Anaconda Environments
 
+Anaconda Environments provide a way of working with python packages. You can have any version of any package installed in a specific environment without changing you original set of packages. It is especially helpful for installing version compatible packages together. 
+
 #### Create the environment
 
     conda create --name <<myenv>>
