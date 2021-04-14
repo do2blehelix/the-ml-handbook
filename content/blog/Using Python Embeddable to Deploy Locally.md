@@ -1,6 +1,6 @@
 ---
-title: Shareable Python Environments
-date: 2021-04-03 18:30:00 +0000
+title: Share Python with Packages
+date: 2021-04-03T18:30:00.000+00:00
 weight: 
 enableToc: false
 enableBlogBreadcrumb: false
