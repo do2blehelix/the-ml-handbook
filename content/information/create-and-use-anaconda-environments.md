@@ -1,7 +1,7 @@
 ---
-title: Python Environments
+title: Python & Conda Environments
 description: Create And Use Anaconda Environments
-date: 2021-04-05 18:30:00 +0000
+date: 2021-04-05T18:30:00.000+00:00
 weight: 4
 collapsible: false
 

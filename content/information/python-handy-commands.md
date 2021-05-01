@@ -1,7 +1,7 @@
 ---
-title: Using user defined libraries in python
+title: Python Handy Utility Codes
 date: 2020-10-20T15:12:15.000+09:00
-weight: 1
+weight: "1"
 enableToc: true
 enableBlogBreadcrumb: false
 tocLevels:
@@ -19,4 +19,4 @@ Check Python version
 
     python --version
 
-By default the python stores its packages in libraries 
+By default the python stores its packages in libraries
