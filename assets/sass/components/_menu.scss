@@ -117,7 +117,7 @@
       }
 
       & > span {
-        @include truncate(150px);
+        @include truncate(280px);
       }
     }
 
