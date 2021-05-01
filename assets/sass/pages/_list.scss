@@ -7,8 +7,8 @@
     background-color: themed('body-background-color');
 
     &[data-dir="ltr"] {
-      border-right: 1px solid themed('border-line-color');
-      border-left: 1px solid themed('border-line-color');
+      border-right: 0px solid themed('border-line-color');
+      border-left: 3px solid themed('border-line-color');
     }
 
     &[data-dir="rtl"] {
