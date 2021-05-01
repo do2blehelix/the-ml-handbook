@@ -8,8 +8,10 @@
     border-top: 1px solid themed('border-line-color');
   }
 
-  padding: 1rem;
+  padding: 0.4rem;
   text-align: center;
+  background-color: #f2f8ff;
+  color:gray;
 
   &__section {
     @include flexbox();
