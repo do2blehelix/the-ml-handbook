@@ -3,7 +3,6 @@ title: Logistic Regression
 description: Logistic Regression
 date: 2020-10-21T06:14:22.000+09:00
 weight: 1
-collapsible: false
 
 ---
 # Logistic Regression

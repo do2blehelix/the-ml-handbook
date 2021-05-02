@@ -1,9 +1,5 @@
 ---
-layout: default
 title: Decision Trees
-parent: Classification
-grand_parent: Supervised Learning
-nav_order: 2
 description: Decision Trees
 date: 2021-04-03T18:30:00.000+00:00
 weight: 2
