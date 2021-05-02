@@ -10,7 +10,7 @@ header:
     title:
       - Blog
     subtitle: 
-      - 
+      - asd
       - 
     titleColor: 
     titleFontSize: 44
@@ -19,7 +19,7 @@ header:
     spaceBetweenTitleSubtitle: 16
   
   - type: img
-    imageSrc: images/header/background.jpg
+    imageSrc: https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80
     imageSize: cover
     imageRepeat: no-repeat
     imagePosition: center
@@ -28,7 +28,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - Zzo blog
+      - The ML Blog
     subtitle:
       - 
     titleColor: 

@@ -3,7 +3,7 @@
     {{ if .IsHome }}
       {{ .Site.Title }}
     {{ else }}
-      {{ .Type }}
+      {{ .Type | title }}
     {{ end }}
     {{ partial "svgs/arrow-down.svg" (dict "width" 20 "height" 20) }}
   </button>
