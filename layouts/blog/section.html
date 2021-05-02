@@ -13,22 +13,21 @@
   </header>
 </div>
 
-<div class="mid blog__bg">
-  <main class="main blog__bg">
-    <div class="sv">
-      <div class="blog-post">
+
+<!-- BLOG HOMEPAGE CARDS -->
+
+<div class="container" style="margin-top:30px">
+  <div class="row row-cols-2 row-cols-md-4 g-4">
         {{ $paginator := .Paginate (where .RegularPages "Type" .Type) }}
         {{ range $paginator.Pages }}
           {{ .Render "summary" }}
-        {{ end }}
-        {{ partial "main/component/pagination.html" . }}
-      </div>
-      <div class="blog-tags">
-        {{ partial "main/component/tag-cloud" . }}
-      </div>
-    </div>
-  </main>
+          {{ end }}
+          {{ partial "main/component/pagination.html" . }}
+  </div>
 </div>
+
+<!-- /BLOG HOMEPAGE CARDS -->
+
 
 <script>
   var singleViewElem = document.querySelectorAll('.sv');

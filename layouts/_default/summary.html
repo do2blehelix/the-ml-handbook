@@ -1,19 +1,35 @@
-<article class="summary-card">
-  <header>
-    <h5 class="title h5"><a href='{{ .Permalink }}'> {{ .Title }}</a></h5>
-    <div class="subtitle caption">
-      {{ partial "main/component/article-meta.html" . }}
+
+
+
+
+  
+  <div class="col">
+    <div class="card">
+      {{with .Params.Image}} <img src="{{.}}" class="card-img-top" alt="..."> {{end}}
+      <div class="card-body">
+        <h3 class="card-title">{{.Title}}</h3>
+        <p class="card-text">{{ with .Params.Description }} {{ . }} {{ else }}{{ .Summary }}{{ end }}</p>
+        <a href="{{.Permalink}}" class="stretched-link"></a>
+      </div>
+      <small class="text-muted" style="text-align:right">{{ range .Params.tags }}
+        <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="summary-card__tag"> {{ . }} </a> {{ end }}
+      </small>
+      <div class="card-footer">
+        <small class="text-muted">{{ partial "main/component/article-meta.html" . }}</small> <br>
+      </div>
     </div>
-  </header>
+  </div>
+
+
+
+
+
+
+<!-- 
+<article class="summary-card">
+  
   {{ $params := .Params }}
   <div class="summary-card__content">
-    <div class="summary-card__text p2">
-      {{ with $params.Description }}
-        {{ . }}
-      {{ else }}
-        {{ .Summary }}
-      {{ end }}
-    </div>
     {{ if $params.image }}
     <div class="summary-card__image-wrapper">
       <a href="{{ .Permalink }}">
@@ -25,13 +41,30 @@
     <div class="summary-card__video-wrapper">
       <video class="summary-card__video" controls preload='none' poster='{{ . | relURL }}' data-setup='{"fluid": true}'>
         {{ with print ("videos/" | relURL) $params.featured_video }}
-          <source src="{{ . | relURL }}" type='video/mp4'>
+        <source src="{{ . | relURL }}" type='video/mp4'>
         {{ end }}
       </video>
     </div>
     {{ end }}
     {{ end }}
+
+    <header>
+      <h2 class="title h5"><a href='{{ .Permalink }}'> {{ .Title }}</a></h2>
+      <div class="subtitle caption">
+        {{ partial "main/component/article-meta.html" . }}
+      </div>
+    </header>
+
+    <div class="summary-card__text p2">
+      {{ with $params.Description }}
+      {{ . }}
+      {{ else }}
+      {{ .Summary }}
+      {{ end }}
+    </div>
   </div>
+  
+
   <div class="summary-card__links">
     {{ range .Params.tags }}
       <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="summary-card__tag">
@@ -39,4 +72,4 @@
       </a>
     {{ end }}
   </div>
-</article>
+</article> -->

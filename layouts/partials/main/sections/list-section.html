@@ -1,13 +1,13 @@
 {{ $.context.Content }}
 <div class="list-section">
   {{ range .section_to_display }}
-    <div class="list-section__item">
+
       <a href="{{ .Permalink }}" class="list-section__item--link">
-        {{ .Title }}
+        <button class="btn btn-outline-info">{{ .Title }}</button>
       </a>
-      <div class="list-section__item--desc">
+      <!-- <div class="list-section__item--desc">
         {{ .Description }}
-      </div>
-    </div>
+      </div> -->
+
   {{ end }}
   </div>

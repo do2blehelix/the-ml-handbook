@@ -1,13 +1,18 @@
 <div class="single" data-display="block">
+  
   {{ if eq .Type "blog" }}
-    <div class="single__title" style="color:black">
-      {{ .Title }}
-    </div>
-    <div class="single__meta">
-      {{ partial "main/component/article-meta.html" . }}
-    </div>
+  <div class="single__title" style="color:black">
+    {{ .Title }}
+  </div>
+  <div class="single__meta">
+    {{ partial "main/component/article-meta.html" . }}
+  </div>
   {{ end }}
-
+  
+  {{with .Params.Image}}
+  <img src="{{.}}">
+  {{end}}
+ 
   <article class="single__contents" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
     {{ .Content }}
   </article>

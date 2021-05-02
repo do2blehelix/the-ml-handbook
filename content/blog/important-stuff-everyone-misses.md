@@ -6,7 +6,7 @@ weight: 1
 image: https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGF0YXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
 enableToc: false
 tocLevels: []
-tags: []
+tags: ["Data Analysis", "Algorithms"]
 ---
 
 # Easy to Overlook these

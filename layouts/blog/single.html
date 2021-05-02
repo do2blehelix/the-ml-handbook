@@ -6,19 +6,21 @@
     <nav id="single-menu" class="{{ if $wideViewAsDefault }}hide{{ else }}l{{ end }}" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
     </nav>
 
-    <article id="list-main" class="{{ if $wideViewAsDefault }}lm{{ else }}m{{ end }}" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
+   <!-- CHANGED LIST MAIN ID BELOW TO LIST MAINS TO REMOVE BLOG SIDEBARS AND COMMENTED PAGINATION -->
+    
+    <article id="list-mains" class="{{ if $wideViewAsDefault }}lm{{ else }}m{{ end }}" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
       {{ if $.Param "enableBlogBreadcrumb" }}
         {{ partial "main/component/breadcrumb.html" . }}
       {{ end }}
       {{ partial "main/sections/list-main.html" . }}
-      {{ partial "main/component/pagination-single.html" . }}
+      <!-- {{ partial "main/component/pagination-single.html" . }} -->
     </article>
     
-    <section id="list-side" class="r" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
+    <!-- <section id="list-side" class="r" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
       {{ if $.Param "enableToc" }}
         {{ partial "main/component/toc.html" . }}
       {{ end }}
-    </section>
+    </section> -->
 
   </div>
 </div>
