@@ -9,9 +9,23 @@ weight: 1
 
 ***
 
+Central tendency refers to the definition of a group of numbers by a particular number. Generally speaking, it's the most common number or most probable common number among a range of numbers.
+
+You would definitely have come across these measures in your daily life with the most frequently used word among them being 'average'
+
+Below are the top 3 measures of central tendency.
+
 ## Mean
 
-The sum total of units divided by the number of units. `Average`  
+The most common and frequently used terminology is the mean or average. 
+
+It is defined as the sum total of units divided by the number of units. 
+
+`Average`
+
+0 | 2 | 4 | 6 | 8
+
+Mean = 4 (20/5)  
 _μ  (population) | x̄  (sample) | 1/ni=1nxi_
 
 ## Median
@@ -24,15 +38,11 @@ _It divides the data 50(more):50(less)._
 The most commonly occurring value `Frequent`  
 _Two modes = Bimodal ; Multiple modes = Multimodal_
 
- 
-
-> Q) Why do we use mean most times ?   
+> Q) Why do we use mean most times ?  
 > A) It takes all values into consideration. Mode/median ignores
 
-> Q) When do we use median ?   
+> Q) When do we use median ?  
 > A) It is less prone to outliers as it doesn’t get affected by them.
-
- 
 
 **Nomenclature**
 
@@ -43,8 +53,6 @@ _Two modes = Bimodal ; Multiple modes = Multimodal_
 | μ = population mean | x̄ = sample mean |
 | σ = population std dev | s = sample std dev |
 
- 
-
 **Normal Distribution Data**
 
 | Percentage | μ ± s.d. |
@@ -52,9 +60,6 @@ _Two modes = Bimodal ; Multiple modes = Multimodal_
 | 68.3 % | μ ± 1σ |
 | 95.5 % | μ ± 2σ |
 | 99.7 % | μ ± 3σ |
-
- 
- 
 
 **_Population_** - our entire group of interest  
 **_Parameter_** - numeric summary about a population  
