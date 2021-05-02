@@ -21,6 +21,17 @@ The most common and frequently used terminology is the mean or average.
 
 It is defined as the sum total of units divided by the number of units. 
 
+Advantages
+
+* Mean or average  is understood universally
+* Mean is easy to calculate and refer a sequence of numbers with.
+
+Disadvantages
+
+* Mean is prone to outliers. Meaning:  If the range of numbers is highly favoured towards a side, then mean  can become biased. _More on that later._
+
+Calculation
+
 `Average`
 
 0 | 2 | 4 | 6 | 8
@@ -30,7 +41,7 @@ _μ  (population) | x̄  (sample) | 1/ni=1nxi_
 
 ## Median
 
-The middle / midpoint value in a sorted sequence. `Middle`  
+A lesser used term in common language, but it has a huge significance in Statistics. Median is the middle / midpoint value in a sorted sequence. `Middle`  
 _It divides the data 50(more):50(less)._
 
 ## Mode
