@@ -40,7 +40,9 @@ It is a set of nested clusters organized as a hierarchical tree. No decision abo
 
 ### Visualization
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/unsupervised/hierarchical_dendogram.png)The results of hierarchical clustering can be shown using **dendrogram**.
+![](https://do2blehelix.github.io/the-ml-handbook/images/unsupervised/hierarchical_dendogram.png)
+
+The results of hierarchical clustering can be shown using **dendrogram**.
 
 1. At the bottom, we start with n data points (observations), each assigned to separate clusters.
 2. Two closest clusters are then merged till we have just one cluster at the top
