@@ -20,7 +20,8 @@
   <div class="row row-cols-2 row-cols-md-4 g-2">
         {{ $paginator := .Paginate (where .RegularPages "Type" .Type) }}
         {{ range $paginator.Pages }}
-            <div class="card text-dark bg-light mb-3" style="padding:0; margin:10px; width:22%">
+        <div class="col">
+            <div class="card text-dark bg-light mb-3">
               <div class="card-header">{{ .Title }}</div>
               <div class="card-body" style="padding: 8px 1rem;">
                 <small class="card-text">{{.Description}}</small>
@@ -30,6 +31,7 @@
                 <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="summary-card__tag"> {{ . }} </a> {{ end }}
               </small>
             </div>
+        </div>    
           {{ end }}
           {{ partial "main/component/pagination.html" . }}
   </div>

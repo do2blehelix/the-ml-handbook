@@ -5,7 +5,6 @@ date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
-  height: 500
   image: favicon/android-icon-192x192.png
   title:
     - The Machine Learning Handbook
@@ -62,67 +61,69 @@ footer:
       ## Ayan Banerjee
       Copyright © 2021. All rights reserved.
 
-# sections:
-#   - bgcolor: teal
-#     type: card
-#     description: "Because there is good content out there, but not in a structured way. This website aggregates and integrates all concepts in a lucid way"
-#     header: 
-#       title: Why ML Handbook?
-#       hlcolor: "#8bc34a"
-#       color: '#fff'
-#       fontSize: 32
-#       width: 220
-#     cards:
-#       - subtitle: Performance
-#         subtitlePosition: center
-#         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue."
-#         image: images/section/keyboard.png
-#         color: white
-#         button: 
-#           name: Naver
-#           link: https://gohugo.io/
-#           size: large
-#           target: _blank
-#           color: 'white'
-#           bgcolor: '#283593'
-#       - subtitle: Reliability
-#         subtitlePosition: center
-#         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-#         image: images/section/processor.png
-#         color: white
-#         button: 
-#           name: Google
-#           link: https://gohugo.io/
-#           size: large
-#           target: _blank
-#           color: 'white'
-#           bgcolor: '#283593'
-#       - subtitle: Productivity
-#         subtitlePosition: center
-#         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-#         image: images/section/root-server.png
-#         color: white
-#         button: 
-#           name: Yahoo
-#           link: https://gohugo.io/
-#           size: large
-#           target: _blank
-#           color: 'white'
-#           bgcolor: '#283593'
-#   - bgcolor: DarkSlateBlue
-#     type: normal
-#     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-#     header:
-#       title: Build it with Zdoc
-#       hlcolor: DarkKhaki
-#       color: "#fff"
-#       fontSize: 32
-#       width: 340
-#     body:
-#       subtitle: Extensible and customizable.
-#       subtitlePosition: left
-#       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
-#       color: white
-#       image: images/section/root-server.png
-#       imagePosition: left
+sections:
+  - bgcolor: DarkSlateBlue
+    type: card
+    description: "Because there is good content out there, but not in a structured way. This website aggregates and integrates all concepts in a lucid way"
+    header: 
+      title: What does this website contain?
+      hlcolor: "#8bc34a"
+      color: '#fff'
+      fontSize: 32
+      width: 220
+    cards:
+      - subtitle: The Handbook
+        subtitlePosition: center
+        description: "Structured Machine Learning and Deep Learning Materials explained in a simple manner"
+        image: images/section/keyboard.png
+        color: white
+        button: 
+          name: Head to the Handbook
+          link: https://gohugo.io/
+          size: large
+          target: _blank
+          color: 'white'
+          bgcolor: '#283593'
+
+      - subtitle: How To Instructions and Guides
+        subtitlePosition: center
+        description: "Easy, Quick guides that will be forever handy so that you dont have to remember codes"
+        image: images/section/processor.png
+        color: white
+        button: 
+          name: Check out the How To Section
+          link: https://gohugo.io/
+          size: large
+          target: _blank
+          color: 'white'
+          bgcolor: '#283593'
+
+      - subtitle: Blog Posts
+        subtitlePosition: center
+        description: "Blog Posts covering various topics in Depth and helipng you start your machine learning career."
+        image: images/section/root-server.png
+        color: white
+        button: 
+          name: Explore the Blog
+          link: https://gohugo.io/
+          size: large
+          target: _blank
+          color: 'white'
+          bgcolor: '#283593'
+  # - bgcolor: DarkSlateBlue
+  #   type: normal
+  #   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+  #   header:
+  #     title: Build it with Zdoc
+  #     hlcolor: DarkKhaki
+  #     color: "#fff"
+  #     fontSize: 32
+  #     width: 340
+  #   body:
+  #     subtitle: Extensible and customizable.
+  #     subtitlePosition: left
+  #     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+  #     color: white
+  #     image: images/section/root-server.png
+  #     imagePosition: left
 ---
