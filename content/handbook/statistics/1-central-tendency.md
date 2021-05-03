@@ -9,11 +9,11 @@ weight: 1
 
 ***
 
-Central tendency refers to the definition of a group of numbers by a particular number. 
+Central tendency refers to the definition of a group of numbers by a particular number.
 
 Generally speaking, it's the most common number or most probable common number among a range of numbers.
 
-If you've ever used the word 'average' in a sentence, eg _On an average the temperature is 25 degrees here_, you are more than familiar with the concept already. 
+If you've ever used the word 'average' in a sentence, eg _On an average the temperature is 25 degrees here_, you are more than familiar with the concept already.
 
 Below are the top 3 measures of central tendency.
 
@@ -30,14 +30,15 @@ It is defined as the sum total of units divided by the number of units.
 
 #### Disadvantages
 
-* Mean is prone to outliers.   
+* Mean is prone to outliers.  
   Meaning:  If the range of numbers is highly favored towards a side, then mean  can become biased. _More on that later._
 
 #### Calculation
 
 `Average`
 
-0 | 2 | 4 | 6 | 8
+| 2 | 2 | 4 | 5 | 6 | 8 |  
+|---|---|---|---|---|---|
 
 Mean = 4 (20/5)  
 _μ  (population) | x̄  (sample) | 1/ni=1nxi_
