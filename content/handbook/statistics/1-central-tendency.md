@@ -9,13 +9,11 @@ weight: 1
 
 ***
 
-Central tendency refers to the definition of a distribution of numbers by a particular central number.
-
-Generally speaking, it's the most common number or most probable common number among a range of numbers.
+Central tendency refers to the definition of a distribution of numbers by a particular central number. Generally speaking, it's the most common number or most probable common number among a range of numbers.
 
 If you've ever used the word 'average' in a sentence, eg _On an average the temperature is 25 degrees here_, you are more than familiar with the concept already.
 
-Below are the top 3 measures of central tendency.
+Mean, Median and Mode are are the top 3 measures of central tendency. Some of the other measures are Geometric Mean, Harmonic Mean, etc.
 
 ## Mean
 
@@ -71,12 +69,12 @@ _Two modes = Bimodal ; Multiple modes = Multimodal_
 
 #### Advantages
 
-* Mode can be used for categorical variables easily.
-* It is used for data representation and gives a certain understanding of the nature of the data.
+* Mode can be used for categorical (non numerical) variables easily.
 
 #### Disadvantages
 
-* In statistics, mode can change the underlying nature of data and hence should be used less frequently or with a strong business reason.
+* There can be more than one mode, or no mode at all.
+* In statistics, mode can change the underlying nature of missing data and hence should be used less frequently or with a strong business reason.
 
 #### How To
 
