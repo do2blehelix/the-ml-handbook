@@ -7,6 +7,23 @@ weight: 3
 ---
 # Distributions
 
+Now that we've seen the [central point of a distribution](/the-ml-handbook/handbook/statistics/1-central-tendency/), and then the [deviation of data from the central point](the-ml-handbook/handbook/statistics/2-dispersion-spread/), let's explore how these distributions look like.
+
+Before we explore the distributions, its necessary to understand a few key terminologies
+
+## Terminologies
+
+### Skewness
+
+Skewness is the 
+
+### Kurtosis
+
+Kurtosis simply refers to the pointiness of the curve. The spikier the curve, the more the kurtosis value is.
+
+* Positive kurtosis = leptokurtic
+* Negative kurtosis = platykurtic
+
 ***
 
 ## Normal / Gaussian / Continuous Distribution
