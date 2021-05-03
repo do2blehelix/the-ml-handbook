@@ -56,9 +56,6 @@ The uniform distribution consists of similar values throughout.
 
 Data distributed which spikes towards either ends as opposed to the central spike in normal distribution (skewness: lack of symmetry)
 
-**Kurtosis : pointiness of the curve**
-Positive kurtosis = leptokurtic | Negative kurtosis = platykurtic
-
 | Data dist type | Measure of Central Tendency | Measure of spread (variation) |
 | :---: | :---: | :---: |
 | Normal | Mean | Standard Deviation |
