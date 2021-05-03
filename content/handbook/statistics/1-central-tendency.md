@@ -1,7 +1,7 @@
 ---
 title: Central Tendency
 date: 2020-01-30T00:38:25.000+09:00
-description: Central Tendency
+description: Measures of Central Tendency - mean, median mode and their formula
 weight: 1
 
 ---
@@ -9,28 +9,31 @@ weight: 1
 
 ***
 
-Central tendency refers to the definition of a group of numbers by a particular number. Generally speaking, it's the most common number or most probable common number among a range of numbers.
+Central tendency refers to the definition of a group of numbers by a particular number. 
 
-You would definitely have come across these measures in your daily life with the most frequently used word among them being 'average'
+Generally speaking, it's the most common number or most probable common number among a range of numbers.
+
+If you've ever used the word 'average' in a sentence, eg _On an average the temperature is 25 degrees here_, you are more than familiar with the concept already. 
 
 Below are the top 3 measures of central tendency.
 
 ## Mean
 
-The most common and frequently used terminology is the mean or average. 
+The most common and frequently used terminology is the mean or average.
 
-It is defined as the sum total of units divided by the number of units. 
+It is defined as the sum total of units divided by the number of units.
 
-Advantages
+#### Advantages
 
-* Mean or average  is understood universally
-* Mean is easy to calculate and refer a sequence of numbers with.
+* Mean or average is understood universally
+* Mean is easy to calculate
 
-Disadvantages
+#### Disadvantages
 
-* Mean is prone to outliers. Meaning:  If the range of numbers is highly favoured towards a side, then mean  can become biased. _More on that later._
+* Mean is prone to outliers.   
+  Meaning:  If the range of numbers is highly favored towards a side, then mean  can become biased. _More on that later._
 
-Calculation
+#### Calculation
 
 `Average`
 
