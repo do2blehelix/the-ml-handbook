@@ -19,7 +19,7 @@ Below are the top 3 measures of central tendency.
 
 ## Mean
 
-> The average
+> The Average
 
 The most common and frequently used terminology is the mean or average.
 
@@ -33,8 +33,7 @@ It is defined as the sum total of units divided by the number of units.
 
 #### Disadvantages
 
-* Mean is prone to outliers.  
-  Meaning:  If the range of numbers is highly favored towards a side, then mean  can become biased. _More on that later._
+* Mean is prone to outliers. Since mean doesn't ignore values, if there is a heavy concentration of high/low value numbers, the mean is affected. _More on that later._
 
 #### How To
 
@@ -71,14 +70,6 @@ Simply put, mode is the most commonly occurring value.
 _Two modes = Bimodal ; Multiple modes = Multimodal_
 
 ***
-
-## 
-
-> Q) Why do we use mean most times ?  
-> A) It takes all values into consideration. Mode/median ignores
-
-> Q) When do we use median ?  
-> A) It is less prone to outliers as it doesn’t get affected by them.
 
 **Nomenclature**
 
