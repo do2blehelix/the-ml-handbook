@@ -20,7 +20,8 @@ weight: 2
 ![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
 
 |               | Actual (+) | Actual (-) |  
-| Predicted (+) | TP         | TP         |  
+|---------------|------------|------------|  
+| Predicted (+) | TP         | FP         |  
 | Predicted (-) | FN         | TN         |
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
