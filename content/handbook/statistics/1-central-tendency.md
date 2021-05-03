@@ -45,7 +45,7 @@ Mean = (2+2+4+5+7+9) / (6) = 5
 
 > The Midpoint
 
-A lesser used term in common language, but it has a huge significance in Statistics. Median is the middle / midpoint value in a sorted sequence. _It divides the data 50(more):50(less)._
+A lesser used term in common language, but it has a huge significance in Statistics. Median is the middle / midpoint value in a sorted sequence. _It divides the data 50:50._
 
 #### Advantages
 
