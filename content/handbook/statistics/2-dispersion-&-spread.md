@@ -27,9 +27,7 @@ Standard Deviation, put simply shows how much the data deviates from the mean. I
 
 ## Variance (σ2)
 
-Variance is another measure Indicates how spread out the data are. 
-
-`Unit = data squared`
+Variance is another measure Indicates how spread out the data are. Both Standard Deviation and Variance measure the same thing and Variance is just SD squared.
 
 #### Advantages
 
