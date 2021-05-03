@@ -65,6 +65,10 @@ Positive kurtosis = leptokurtic | Negative kurtosis = platykurtic
 > To convert any dataset with any mean & std deviation to a dataset with mean = 0 & std dev = 1.  
 > Can be done using z-scores: z = (x - x̄) ÷ s
 
+### 
+
+***
+
 ### Central Limit Theorem
 
 The distribution of the sample means tends towards a normal distribution as the number of samples increase
@@ -80,3 +84,13 @@ The distribution of the sample means tends towards a normal distribution as the 
 * The standard deviation of the sampling means is called Standard Error of the Mean.
 
 ![](https://lh3.googleusercontent.com/eH7u73SOU6FMMOTbdRfx2JqdESutPfl8ClVYTkk4KLO5_Aq5fP0QvVd4ViWDEZ6rqpIZehKkfa4kAwbN_aM5WnLRPl8N0odC1372kNU5_TokNNaLnHQHOp4pXQbQ1TkjAFpyph8l)![](https://lh3.googleusercontent.com/lIGbfcym_m1t1UMDYmKHJTwxDaBdlKUecB6o0RQ5amQ0lT6VuJAnDjJAoB-SaFQNssE9aPRHJw7_Qt4DgMOsjYfzuhFa3uqiKK5WVLlbcRckudz90njAj4JM0t7E1HY1RSrp8PeN)
+
+***
+
+How Do We Transform Skewed Data?
+
+Since you know how much the skewed data can affect our machine learning model’s predicting capabilities, it is better to transform the skewed data to normally distributed data. Here are some of the ways you can transform your skewed data:
+
+* Power Transformation
+* Log Transformation
+* Exponential Transformation
