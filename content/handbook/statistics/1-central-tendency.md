@@ -17,9 +17,7 @@ Mean, Median and Mode are are the top 3 measures of central tendency. Some of th
 
 > The Average
 
-The most common and frequently used terminology is the mean or average.
-
-It is defined as the sum total of units divided by the number of units.
+The most common and frequently used terminology is the mean or average. It is defined as the sum total of units divided by the number of units.
 
 #### Advantages
 
