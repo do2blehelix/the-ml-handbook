@@ -68,14 +68,16 @@ Data distributed which spikes towards either ends as opposed to the central spik
 
 ### Central Limit Theorem
 
-The distribution of the sample means tends towards a normal distribution as the number of samples increase
+The distribution of the sample means tends towards a normal distribution as the number of samples increase.
+
+Below is a step by step explanation of what the Central Limit Theorem does.
 
 * Take a random population and plot its distribution (assuming distribution ≠ normal distribution)
 * Samples of constant size n are to be taken from the population (n1 = n2 = n3 …)
 * Take a random sample of size n1 from the population and calculate its mean x̄1
 * Take a random sample of size n2 from the population and calculate its mean x̄2
 * Plot the means x̄1, x̄2, x̄3 …
-* The sampling distribution (plot of x̄1, x̄2, x̄3 …) tends to be a normal distribution as the number of samples increases
+* **The sampling distribution (plot of x̄1, x̄2, x̄3 …) tends to be a normal distribution as the number of samples increases**
 * The variance of the sampling distribution = The variance of the population / sample size _σx̄2 = σ2 / n_
 * With a higher value of n, the sampling distribution tends to have a lower variance (high kurtosis), and vice-versa
 * The standard deviation of the sampling means is called Standard Error of the Mean.
