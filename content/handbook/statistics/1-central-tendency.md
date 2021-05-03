@@ -7,8 +7,6 @@ weight: 1
 ---
 # Measures of Central Tendency
 
-***
-
 Central tendency refers to the definition of a distribution of numbers by a particular central number. Generally speaking, it's the most common number or most probable common number among a range of numbers.
 
 If you've ever used the word 'average' in a sentence, eg _On an average the temperature is 25 degrees here_, you are more than familiar with the concept already.
