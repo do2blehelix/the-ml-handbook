@@ -69,6 +69,19 @@ Simply put, mode is the most commonly occurring value.
 
 _Two modes = Bimodal ; Multiple modes = Multimodal_
 
+#### Advantages
+
+* Mode can be used for categorical variables easily.
+* It is used for data representation and gives a certain understanding of the nature of the data.
+
+#### Disadvantages
+
+* In statistics, mode can change the underlying nature of data and hence should be used less frequently or with a strong business reason.
+
+#### How To
+
+| 2 | 2 | 4 | 5 | 7 | 9 |
+
 ***
 
 **Nomenclature**
@@ -79,14 +92,6 @@ _Two modes = Bimodal ; Multiple modes = Multimodal_
 | N = population size | n = sample size |
 | μ = population mean | x̄ = sample mean |
 | σ = population std dev | s = sample std dev |
-
-**Normal Distribution Data**
-
-| Percentage | μ ± s.d. |
-| --- | --- |
-| 68.3 % | μ ± 1σ |
-| 95.5 % | μ ± 2σ |
-| 99.7 % | μ ± 3σ |
 
 **_Population_** - our entire group of interest  
 **_Parameter_** - numeric summary about a population  
