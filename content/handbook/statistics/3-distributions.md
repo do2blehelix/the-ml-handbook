@@ -13,7 +13,7 @@ Before we explore the distributions, its necessary to understand a few key termi
 
 ### Skewness
 
-Skewness is the property of the
+Skewness is the lack of symmetry of a distribution
 
 * Positive skewed = data is heavy towards the left ; tail towards the right
 * Negative skewed = data is heavier towards the right ; tail towards the left
