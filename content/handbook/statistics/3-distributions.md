@@ -29,8 +29,12 @@ Kurtosis simply refers to the pointiness of the curve. The spikier the curve, th
 
 ## Normal / Gaussian / Continuous Distribution
 
-data distributed symmetrically around the center `skewness = kurtosis = 0`. <br>
-_Mean = Median = Mode. Also known as the bell curve._
+Most commonly occurring distribution of data where the data is distributed symmetrically around the center. The bell curve is a classic example of normally distributed data.
+
+ In a normal distribution:
+
+* Mean = Median = Mode. 
+* `skewness = kurtosis = 0`
 
 **Normal Distribution Data**
 
@@ -42,11 +46,11 @@ _Mean = Median = Mode. Also known as the bell curve._
 
 ## Binomial Distribution
 
-Discrete distribution used in statistics. Only counts 2 states typically 0 and 1.
+A binomial distribution is a discrete distribution used in statistics. It only counts 2 states typically 0 and 1.
 
 ## Uniform Distribution
 
-Consists of similar values throughout
+The uniform distribution consists of similar values throughout.
 
 ## Skewed Distribution
 
@@ -62,8 +66,6 @@ Positive kurtosis = leptokurtic | Negative kurtosis = platykurtic
 
 > To convert any dataset with any mean & std deviation to a dataset with mean = 0 & std dev = 1.  
 > Can be done using z-scores: z = (x - x̄) ÷ s
-
-### 
 
 ***
 
