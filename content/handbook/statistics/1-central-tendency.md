@@ -29,7 +29,7 @@ It is defined as the sum total of units divided by the number of units.
 
 * Mean or average is understood universally
 * Mean is easy to calculate
-* It takes all values into consideration. 
+* It takes all values into consideration and doesn't ignore any values.
 
 #### Disadvantages
 
