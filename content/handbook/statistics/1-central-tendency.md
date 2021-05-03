@@ -19,6 +19,8 @@ Below are the top 3 measures of central tendency.
 
 ## Mean
 
+> The average
+
 The most common and frequently used terminology is the mean or average.
 
 It is defined as the sum total of units divided by the number of units.
@@ -27,31 +29,50 @@ It is defined as the sum total of units divided by the number of units.
 
 * Mean or average is understood universally
 * Mean is easy to calculate
+* It takes all values into consideration. 
 
 #### Disadvantages
 
 * Mean is prone to outliers.  
   Meaning:  If the range of numbers is highly favored towards a side, then mean  can become biased. _More on that later._
 
-#### Calculation
+#### How To
 
-`Average`
+| 2 | 2 | 4 | 5 | 7 | 9 |
 
-| 2 | 2 | 4 | 5 | 6 | 8 |  
-|---|---|---|---|---|---|
-
-Mean = 4 (20/5)  
-_μ  (population) | x̄  (sample) | 1/ni=1nxi_
+Mean = (2+2+4+5+7+9) / (6) = 5
 
 ## Median
 
-A lesser used term in common language, but it has a huge significance in Statistics. Median is the middle / midpoint value in a sorted sequence. `Middle`  
-_It divides the data 50(more):50(less)._
+> The Midpoint
+
+A lesser used term in common language, but it has a huge significance in Statistics. Median is the middle / midpoint value in a sorted sequence. _It divides the data 50(more):50(less)._
+
+#### Advantages
+
+* Median is better at handling outliers as it doesn’t get affected by them
+
+#### Disadvantages
+
+* Median ignores all values and considers only one or two values.
+
+#### How To
+
+| 2 | 2 | 4 | 5 | 7 | 9 |
+
+Mean = (4 + 5) / 2 = 4.5
 
 ## Mode
 
-The most commonly occurring value `Frequent`  
+> The Frequent
+
+Simply put, mode is the most commonly occurring value.
+
 _Two modes = Bimodal ; Multiple modes = Multimodal_
+
+***
+
+## 
 
 > Q) Why do we use mean most times ?  
 > A) It takes all values into consideration. Mode/median ignores
