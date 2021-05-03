@@ -15,7 +15,10 @@ Before we explore the distributions, its necessary to understand a few key termi
 
 ### Skewness
 
-Skewness is the 
+Skewness is the property of the 
+
+* Positive skewed = data is heavy towards the left
+* Negative skewed = data is heavier towards the right
 
 ### Kurtosis
 
