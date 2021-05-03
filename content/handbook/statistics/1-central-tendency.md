@@ -9,7 +9,7 @@ weight: 1
 
 ***
 
-Central tendency refers to the definition of a group of numbers by a particular number.
+Central tendency refers to the definition of a distribution of numbers by a particular central number.
 
 Generally speaking, it's the most common number or most probable common number among a range of numbers.
 
