@@ -12,11 +12,11 @@ AWS stands for Amazon Web Services. It is one of the leading platforms for data 
 
 Now, lets look at hosting an application. The primary components of hosting are:
 
-* Building the Application
-* Hosting the Application
-* Storing the Data
-* Monitoring and Scaling the application
-* Access Management
+* Well you need to build the application
+* And you need the application to be hosted somewhere that keeps it running 24/7
+* You need to store the incoming user generated data somewhere, right.
+* Once your application is up, you need to monitor and check for scaling of the application
+* And last but not the least, you need to have separate access to specific users.
 
 ***
 
