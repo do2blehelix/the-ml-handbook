@@ -19,3 +19,8 @@ To Host Application
 * EC2 = Elastic Compute Cloud
 
   EC2 offers virtual machines on AWS
+
+To Store Data
+
+* RDS = Relational Database Service
+* DynamoDB
