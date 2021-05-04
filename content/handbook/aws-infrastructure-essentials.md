@@ -9,3 +9,13 @@ collapsible: false
 # AWS Infrastructure Essentials
 
 AWS stands for Amazon Web Services. It is one of the leading platforms for data hosting and server
+
+To Build Application
+
+* VPC = Virtual Private Cloud 
+
+To Host Application
+
+* EC2 = Elastic Compute Cloud
+
+  EC2 offers virtual machines on AWS
