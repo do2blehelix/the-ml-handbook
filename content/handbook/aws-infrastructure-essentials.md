@@ -24,3 +24,8 @@ To Store Data
 
 * RDS = Relational Database Service
 * DynamoDB
+* S3 = Simple Storage Service (Object Storage) 
+
+To Monitor the solution
+
+* Amazon CloudWatch 
