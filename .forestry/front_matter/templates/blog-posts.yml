@@ -25,4 +25,5 @@ fields:
   label: tags
 pages:
 - content/blog/Using Python Embeddable to Deploy Locally.md
+- content/blog/additional.md
 - content/blog/python-automatic-libraries.md
