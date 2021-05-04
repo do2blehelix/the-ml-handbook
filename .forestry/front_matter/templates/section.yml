@@ -18,6 +18,7 @@ fields:
   name: collapsible
   label: collapsible
 pages:
+- content/handbook/aws-infrastructure-essentials.md
 - content/handbook/supervised-learning/ensemble/stacking.md
 - content/information/article-resources.md
 - content/information/create-and-use-anaconda-environments.md
