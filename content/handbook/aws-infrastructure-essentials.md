@@ -1,7 +1,7 @@
 ---
 title: AWS Infrastructure Essentials
 description: AWS Infrastructure Essentials
-date: 2021-05-04 13:30:00 +0000
+date: 2021-05-04T13:30:00.000+00:00
 weight: 1
 collapsible: false
 
@@ -26,7 +26,7 @@ Now, when you are starting with AWS, you would be bombarded with a lot of acrony
 
 ##### To Build Application
 
-* **VPC** = Virtual Private Cloud 
+* **VPC** = Virtual Private Cloud
 
 ##### To Host Application
 
@@ -47,3 +47,23 @@ Now, when you are starting with AWS, you would be bombarded with a lot of acrony
 ##### For Identity Management
 
 * **IAM** = Identity and Access Management
+
+### AWS Global Infrastructure
+
+Data centers store our data on the cloud
+
+Availability Zone clusters data Centers together 
+
+A region clusters Availability Zones together 
+
+These are done as contingencies with redundant power, networking, and connectivity. AWS allows you to choose a particular region (named after physical locations)
+
+To choose a region, the 4 factors can play an important role
+
+Compliance: Eg company requires you to operate data within USA
+
+Latency: 
+
+Price
+
+Service Availability
