@@ -50,20 +50,23 @@ Now, when you are starting with AWS, you would be bombarded with a lot of acrony
 
 ### AWS Global Infrastructure
 
-Data centers store our data on the cloud
+**Data Centers** store our data on the cloud
 
-Availability Zone clusters data Centers together 
+**Availability Zone** clusters Data Centers together 
 
-A region clusters Availability Zones together 
+**Regions** cluster Availability Zones together 
 
-These are done as contingencies with redundant power, networking, and connectivity. AWS allows you to choose a particular region (named after physical locations)
+_These are done as contingencies with redundant power, networking, and connectivity. AWS allows you to choose a particular region (named after physical locations)_
 
 To choose a region, the 4 factors can play an important role
 
-Compliance: Eg company requires you to operate data within USA
+* **Compliance**: Eg company requires you to operate data within USA
+* **Latency**: High latency can cause application slowdown
+* **Price**: Basis the region, the pricing is affected
+* **Service Availability**: What services are available in a particular region
 
-Latency: 
+### Interacting with AWS
 
-Price
-
-Service Availability
+* AWS Management Console: Web based console that you can login through your browser
+* AWS Command Line Interface: Run commands through a command prompt
+* AWS Software Development Kits
