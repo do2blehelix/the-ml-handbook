@@ -82,11 +82,10 @@ To choose a region, the 4 factors can play an important role
 
 ### Compute as a Service
 
-In AWS, these virtual machines are called Amazon Elastic Compute Cloud or Amazon EC2
-
 There are fundamentally 3 types of compute options:
 
-* Virtual Machines
+* Virtual Machines  
+  In AWS, these virtual machines are called Amazon Elastic Compute Cloud or Amazon EC2
 * Container Services
 * Serverless
 
