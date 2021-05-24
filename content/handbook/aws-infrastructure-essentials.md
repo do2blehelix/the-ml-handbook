@@ -52,9 +52,9 @@ Now, when you are starting with AWS, you would be bombarded with a lot of acrony
 
 **Data Centers** store our data on the cloud
 
-**Availability Zone** clusters Data Centers together 
+**Availability Zone** clusters Data Centers together
 
-**Regions** cluster Availability Zones together 
+**Regions** cluster Availability Zones together
 
 _These are done as contingencies with redundant power, networking, and connectivity. AWS allows you to choose a particular region (named after physical locations)_
 
@@ -70,3 +70,20 @@ To choose a region, the 4 factors can play an important role
 * AWS Management Console: Web based console that you can login through your browser
 * AWS Command Line Interface: Run commands through a command prompt
 * AWS Software Development Kits
+
+***
+
+### Identity and Access Management
+
+* Can handle access to login to AWS Account and give permissions to API calls
+* However, it cannot handle Application Level Access Control
+
+***
+
+### Compute Services
+
+ECS = Elastic Container Service
+
+EKS = Elastic Kubernetes Service
+
+Lambda = Serverless 
