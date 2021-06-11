@@ -103,3 +103,8 @@ Fargate is a serverless compute platform for ECS or EKS
 ##### Containers vs Virtual Machines
 
 Containers share the same operating system and kernel as the host they exist on, whereas virtual machines contain their operating system. Since each virtual machine has to maintain a copy of an operating system, there’s a degree of wasted space. A container is more lightweight. They spin up quicker, almost instantly. This difference in startup time becomes instrumental when designing applications that need to scale quickly during input/output (I/O) bursts. While containers can provide speed, virtual machines offer you the full strength of an operating system and offer more resources, like package installation, a dedicated kernel, and more.
+
+Serverless: You cannot see or access the underlying infrastructure that are hosting your solution. _AWS Fargate_
+
+* Software and OS patching is not required
+* Scaling and Fault tolerance is built-in
