@@ -87,12 +87,19 @@ AMI : Amazon Machine Image contains information about how to configure the os an
 There are fundamentally 3 types of compute options:
 
 * Virtual Machines  
-  In AWS, these virtual machines are called Amazon Elastic Compute Cloud or Amazon EC2
+  _In AWS, these virtual machines are called Amazon Elastic Compute Cloud or Amazon EC2_
 * Container Services
 * Serverless
 
-ECS = Elastic Container Service
+#### Container Services
 
-EKS = Elastic Kubernetes Service
+* ECS = Elastic Container Service
+* EKS = Elastic Kubernetes Service
 
 Lambda = Serverless
+
+Fargate is a serverless compute platform for ECS or EKS
+
+##### Containers vs Virtual Machines
+
+Containers share the same operating system and kernel as the host they exist on, whereas virtual machines contain their operating system. Since each virtual machine has to maintain a copy of an operating system, there’s a degree of wasted space. A container is more lightweight. They spin up quicker, almost instantly. This difference in startup time becomes instrumental when designing applications that need to scale quickly during input/output (I/O) bursts. While containers can provide speed, virtual machines offer you the full strength of an operating system and offer more resources, like package installation, a dedicated kernel, and more.
