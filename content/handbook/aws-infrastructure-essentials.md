@@ -82,6 +82,8 @@ To choose a region, the 4 factors can play an important role
 
 ### Compute as a Service
 
+AMI : Amazon Machine Image contains information about how to configure the os and apps.
+
 There are fundamentally 3 types of compute options:
 
 * Virtual Machines  
@@ -93,4 +95,4 @@ ECS = Elastic Container Service
 
 EKS = Elastic Kubernetes Service
 
-Lambda = Serverless 
+Lambda = Serverless
