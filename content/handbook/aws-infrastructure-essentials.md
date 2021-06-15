@@ -108,3 +108,5 @@ Serverless: You cannot see or access the underlying infrastructure that are host
 
 * Software and OS patching is not required
 * Scaling and Fault tolerance is built-in
+
+AWS Lambda sits on top of Fargate
