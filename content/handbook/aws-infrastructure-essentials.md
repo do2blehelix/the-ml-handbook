@@ -110,5 +110,14 @@ Serverless: You cannot see or access the underlying infrastructure that are host
 
 * Software and OS patching is not required
 * Scaling and Fault tolerance is built-in
+* Much more convenient than EC2 instances (or ECS/EKS)
+
+* Only for code that requires runtime of less than 15 mins
 
 AWS Lambda sits on top of Fargate
+
+### When to run what?
+
+* If you run your code on Amazon EC2, AWS is responsible for the physical hardware and you are responsible for the logical controls, such as guest operating system, security and patching, networking, security, and scaling. 
+* If you run your code in containers on Amazon ECS and Amazon EKS, AWS is responsible for more of the container management, such as deploying containers across EC2 instances and managing the container cluster. However, when running ECS and EKS on EC2, you are still responsible for maintaining the underlying EC2 instances. 
+* If you want to deploy your workloads and applications without having to manage any EC2 instances, you can do that on AWS with _serverless_ compute.
