@@ -96,6 +96,8 @@ There are fundamentally 3 types of compute options:
 * ECS = Elastic Container Service
 * EKS = Elastic Kubernetes Service
 
+ECS and EKS run on clusters of EC2 instances
+
 Lambda = Serverless
 
 Fargate is a serverless compute platform for ECS or EKS
