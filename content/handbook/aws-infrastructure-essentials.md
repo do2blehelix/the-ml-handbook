@@ -141,3 +141,13 @@ Subnets = Groups of IP addresses
 
 * Block Storage: divides the file into chunks of data to store
 * Object Storage: stores the entire file as a chunk of data
+
+EC2 Instance Store - form of directly attached storage. data is deleted if the EC2 instance stops
+
+EBS (Elastic Block Store) - similar to an external hard disk attached to the server
+
+### Policies
+
+When IAM policies are attached to IAM users, groups, and roles, the policies define which actions they can perform. IAM policies are not tied to any one AWS service and can be used to define access to nearly any AWS action.
+
+S3 bucket policies are similar to IAM policies, in that they are both defined using the same policy language in a JSON format. The difference is IAM policies are attached to users, groups, and roles, whereas S3 bucket policies are only attached to buckets. S3 bucket policies specify what actions are allowed or denied on the bucket.
