@@ -134,3 +134,10 @@ There are three primary components of a Lambda function:
 IGW = Internet Gateway. Required to establish a connection with the internet
 
 Subnets = Groups of IP addresses
+
+***
+
+## AWS Storage
+
+* Block Storage: divides the file into chunks of data to store
+* Object Storage: stores the entire file as a chunk of data
