@@ -144,7 +144,7 @@ Subnets = Groups of IP addresses
 
 Storage Types:
 
-* EC2 Instance Store - form of directly attached storage. data is deleted if the EC2 instance stops. high speed temporary storage data
+* EC2 Instance Store - form of directly attached storage. data is deleted if the EC2 instance stops. high speed temporary storage.
 * EBS (Elastic Block Store) - similar to an external hard disk attached to the server
 
   EBS can only be attached to EC2 instances
@@ -166,3 +166,53 @@ There are six S3 storage classes.
 4. **Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA):** Unlike other S3 storage classes which store data in a minimum of three Availability Zones (AZs), S3 One Zone-IA stores data in a single AZ and costs 20% less than S3 Standard-IA. S3 One Zone-IA is ideal for customers who want a lower-cost option for infrequently accessed data but do not require the availability and resilience of S3 Standard or S3 Standard-IA. It’s a good choice for storing secondary backup copies of on-premises data or easily re-creatable data.
 5. **Amazon S3 Glacier:** S3 Glacier is a secure, durable, and low-cost storage class for data archiving. You can reliably store any amount of data at costs that are competitive with or cheaper than on-premises solutions. To keep costs low yet suitable for varying needs, S3 Glacier provides three retrieval options that range from a few minutes to hours.
 6. **Amazon S3 Glacier Deep Archive:** S3 Glacier Deep Archive is Amazon S3’s lowest-cost storage class and supports long-term retention and digital preservation for data that may be accessed once or twice in a year. It is designed for customers—particularly those in highly regulated industries, such as the Financial Services, Healthcare, and Public Sectors—that retain data sets for 7 to 10 years or longer to meet regulatory compliance requirements.
+
+##### Amazon EC2 Instance Store
+
+Instance store is ephemeral block storage. This is preconfigured storage that exists on the same physical server that hosts the EC2 instance and cannot be detached from Amazon EC2. You can think of it as a built-in drive for your EC2 instance. Instance store is generally well-suited for temporary storage of information that is constantly changing, such as buffers, caches, and scratch data. It is not meant for data that is persistent or long-lasting. If you need persistent long-term block storage that can be detached from Amazon EC2 and provide you more management flexibility, such as increasing volume size or creating snapshots, then you should use Amazon EBS.
+
+#### Amazon EBS
+
+Amazon EBS is meant for data that changes frequently and needs to persist through instance stops, terminations, or hardware failures. Amazon EBS has two different types of volumes: SSD-backed volumes and HDD-backed volumes. SSD-backed volumes have the following characteristics.
+
+* Performance depends on IOPS (input/output operations per second).
+* Ideal for transactional workloads such as databases and boot volumes.
+
+HDD-backed volumes have the following characteristics:
+
+* Performance depends on MB/s.
+* Ideal for throughput-intensive workloads, such as big data, data warehouses, log processing, and sequential data I/O.
+
+Here are a few important features of Amazon EBS that you need to know when comparing it to other services.
+
+* It is block storage.
+* You pay for what you provision (you have to provision storage in advance).
+* EBS volumes are replicated across multiple servers in a single Availability Zone.
+* Most EBS volumes can only be attached to a single EC2 instance at a time.
+
+##### Amazon S3
+
+If your data doesn’t change that often, Amazon S3 might be a more cost-effective and scalable storage solution. S3 is ideal for storing static web content and media, backups and archiving, data for analytics, and can even be used to host entire static websites with custom domain names. Here are a few important features of Amazon S3 to know about when comparing it to other services.
+
+* It is object storage.
+* You pay for what you use (you don’t have to provision storage in advance).
+* Amazon S3 replicates your objects across multiple Availability Zones in a Region.
+* Amazon S3 is not storage attached to compute.
+
+##### Amazon Elastic File System (Amazon EFS) and Amazon FSx
+
+In this module, you’ve already learned about Amazon S3 and Amazon EBS. You learned that S3 uses a flat namespace and isn’t meant to serve as a standalone file system. You also learned most EBS volumes can only be attached to one EC2 instance at a time. So, if you need file storage on AWS, which service should you use?
+
+For file storage that can mount on to multiple EC2 instances, you can use Amazon Elastic File System (Amazon EFS) or Amazon FSx. Use the following table for more information about each of these services.
+
+| Service | Characteristic | More Information |
+| --- | --- | --- |
+| Amazon Elastic File System (EFS) | Fully managed NFS file system. | EFS FAQs |
+| Amazon FSx for Windows File Server | Fully managed file server built on Windows Server that supports the SMB protocol. | FSx for Windows File Server FAQs |
+| Amazon FSx for Lustre | Fully managed Lustre file system that integrates with S3. | FSx for Lustre FAQs |
+
+Here are a few important features of Amazon EFS and FSx to know about when comparing them to other services.
+
+* It is file storage.
+* You pay for what you use (you don’t have to provision storage in advance).
+* Amazon EFS and Amazon FSx can be mounted onto multiple EC2 instances.
