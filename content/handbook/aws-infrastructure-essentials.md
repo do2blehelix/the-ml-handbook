@@ -142,9 +142,13 @@ Subnets = Groups of IP addresses
 * Block Storage: divides the file into chunks of data to store
 * Object Storage: stores the entire file as a chunk of data
 
-EC2 Instance Store - form of directly attached storage. data is deleted if the EC2 instance stops
+Storage Types:
 
-EBS (Elastic Block Store) - similar to an external hard disk attached to the server
+* EC2 Instance Store - form of directly attached storage. data is deleted if the EC2 instance stops. high speed temporary storage data
+* EBS (Elastic Block Store) - similar to an external hard disk attached to the server
+
+  EBS can only be attached to EC2 instances
+* S3
 
 ### Policies
 
