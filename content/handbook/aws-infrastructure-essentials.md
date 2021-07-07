@@ -216,3 +216,17 @@ Here are a few important features of Amazon EFS and FSx to know about when compa
 * It is file storage.
 * You pay for what you use (you don’t have to provision storage in advance).
 * Amazon EFS and Amazon FSx can be mounted onto multiple EC2 instances.
+
+***
+
+## Monitoring and Scaling
+
+#### Elastic Load Balancer
+
+* auto scales
+* region agnostic 
+* high availability
+
+* Application Load Balancer
+* Network Load Balancer
+* Gateway Load Balancer
