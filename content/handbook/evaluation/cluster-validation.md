@@ -42,6 +42,12 @@ The silhouette index measures the average distance between the clusters. The sil
 
 ### ⚪ Calinski-Harabasz
 
+The Calinski-Harabasz index also known as the Variance Ratio Criterion, is the ratio of the sum of **between-clusters dispersion** and of **inter-cluster dispersion** for all clusters, the higher the score , the better the performances.
+
+### ⚪ Davies Bouldin
+
+This index signifies the average ‘similarity’ between clusters, where the similarity is a measure that compares the distance between clusters with the size of the clusters themselves. A lower Davies-Bouldin index relates to a model with better separation between the clusters.
+
 ### ⚪ BIC
 
 ### ⚪ Dunn Index
