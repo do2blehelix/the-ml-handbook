@@ -14,7 +14,7 @@ weight: 1
 * **R Square:** % of variance in `Y` that is explained by `X`. It is defined as the square of correlation between Predicted and Actual values.  
   `R2= SSEIndependent VarSSEIndependent Var + SSEErrors`
 * **Adjusted R Square:** Similar to R2. It penalizes for adding impurity (insignificant variables) to the model
-* **MSE (Mean Squared Error) :** Sum of squares / df
+* **MSE (Mean Squared Error) :** Sum of squares / degree of freedom
 * **RMSE (Root Mean Square Error)** : It measures standard deviation of the residuals.
 
   `Model with the least RMSE is the best model`  
