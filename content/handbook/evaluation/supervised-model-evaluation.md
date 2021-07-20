@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Supervised Learning
-title: "☑️ Classification Evaluation Metrics"
+title: "☑️ Classification Metrics"
 nav_order: 4
 has_children: false
 description: Model Evaluation / Selection / Fits / Validation
@@ -19,10 +19,10 @@ weight: 2
 
 ![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
 
-|               | Actual (+) | Actual (-) |  
-|---------------|------------|------------|  
-| Predicted (+) | TP         | FP         |  
-| Predicted (-) | FN         | TN         |
+|  | Actual (+) | Actual (-) |
+| --- | --- | --- |
+| Predicted (+) | TP | FP |
+| Predicted (-) | FN | TN |
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
 
@@ -168,29 +168,3 @@ _= (Concordant pairs - Discordant pairs ) / Total Pairs_
 #### Gamma
 
 Similar to Somers’ D but does not penalize for tied pairs.
-
-***
-
-**Bias - Variance Tradeoff**
-
-Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
-
-Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
-
-![](https://lh5.googleusercontent.com/QNFSL6we1fCDjTMHUUqz-WnKg_JuldfEulTu2qvDX7ZoDgoSxFAVhejDThCMLTRzfDqRs7Xll9ECL6NU7x6joEWnY0KXJsEePFabL5cH9pq0k6ya3Lxfyt9iguICnf7PfdXxlX2F =286x170)
-
-high bias = high (pred - act) = high error = underfit model
-
-high variance = high sensitivity in changes in data = overfit model
-
-**When a model has high bias, this means that it doesn't do a good job of bending to the data**
-
-**When a model has high variance, this means that it changes drastically to meet the needs of every point in our dataset**
-
-High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
-
-High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
-
-![](https://lh4.googleusercontent.com/ga9WJ0VSA54deurET54OU6jSsyfQcOFCfABQlXpqVonjll7dvCCz_17NvBrfxrAYS1uXR4XYxDkWoeDkxsYgvirMNjbATe8b1Yjvm2YfhCZ-ZzmSQFAKLSEvv0j6KSjD7XfjqQN- =492x246)
-
-Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
