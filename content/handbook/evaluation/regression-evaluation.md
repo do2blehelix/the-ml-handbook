@@ -11,6 +11,13 @@ weight: 1
 ---
 # Regression Metrics:
 
+> * MAE is more robust to data with outliers.
+> * The lower value of MAE, MSE, and RMSE implies higher accuracy of a regression model. However, a higher value of R square is considered desirable.
+> * R Squared & Adjusted R Squared are used for explaining how well the independent variables in the linear regression model explains the variability in the dependent variable.
+> * For comparing the accuracy among different linear regression models, RMSE is a better choice than R Squared.
+>
+> Use Mean Absolute Error when there are outliers and Mean Squared Error when you want to use as a loss function.
+
 ## R2 (coefficient of determination)
 
 ### R Square 
@@ -52,10 +59,14 @@ It measures standard deviation of the residuals.
 
 _`{ absolute (average [ (Actual - Predicted) / Actual ])}`_ should not exceed \~ 8% - 10%
 
+> RMSE is a better option as it is simple to calculate and differentiable. However, if your dataset has outliers then choose MAE over RMSE.
+
+Other Methods
+
 * AIC
 * BIC
 
-**Loss Functions:** objective is to minimize these
+### Loss Functions: objective is to minimize these
 
 * MAE : Mean Absolute Error _(mean of the absolute errors)_
 * MSE : Mean Squared Error _(mean of the squared errors)_
