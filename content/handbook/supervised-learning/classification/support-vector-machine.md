@@ -13,7 +13,9 @@ weight: 3
 
     from sklearn.svm import SVC
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/supervised/svm_main.png)In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
+![](https://do2blehelix.github.io/the-ml-handbook/images/supervised/svm_main.png)
+
+In this algorithm, each data item is plotted as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate.
 
 The aim is to determine the location of decision boundaries also known as **hyperplane** that produce the **optimal separation of classes**. Multiple frontiers are produced to suit the data. The best frontier is the one which is farthest away from the nearest support vector.
 
