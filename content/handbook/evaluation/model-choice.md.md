@@ -14,7 +14,21 @@ collapsible: false
 
 ## Precision vs Recall Model
 
-Precision
+Analogy:
+
+Spam model vs medical model
+
+Spam model is okay with a 
+
+Medical model is crucial where we don't wan
+
+Precision models are used when we need to reduce the false negatives ie when its a spam model where we are okay with classifying something as  
+
+High Recall models are used when we want to decrease the false negatives
+
+False Negatives are when someone is actually +ve but detected -ve
+
+In case of a medical model we want to reduce the number of patients who are falsely classified negative, but are in-fact positive 
 
 ## Bias vs Variance Model
 
