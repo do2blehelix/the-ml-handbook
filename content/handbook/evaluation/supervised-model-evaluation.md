@@ -64,7 +64,7 @@ The F1 score is a number between 0 and 1 and is the harmonic mean of precision a
 
 ***
 
-**Some of the other values derived from confusion matrix are:**
+##### Some of the other values derived from confusion matrix are:
 
 * **Sensitivity :** (True Positive Rate or Recall)  = _TP ÷ (TP + FN)_
 * **Specificity :** % of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
