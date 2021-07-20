@@ -6,7 +6,7 @@ nav_order: 4
 has_children: false
 description: Model Evaluation / Selection / Fits / Validation
 date: 2021-04-03T18:30:00.000+00:00
-weight: 2
+weight: 4
 
 ---
 # Model Evaluation / Selection / Fits / Validation
@@ -39,7 +39,7 @@ Each of the k subsamples used exactly once as the validation data.
 
 #### Learning Curves
 
-![](https://lh5.googleusercontent.com/zHfafLEPe9jlrCSeRDQFivuKWDhpNAMsltF8Ulh0-bRd0ANAXuWsrsSn5lyUJI30q2l7Q_sx3-1Qae7Xgr3MmSf53yi7tAPxnCW4oRmrXvxWRgG_F3yooM3f19eYF4DzT1u0SUqZ =427x181)
+![learningcurve.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/learningcurve.png?raw=true)
 
 ## Grid Search
 
