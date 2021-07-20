@@ -27,23 +27,21 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 
 ### Precision
 
- _(aka PPV)_ Out of the total predicted positive how many are positive
-`TP ÷ (TP + FP)`  
-
+_(aka PPV)_ Out of the total predicted positive how many are actually positive.   
+`TP ÷ (TP + FP)`
 
 ### Recall
 
-_(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
-`TP ÷ (TP + FN)`  
+_(aka Sensitivity)_ Percentage of actual positive predicted as positive.  
+`TP ÷ (TP + FN)`
 
-&nbsp;
+ 
 
-
-|  | Actual (+) | Actual (-) | |
-| --- | --- | --- | ---	|
+|  | Actual (+) | Actual (-) |  |
+| --- | --- | --- | --- |
 | Predicted (+) | \[^TP | FP\] | \[Precision\] |
-| Predicted (-) | ^FN | TN | |
-| 				| ^Recall | |
+| Predicted (-) | ^FN | TN |  |
+|  | ^Recall |  |  |
 
 > Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
 >
