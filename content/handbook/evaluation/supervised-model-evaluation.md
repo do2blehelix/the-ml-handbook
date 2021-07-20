@@ -13,24 +13,25 @@ weight: 2
 
 ## Confusion Matrix
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
-
 |  | Actual (+) | Actual (-) |
 | --- | --- | --- |
-| **Predicted (+)** | TP | FP |
-| **Predicted (-)** | FN | TN |
+| Predicted (+) | TP | FP |
+| Predicted (-) | FN | TN |
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
+
+The most common evaluation metrics are as below: 
 
 * **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
 * **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
 * **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
-**Sensitivity :** (True Positive Rate or Recall)  
-% of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
+Some of the other values derived from confusion matrix are:
 
-\*_Specificity :  
-\*_% of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
+![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)  
+**Sensitivity :** (True Positive Rate or Recall) % of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
+
+**Specificity :** % of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
 
 **Positive Predicted Value** = _TP ÷ (TP + FP)_
 
