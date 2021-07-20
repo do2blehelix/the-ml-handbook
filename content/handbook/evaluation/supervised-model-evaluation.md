@@ -25,8 +25,6 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 * False Positive = detected positive, wrongly
 * False Negative = detected negative, wrongly
 
-###### The most common evaluation metrics are as below:
-
 ### Precision
 
 `TP ÷ (TP + FP)`  
@@ -37,20 +35,20 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 `TP ÷ (TP + FN)`  
 _(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
 
+> Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
+>
+> * Medical Model : High Recall Model :: FN should be avoided
+> * Spam Model : High Precision Model :: FP should be avoided
+
 ### F1 Score
 
 The F1 score is a number between 0 and 1 and is the harmonic mean of precision and recall and is used when we want to have a model with **both good precision and recall**.
 
 ![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
 
-> Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
->
-> * Medical Model : High Recall Model :: FN should be avoided
-> * Spam Model : High Precision Model :: FP should be avoided
-
 > If you are a police inspector and you want to catch criminals, you want to be sure that the person you catch is a criminal (Precision) and you also want to capture as many criminals (Recall) as possible. The F1 score manages this tradeoff.
 
-###### Some of the other values derived from confusion matrix are:
+**Some of the other values derived from confusion matrix are:**
 
 * **Sensitivity :** (True Positive Rate or Recall)  = _TP ÷ (TP + FN)_
 * **Specificity :** % of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
