@@ -59,12 +59,14 @@ It measures standard deviation of the residuals.
 
 _`{ absolute (average [ (Actual - Predicted) / Actual ])}`_ should not exceed \~ 8% - 10%
 
-> RMSE is a better option as it is simple to calculate and differentiable. However, if your dataset has outliers then choose MAE over RMSE.
+***
 
 Other Methods
 
 * AIC
 * BIC
+
+> RMSE is a better option as it is simple to calculate and differentiable. However, if your dataset has outliers then choose MAE over RMSE.
 
 ***
 
