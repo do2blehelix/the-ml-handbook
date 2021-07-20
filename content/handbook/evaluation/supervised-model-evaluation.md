@@ -35,9 +35,11 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 ### Recall
 
 `TP ÷ (TP + FN)`  
-_(aka Sensitivity)_ % of actual +ve predicted as +ve
+_(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
 
-### F1 Score :
+### F1 Score
+
+The F1 score is a number between 0 and 1 and is the harmonic mean of precision and recall and is used when we want to have a model with **both good precision and recall**.
 
 ![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
 
