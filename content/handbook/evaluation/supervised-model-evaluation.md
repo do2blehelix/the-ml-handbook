@@ -87,7 +87,9 @@ _(random chance)_ **0.5 < c-stat < 1** _(perfect model)_
 
 ## Other Techniques
 
-#### K-S Chart![](https://lh5.googleusercontent.com/tvo-uQPoquKBLLN-vNNiApTart8yLaDVtNskblYlqjZcE1dc2qIAEEWSbPuQ9RFnAVKAJRrdW96ENQe9vdybKCnXneAm0TNYar9bzs4QGApe-wjqK6sD79J63vdlE8eBSdvJXCgZ =297x174)
+#### K-S Chart
+
+![ks.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/ks.png?raw=true)
 
 K-S is a measure of the degree of separation between the positive and negative distributions (events vs non events). It is defined as the maximum difference between cumulative % event and cumulative % non event.
 
@@ -113,7 +115,9 @@ _(random chance)_ **0 < K-S < 100** _(perfect model)_
 
 Same deciles table is created and % of Events is checked to see if there is any discrepancy in downward trend. If the trend is broken then the rank ordering is not maintained.
 
-#### Concordance![](https://lh6.googleusercontent.com/q5z3xrwoK98656UAitBaFqZ1qLWa4G_8GLXt5HfLfHmwykQ33uKfpnVA0QzvcRxiv2rwbFaW7ojeVw1jm5-a-KCo_2ob2HNgX4XySmfGFRBDcI5xlBa8mD8e_bZ-bq-FUKy-zQP8 =151x105)
+#### Concordance
+
+![concordance.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/concordance.png?raw=true)
 
 * Concordant Pair
 * Discordant Pair
