@@ -1,61 +1,43 @@
 ---
 layout: default
 parent: Supervised Learning
-title: model-choice.md
+title: Model Choice
 nav_order: 4
 has_children: false
-description: Model Evaluation / Selection / Fits / Validation
+description: Choosing the right model
 date: 2021-04-03T18:30:00.000+00:00
-weight: 4
-published: false
+weight: 5
+collapsible: false
 
 ---
-# Model Evaluation / Selection / Fits / Validation
+# Choice of Model Metrics
 
-## Train Test Split
+## Precision vs Recall Model
 
-* Before running the model, the data is split into `Training` and `Testing` sets.
-* The training to test split ratio is generally 70:30 and can vary.
-* The model is trained on the `Training` dataset hence the name
-* Once the model is fit on the data, we use the `Testing` dataset to check how the model performs.
+Precision
 
-The model is best served with a k-fold cross validation set where the data is randomly split multiple `k` times and each time the model fit is checked.
+## Bias vs Variance Model
 
-***
+**Bias - Variance Tradeoff**
 
-## Validation :
+Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
 
-### K-fold cross Validation
+Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
 
-* Sample is partitioned into k equal sized subsamples.
-* A single subsample is used as the validation dataset for testing the model.
-* Remaining k-1 subsamples are used as training data.
-* The cross validation process is repeated k times.
+![bias-variance.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/bias-variance.png?raw=true)
 
-#### Advantages
+high bias = high (pred - act) = high error = underfit model
 
-All observations are used for both training and validation.
+high variance = high sensitivity in changes in data = overfit model
 
-Each of the k subsamples used exactly once as the validation data.
+**When a model has high bias, this means that it doesn't do a good job of bending to the data**
 
-#### Learning Curves
+**When a model has high variance, this means that it changes drastically to meet the needs of every point in our dataset**
 
-![learningcurve.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/learningcurve.png?raw=true)
+High Bias, Low Variance models tend to underfit data, as they are not flexible. Linear models fall into this category of models.
 
-## Grid Search
+High Variance, Low Bias models tend to overfit data, as they are too flexible. Decision trees fall into this category of models.
 
-Technique used to list down all the possibilities of the hyperparameters and pick the best one.
+![overfitting-training.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/overfitting-training.png?raw=true)
 
-## Model Monitoring
-
-Population Stability Index (PSI)
-
-1. Sort scoring variable on descending order in scoring sample
-2. Split the data into 10 or 20 groups (deciling)
-3. Calculate % of records in each group based on scoring sample
-4. Calculate % of records in each group based on training sample
-5. Calculate difference between Step 3 and Step 4
-6. Take Natural Log of (Step3 / Step4)
-7. Multiply Step5 and Step6
-
-continue model < 0.1 < slight change < 0.2 < significant change
+Model Complexity Graph : Plots the training and testing error and helps find the optimal point between underfitting and overfitting.
