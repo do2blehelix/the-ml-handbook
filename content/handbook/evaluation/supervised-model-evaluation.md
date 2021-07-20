@@ -37,7 +37,7 @@ _(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
 
 
 |  | Actual (+) | Actual (-) | |
-| --- | --- | --- |	|
+| --- | --- | --- | ---	|
 | Predicted (+) | \[TP | FP\] | Precision |
 | Predicted (-) | FN | TN | |
 | 				| Recall | |
