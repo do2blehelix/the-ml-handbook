@@ -38,9 +38,9 @@ _(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
 
 |  | Actual (+) | Actual (-) | |
 | --- | --- | --- | ---	|
-| Predicted (+) | \[TP | FP\] | Precision |
-| Predicted (-) | FN | TN | |
-| 				| Recall | |
+| Predicted (+) | \[^TP | FP\] | Precision |
+| Predicted (-) | ^FN | TN | |
+| 				| ^Recall | |
 
 > Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
 >
