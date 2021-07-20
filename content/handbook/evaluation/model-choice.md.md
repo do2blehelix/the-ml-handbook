@@ -18,17 +18,16 @@ Precision
 
 ## Bias vs Variance Model
 
-**Bias - Variance Tradeoff**
+**Bias**: how much on average is my predicted values different from actual values. High bias is underfitting.
 
-Bias : how much on average is my predicted values different from actual values. High bias is underfitting.
-
-Variance : how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
+**Variance:** how different will predictions be, at the same point, if different samples are taken from the same population. High variance causes overfitting.
 
 ![bias-variance.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/bias-variance.png?raw=true)
 
-high bias = high (pred - act) = high error = underfit model
+**Bias - Variance Tradeoff**
 
-high variance = high sensitivity in changes in data = overfit model
+* high bias = high (pred - act) = high error = **underfit** model
+* high variance = high sensitivity in changes in data = **overfit** model
 
 **When a model has high bias, this means that it doesn't do a good job of bending to the data**
 
