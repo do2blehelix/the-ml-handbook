@@ -66,6 +66,8 @@ Other Methods
 * AIC
 * BIC
 
+***
+
 ### Loss Functions: objective is to minimize these
 
 * MAE : Mean Absolute Error _(mean of the absolute errors)_
