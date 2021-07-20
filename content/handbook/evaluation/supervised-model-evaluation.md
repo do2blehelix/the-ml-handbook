@@ -47,6 +47,22 @@ The F1 score is a number between 0 and 1 and is the harmonic mean of precision a
 ![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
 
 > If you are a police inspector and you want to catch criminals, you want to be sure that the person you catch is a criminal (Precision) and you also want to capture as many criminals (Recall) as possible. The F1 score manages this tradeoff.
+>
+> **Beta Score Fβ** _(Range: 0 to ∞)_
+>
+> ![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)
+>
+> (Fβ=0) Precision …… F0.5 ……. F1 …….. F2 ……. Recall (Fβ=∞)
+>
+> For other values of β, if they are close to 0, we get something close to precision, if they are large numbers, then we get something close to recall, and if β=1, then we get the harmonic mean of precision and recall.
+>
+> _For the spaceship model, we can't really afford any malfunctioning parts, and it's ok if we overcheck some of the parts that are working well. Therefore, this is a high recall model, so we associate it with beta = 2._
+>
+> _For the notifications model, since it's free to send them, we won't get harmed too much if we send them to more people than we need to. But we also shouldn't overdo it, since it will annoy the users. We also would like to find as many interested users as we can. Thus, this is a model which should have a decent precision and a decent recall. Beta = 1 should work here._
+>
+> _For the Promotional Material model, since it costs us to send the material, we really don't want to send it to many people that won't be interested. Thus, this is a high precision model. Thus, beta = 0.5 will work here._
+
+***
 
 **Some of the other values derived from confusion matrix are:**
 
@@ -61,20 +77,6 @@ The F1 score is a number between 0 and 1 and is the harmonic mean of precision a
 >
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
-
-> **Beta Score Fβ** _(Range: 0 to ∞)_
->
-> ![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)
->
-> (Fβ=0) Precision …… F0.5 ……. F1 …….. F2 ……. Recall (Fβ=∞)
->
-> For other values of β, if they are close to 0, we get something close to precision, if they are large numbers, then we get something close to recall, and if β=1, then we get the harmonic mean of precision and recall.
->
-> _For the spaceship model, we can't really afford any malfunctioning parts, and it's ok if we overcheck some of the parts that are working well. Therefore, this is a high recall model, so we associate it with beta = 2._
->
-> _For the notifications model, since it's free to send them, we won't get harmed too much if we send them to more people than we need to. But we also shouldn't overdo it, since it will annoy the users. We also would like to find as many interested users as we can. Thus, this is a model which should have a decent precision and a decent recall. Beta = 1 should work here._
->
-> _For the Promotional Material model, since it costs us to send the material, we really don't want to send it to many people that won't be interested. Thus, this is a high precision model. Thus, beta = 0.5 will work here._
 
 ## ROC (Receiver Operating Characteristics) Curve
 
