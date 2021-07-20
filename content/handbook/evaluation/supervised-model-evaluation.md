@@ -45,7 +45,7 @@ Both sensitivity and specificity should be high for a good model.
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
 
-![](https://lh4.googleusercontent.com/FkafGOErm0s0Xoe-A6Jz4sPwzuhkiJG5R78igy7yyF75B3dGphFuDXuCV49deEHcmBsXys33YWMcEXvaS3yt2MdGQI8K87-TMtjSUWLIJrjl0WNJgveMCP_bYtQBwk0kxKpVA1SC =234x58)
+![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
 
 | --- | --- | | TP | FN | | FP | TN |
 
