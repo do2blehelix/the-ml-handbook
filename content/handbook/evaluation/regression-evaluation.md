@@ -9,43 +9,46 @@ date: 2021-04-03T18:30:00.000+00:00
 weight: 1
 
 ---
-## Regression Metrics:
+# Regression Metrics:
 
-### R2 (coefficient of determination)
+## R2 (coefficient of determination)
 
-#### R Square 
+### R Square 
 
 % of variance in `Y` that is explained by `X`. It is defined as the square of correlation between Predicted and Actual values.  
 `R2= SSEIndependent VarSSEIndependent Var + SSEErrors`
 
-#### Adjusted R Square
+![r2.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/r2.png?raw=true)
+
+### Adjusted R Square
 
 Similar to R2. It penalizes for adding impurity (insignificant variables) to the model
 
-![r2.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/r2.png?raw=true)  
+  
 
-### Squared Error
+## Squared Error
 
-#### MSE (Mean Squared Error)
+### MSE (Mean Squared Error)
 
 Sum of squares / degree of freedom
 
-#### RMSE (Root Mean Square Error) 
+### RMSE (Root Mean Square Error) 
 
 It measures standard deviation of the residuals.
 
 `Model with the least RMSE is the best model`  
-`RMSE =`  _`sqrt (Sum of Squared Errors) / no of obs = sqrt (mean ( (Actual - Predicted)2 ))`_
+`RMSE =`  _`sqrt (Sum of Squared Errors) / no of obs`   
+`= sqrt (mean ( (Actual - Predicted)2 ))`_
 
 ![rmse.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/rmse.png?raw=true)
 
-### Absolute Error
+## Absolute Error
 
-#### MAE (Mean Absolute Error)
+### MAE (Mean Absolute Error)
 
  `sum( |Error| ) / n`_`Error = Actual - Predicted |Error|=Absolute Error`_
 
-#### MAPE (Mean Absolute Percentage Error)
+### MAPE (Mean Absolute Percentage Error)
 
 _`{ absolute (average [ (Actual - Predicted) / Actual ])}`_ should not exceed \~ 8% - 10%
 
