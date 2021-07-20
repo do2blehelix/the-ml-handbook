@@ -20,15 +20,21 @@ weight: 2
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
 
-The most common evaluation metrics are as below: 
+#### The most common evaluation metrics are as below:
 
-* **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
-* **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)** \[% of actual +ve predicted as +ve\]
-* **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
+##### **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
 
-![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)  
+% of 
 
-Some of the other values derived from confusion matrix are:
+##### **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)** 
+
+% of actual +ve predicted as +ve
+
+##### **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
+
+![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
+
+#### Some of the other values derived from confusion matrix are:
 
 ![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
 
@@ -43,14 +49,13 @@ Both sensitivity and specificity should be high for a good model.
 
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
-
-![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)
-
-Medical Model : High Recall Model :: FN should be avoided
-
-Spam Model : High Precision Model :: FP should be avoided
+>
+> * Medical Model : High Recall Model :: FN should be avoided
+> * Spam Model : High Precision Model :: FP should be avoided
 
 **Beta Score Fβ** _(Range: 0 to ∞)_
+
+![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)  
 
 (Fβ=0) Precision …… F0.5 ……. F1 …….. F2 ……. Recall (Fβ=∞)
 
