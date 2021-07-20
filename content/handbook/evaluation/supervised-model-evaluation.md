@@ -62,8 +62,6 @@ The F1 score is a number between 0 and 1 and is the harmonic mean of precision a
 >
 > _For the Promotional Material model, since it costs us to send the material, we really don't want to send it to many people that won't be interested. Thus, this is a high precision model. Thus, beta = 0.5 will work here._
 
-***
-
 ##### Some of the other values derived from confusion matrix are:
 
 * **Sensitivity :** (True Positive Rate or Recall)  = _TP ÷ (TP + FN)_
@@ -77,6 +75,8 @@ The F1 score is a number between 0 and 1 and is the harmonic mean of precision a
 >
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
+
+***
 
 ## ROC (Receiver Operating Characteristics) Curve
 
