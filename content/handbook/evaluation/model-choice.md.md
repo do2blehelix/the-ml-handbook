@@ -26,29 +26,13 @@ Examples of wrong outcomes:
 
 We want to reduce the no of bad outcomes. To reduce the no of bad outcomes, we need the bad outcomes in the denominator.
 
-Hence to decide whether to use a precision or recall model, decide which is a bad outcome. Then put the bad outcome in the denominator and  
+Hence to decide whether to use a precision or recall model, decide which is a bad outcome. Then put the bad outcome in the denominator and
 
- 
+High Precision models are used when we need to reduce the false positives ie when its a spam model where we are okay with classifying something as
 
-False Positive is used when you want to not wrongly classify something that **is** 
+High Recall models are used when we want to decrease the false negatives ie when a person is not diagnosed but they have the disease.
 
-False Negative is used when you want a model to not wrongly classify something as **not** even if the actual **is**
-
-Analogy:
-
-Spam model vs medical model
-
-Spam model is okay with a
-
-Medical model is crucial where we don't wan
-
-Precision models are used when we need to reduce the false negatives ie when its a spam model where we are okay with classifying something as
-
-High Recall models are used when we want to decrease the false negatives
-
-False Negatives are when someone is actually +ve but detected -ve
-
-In case of a medical model we want to reduce the number of patients who are falsely classified negative, but are in-fact positive
+> Precision and Recall are inversely proportional. ie if Precision increases then recall decreases.
 
 ## Bias vs Variance Model
 
