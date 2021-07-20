@@ -22,15 +22,15 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 
 ###### The most common evaluation metrics are as below:
 
-**Precision** _(aka PPV)_ : TP ÷ (TP + **FP**)
+### **Precision** _(aka PPV)_ : TP ÷ (TP + **FP**)
 
 % of 
 
-**Recall** _(aka Sensitivity)_ : TP ÷ (TP + **FN**) 
+### **Recall** _(aka Sensitivity)_ : TP ÷ (TP + **FN**) 
 
 % of actual +ve predicted as +ve
 
-**F1 Score** :
+### **F1 Score** :
 
 ![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
 
