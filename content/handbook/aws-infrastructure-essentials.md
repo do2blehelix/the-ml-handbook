@@ -2,7 +2,7 @@
 title: AWS Infrastructure Essentials
 description: AWS Infrastructure Essentials
 date: 2021-05-04T13:30:00.000+00:00
-weight: 1
+weight: 
 collapsible: false
 
 ---
