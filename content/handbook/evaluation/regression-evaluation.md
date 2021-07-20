@@ -24,7 +24,7 @@ weight: 1
 * AIC
 * BIC
 
-![](https://lh3.googleusercontent.com/BMkjNWVQCJSEuhhwB7OcrweuDf43cblmp2yL2uqnKb3PeS0U927ylIohcxuWbq9CcIN_6th0vNw38KW8hpQV1nirzTuvho95ri6DFqBfrdDe1WPEXdidt38UEuuvPBfG9Km0Lcz_ =213x59)**![](https://lh3.googleusercontent.com/q7F8E2RPDOT-odNpAUtV-NLMIEC8cIOUID53ZX_COvkIPu8gvdTy6EG-g9qXPPSp-q1jklJ8BDWBnDd1xlVoyOH_8Szch_MLG-uyub_K69ioQevL9J_QZr4P0qO_PCvtc8lxXezR =153x52)**
+![r2.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/r2.png?raw=true)![rmse.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/rmse.png?raw=true)
 
 **Loss Functions:** objective is to minimize these
 
