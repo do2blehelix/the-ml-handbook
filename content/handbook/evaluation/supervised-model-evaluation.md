@@ -27,38 +27,38 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 
 ###### The most common evaluation metrics are as below:
 
-### Precision _(aka PPV)_ : TP ÷ (TP + FP)
+### Precision
 
-Out of the total predicted positive how many are positive
+`TP ÷ (TP + FP)`  
+ _(aka PPV)_ Out of the total predicted positive how many are positive
 
-### Recall _(aka Sensitivity)_ : TP ÷ (TP + FN)
+### Recall
 
-% of actual +ve predicted as +ve
+`TP ÷ (TP + FN)`  
+_(aka Sensitivity)_ % of actual +ve predicted as +ve
 
 ### F1 Score :
 
 ![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
 
 > Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
+>
+> * Medical Model : High Recall Model :: FN should be avoided
+> * Spam Model : High Precision Model :: FP should be avoided
 
 ###### Some of the other values derived from confusion matrix are:
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
-
 * **Sensitivity :** (True Positive Rate or Recall)  = _TP ÷ (TP + FN)_
 * **Specificity :** % of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
-* **Positive Predicted Value** = _TP ÷ (TP + FP)_
-* **Negative Predicted Value** = _TN ÷ (TN + FN)_
 * **Accuracy** = (_TP + TN) ÷ (TP + FP + TN + FN)_
 * **Misclassification Rate** = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
+* **Positive Predicted Value** = _TP ÷ (TP + FP)_
+* **Negative Predicted Value** = _TN ÷ (TN + FN)_
 
 Both sensitivity and specificity should be high for a good model.
 
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
->
-> * Medical Model : High Recall Model :: FN should be avoided
-> * Spam Model : High Precision Model :: FP should be avoided
 
 **Beta Score Fβ** _(Range: 0 to ∞)_
 
