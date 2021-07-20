@@ -57,8 +57,8 @@ The F1 score is a number between 0 and 1 and is the harmonic mean of precision a
 * **Positive Predicted Value** = _TP ÷ (TP + FP)_
 * **Negative Predicted Value** = _TN ÷ (TN + FN)_
 
-Both sensitivity and specificity should be high for a good model.
-
+> Both sensitivity and specificity should be high for a good model.
+>
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
 
