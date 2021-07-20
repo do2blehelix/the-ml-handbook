@@ -26,6 +26,8 @@ The most common evaluation metrics are as below:
 * **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)** \[% of actual +ve predicted as +ve\]
 * **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
+![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)  
+
 Some of the other values derived from confusion matrix are:
 
 ![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
@@ -41,10 +43,6 @@ Both sensitivity and specificity should be high for a good model.
 
 > **_\[Best Analogy :_** _identifying a single terrorist in a crowd and sniping him vs bombing the place  
 > Sniping : high sensitivity ; high specificity || Bombing : high sensitivity ; low specificity\]_
-
-![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
-
-| --- | --- | | TP | FN | | FP | TN |
 
 ![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)
 
