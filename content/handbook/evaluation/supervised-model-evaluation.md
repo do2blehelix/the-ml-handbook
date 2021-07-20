@@ -20,19 +20,26 @@ weight: 2
 
 A confusion matrix shows the number of correct and incorrect predictions made by the classification model compared to the actual outcomes (target value) in the data
 
+**Misclassifications** _(notified on predicted value)_
+
+* False Positive = detected positive, wrongly
+* False Negative = detected negative, wrongly
+
 ###### The most common evaluation metrics are as below:
 
 ### **Precision** _(aka PPV)_ : TP ÷ (TP + **FP**)
 
-% of 
+Out of the total predicted positive how many are positive
 
-### **Recall** _(aka Sensitivity)_ : TP ÷ (TP + **FN**) 
+### **Recall** _(aka Sensitivity)_ : TP ÷ (TP + **FN**)
 
 % of actual +ve predicted as +ve
 
 ### **F1 Score** :
 
 ![f1.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f1.png?raw=true)
+
+> Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
 
 ###### Some of the other values derived from confusion matrix are:
 
@@ -55,7 +62,7 @@ Both sensitivity and specificity should be high for a good model.
 
 **Beta Score Fβ** _(Range: 0 to ∞)_
 
-![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)  
+![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)
 
 (Fβ=0) Precision …… F0.5 ……. F1 …….. F2 ……. Recall (Fβ=∞)
 
