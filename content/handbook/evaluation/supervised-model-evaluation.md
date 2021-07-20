@@ -95,7 +95,7 @@ K-S is a measure of the degree of separation between the positive and negative d
 
 The K-S is 100 if the scores partition the population into two separate groups in which one group contains all the positives and the other all the negatives. If the model selects cases randomly from the population, the K-S would be 0.
 
-KS Statistic is the measure of maximum separability.
+**KS Statistic is the measure of maximum separability.**
 
 _(random chance)_ **0 < K-S < 100** _(perfect model)_
 
@@ -123,37 +123,30 @@ Same deciles table is created and % of Events is checked to see if there is any 
 * Discordant Pair
 * Tied Pair
 
-_Percent Concordant = (Number of concordant pairs) / Total number of pairs_
-
-_Percent Discordance = (Number of discordant pairs) / Total number of pairs_
-
-_Percent Tied = (Number of tied pairs) / Total number of pairs_
-
-_Area under curve (c statistics) = Percent Concordant + (0.5 * Percent Tied)_
+_Percent Concordant = (Number of concordant pairs) / Total number of pairs  
+Percent Discordance = (Number of discordant pairs) / Total number of pairs  
+Percent Tied = (Number of tied pairs) / Total number of pairs  
+Area under curve (c statistics) = Percent Concordant + (0.5 * Percent Tied)_
 
 #### Hosmer and Lemeshow Goodness of Fit
 
 It is carried out to check if the regression explains the variance in data. It sorts the predicted values and groups them into 10 deciles and compares it against the sorted and grouped dependent variable in the original dataset and finds out if any significant difference between observed and expected.
 
-Chi sq test for difference between observed and expected. High p-value indicates good fit.
+Chi sq. test for difference between observed and expected. High p-value indicates good fit.
 
-H0 : The data are consistent with a specified distribution.
-
+H0 : The data are consistent with a specified distribution.  
 HA : The data are **not** consistent with a specified distribution.
 
 #### AIC \[Akaike Information Criterion\]
 
-By adding more parameters, better fit is obtained. However, after a certain point, model tends to overfit.
-
-AIC captures tradeoff between number of parameters added and the incremental amount of error.
-
+By adding more parameters, better fit is obtained. However, after a certain point, model tends to overfit.  
+AIC captures tradeoff between number of parameters added and the incremental amount of error.  
 Basically, it penalizes models for overfitting of data. Also known as loss criterion.
 
 **Model with lower AIC is better !**
 
-_AIC = - ln L + p L = likelihood p = parameters_
-
-_AIC = N ln (SSerror ÷ N) + 2K N = no of obs K = no of parameters fit+1_
+_AIC = - ln L + p L = likelihood p = parameters  
+AIC = N ln (SSerror ÷ N) + 2K N = no of obs K = no of parameters fit+1_
 
 #### BIC \[Bayesian Information Criterion\]
 
@@ -161,13 +154,10 @@ BIC penalizes the number of parameters more than AIC. Emphasizes simplicity of m
 
 #### Gini (Somers’ D)
 
-Determines the strength and direction of relationships between pairs of variables.
-
+Determines the strength and direction of relationships between pairs of variables.  
 It ranges from -1 (all pairs disagree) to +1 (all pairs agree). Should be gt 0.4
 
-_Somer's D = 2 AUC - 1 = (%concordant - %discordant) / 100_
-
-_= (Concordant pairs - Discordant pairs ) / Total Pairs_
+_Somer's D = 2 AUC - 1 = (%concordant - %discordant) / 100 = (Concordant pairs - Discordant pairs ) / Total Pairs_
 
 #### Gamma
 
