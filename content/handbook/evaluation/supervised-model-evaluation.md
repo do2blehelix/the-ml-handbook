@@ -49,7 +49,7 @@ Both sensitivity and specificity should be high for a good model.
 
 | --- | --- | | TP | FN | | FP | TN |
 
-![](https://lh6.googleusercontent.com/-88NYrtKtm6jDoSaPQOuolCDT-TUMZ9JAJ2In_J5oe8qPpNl5vVH59fCvQrj2YCIqDSbXzi-Us04VI7m9gCNml_ArzF4biKv5fnRjWmutvTY2nxWcgjBdo0ILlDSQIWnmEeNaCaB =209x68)
+![f-beta.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/f-beta.png?raw=true)
 
 Medical Model : High Recall Model :: FN should be avoided
 
@@ -67,13 +67,13 @@ _For the notifications model, since it's free to send them, we won't get harmed 
 
 _For the Promotional Material model, since it costs us to send the material, we really don't want to send it to many people that won't be interested. Thus, this is a high precision model. Thus, beta = 0.5 will work here._
 
-## ROC (Receiver Operating Characteristics) Curve![](https://lh6.googleusercontent.com/R_1QXnZi0zNM6jWBEZNXpxStbyq-3GVzOCmODRvJSHYNXfPDmEGUgEUsUWFenRl3lELiF4-VZ55Q924V9p0G9dvJzmmw9TbQ8iVJBAxp3IwuhYSbEh8Dr5ZUdrg7q-Wf1QkBvPj3 =302x189)
+## ROC (Receiver Operating Characteristics) Curve
 
-The ROC chart is plotted with :
+![ROC.png](https://github.com/do2blehelix/the-ml-handbook/blob/master/static/images/evaluation/ROC.png?raw=true)
 
-Y axis as sensitivity \[True Positive Rate\] and
-
-X axis as (1-specificity) \[False Positive Rate\]
+The ROC chart is plotted with :  
+\- Y axis as sensitivity \[True Positive Rate\] and  
+\- X axis as (1-specificity) \[False Positive Rate\]
 
 The diagonal line represents a random chance model whereas the line curved towards top left represents how better the model is. The more distant the curve, from the random chance line, the better is the model.
 
