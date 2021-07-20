@@ -36,7 +36,7 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 _(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
 `TP ÷ (TP + FN)`  
 
-
+&nbsp;
 
 
 |  | Actual (+) | Actual (-) | |
