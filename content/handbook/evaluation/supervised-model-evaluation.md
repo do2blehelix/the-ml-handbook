@@ -23,23 +23,19 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 The most common evaluation metrics are as below: 
 
 * **Precision** _(aka PPV)_ : **TP ÷ (TP + FP)**
-* **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)**
+* **Recall** _(aka Sensitivity)_ : **TP ÷ (TP + FN)** \[% of actual +ve predicted as +ve\]
 * **F1 Score : 2x (Precision*Recall) ÷ (Precision+Recall)**
 
 Some of the other values derived from confusion matrix are:
 
-![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)  
-**Sensitivity :** (True Positive Rate or Recall) % of actual +ve predicted as +ve = _TP ÷ (TP + FN)_
+![](https://do2blehelix.github.io/the-ml-handbook/images/evaluation/confusionmatrix.png)
 
-**Specificity :** % of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
-
-**Positive Predicted Value** = _TP ÷ (TP + FP)_
-
-**Negative Predicted Value** = _TN ÷ (TN + FN)_
-
-**Accuracy** = (_TP + FP) ÷ (TP + FP + TN + FN)_
-
-**Misclassification Rate** = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
+* **Sensitivity :** (True Positive Rate or Recall)  = _TP ÷ (TP + FN)_
+* **Specificity :** % of actual -ve predicted as-ve = _TN ÷ (FP + TN)_
+* **Positive Predicted Value** = _TP ÷ (TP + FP)_
+* **Negative Predicted Value** = _TN ÷ (TN + FN)_
+* **Accuracy** = (_TP + FP) ÷ (TP + FP + TN + FN)_
+* **Misclassification Rate** = _(FP+FN) ÷ (TP + FP + TN + FN) = (1-Accuracy)_
 
 Both sensitivity and specificity should be high for a good model.
 
