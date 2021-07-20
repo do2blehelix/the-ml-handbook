@@ -35,6 +35,13 @@ A confusion matrix shows the number of correct and incorrect predictions made by
 `TP ÷ (TP + FN)`  
 _(aka Sensitivity)_ Percentage of actual +ve predicted as +ve
 
+
+|  | Actual (+) | Actual (-) | |
+| --- | --- | --- |	|
+| Predicted (+) | \[TP | FP\] | Precision |
+| Predicted (-) | FN | TN | |
+| 				| Recall | |
+
 > Precision and Recall have an inverse relationship, if precision goes up, recall goes down.
 >
 > * Medical Model : High Recall Model :: FN should be avoided
