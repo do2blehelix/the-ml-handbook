@@ -14,21 +14,41 @@ collapsible: false
 
 ## Precision vs Recall Model
 
+**Misclassifications** _(notified on predicted value)_
+
+* False Positive = detected positive, wrongly
+* False Negative = detected negative, wrongly
+
+Examples of wrong outcomes:
+
+* If an important mail is detected spam positive (FP), it is a bad outcome
+* If a cancer patient is detected cancer negative (FN), it is a bad outcome
+
+We want to reduce the no of bad outcomes. To reduce the no of bad outcomes, we need the bad outcomes in the denominator.
+
+Hence to decide whether to use a precision or recall model, decide which is a bad outcome. Then put the bad outcome in the denominator and  
+
+ 
+
+False Positive is used when you want to not wrongly classify something that **is** 
+
+False Negative is used when you want a model to not wrongly classify something as **not** even if the actual **is**
+
 Analogy:
 
 Spam model vs medical model
 
-Spam model is okay with a 
+Spam model is okay with a
 
 Medical model is crucial where we don't wan
 
-Precision models are used when we need to reduce the false negatives ie when its a spam model where we are okay with classifying something as  
+Precision models are used when we need to reduce the false negatives ie when its a spam model where we are okay with classifying something as
 
 High Recall models are used when we want to decrease the false negatives
 
 False Negatives are when someone is actually +ve but detected -ve
 
-In case of a medical model we want to reduce the number of patients who are falsely classified negative, but are in-fact positive 
+In case of a medical model we want to reduce the number of patients who are falsely classified negative, but are in-fact positive
 
 ## Bias vs Variance Model
 
